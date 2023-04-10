@@ -1,0 +1,22 @@
+Football prediction
+Setting up defense and attack rating
+init defense/attack rating =5
+float increment=0.2
+predict goal by attack-defense+1 
+if actual goal>predict goal attack rating+increment
+if actual goal-predict goal>2 attack rating+1.5xincrement
+Home Attack ratiing increase = Away defense ratiing decrease vice versa.
+
+Also 
+set Home advantage ratio for every team for both defense and attack =1.1
+which will multiple home game attack rating and defense rating during prediction
+
+update home advantage ratio by rules
+if Home actual goal>Home predict goal home advantage attack ratio*1.05
+if Home actual goal-Home predict goal>2 home advantage attack ratio*1.1
+if Home actual goal<Home predict goal home advantage attack ratio*0.9
+
+if Away actual goal>Away predict goal home advantage defense ratio*0.95
+if Away actual goal-Away predict goal>2 home advantage defense ratio*0.9
+if Away actual goal<Away predict goal home advantage attack ratio*1.1
+
