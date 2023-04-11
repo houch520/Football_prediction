@@ -19,8 +19,11 @@ team_attack_mean = {team: prior_mean for team in teams}
 team_defense_mean = {team: prior_mean for team in teams}
 team_attack_std = {team: prior_std for team in teams}
 team_defense_std = {team: prior_std for team in teams}
-k = 0.11  # Set the value of k
-alpha = 0.25  # Set the value of alpha
+k = 0.38  # Set the value of k
+alpha = 0.82  # Set the value of alpha 
+#test set 0.5,0.82
+#0.11,0.25
+#0.4
 
 # Define a function to update the attack and defense ratings of a team after a match
 def update_ratings(home_team, away_team, home_goals, away_goals):
@@ -38,23 +41,16 @@ def update_ratings(home_team, away_team, home_goals, away_goals):
     away_goals_likelihood = stats.poisson.pmf(away_goals, away_expected_goals)
 
     # Update the attack and defense ratings based on the actual goals scored
-    home_attack_new = home_attack + k * (home_goals - home_expected_goals)
-    home_defense_new = home_defense + k * (away_goals - away_expected_goals)
-    away_attack_new = away_attack + k * (away_goals - away_expected_goals)
-    away_defense_new = away_defense + k * (home_goals - home_expected_goals)
+    home_attack_new = home_attack + k * (home_goals - home_expected_goals)- 0.2*k * (1+(home_goals - home_expected_goals))*(home_goals - home_expected_goals-1)/2
+    home_defense_new = home_defense + k * (away_goals - away_expected_goals)- 0.2*k * (1+(away_goals - away_expected_goals))*(away_goals - away_expected_goals-1)/2
+    away_attack_new = away_attack + k * (away_goals - away_expected_goals)- 0.2*k * (1+(away_goals - away_expected_goals))*(away_goals - away_expected_goals-1)/2
+    away_defense_new = away_defense + k * (home_goals - home_expected_goals)- 0.2*k * (1+(home_goals - home_expected_goals))*(home_goals - home_expected_goals-1)/2
 
     # Update the team ratings with a weighted average of the old and new ratings
     team_attack_mean[home_team] = alpha * home_attack_new + (1 - alpha) * home_attack
     team_defense_mean[home_team] = alpha * home_defense_new + (1 - alpha) * home_defense
     team_attack_mean[away_team] = alpha * away_attack_new + (1 - alpha) * away_attack
     team_defense_mean[away_team] = alpha * away_defense_new + (1 - alpha) * away_defense
-    if(home_goals - home_expected_goals>=2):
-        home_attack_new = home_attack_new - 0.2*k * (1+(home_goals - home_expected_goals))*(home_goals - home_expected_goals)/2
-        away_defense_new = away_defense_new - 0.2*k * (1+(home_goals - home_expected_goals))*(home_goals - home_expected_goals)/2
-    if(away_goals - away_expected_goals>=2):
-        home_defense_new = home_defense_new - 0.2*k * (1+(away_goals - away_expected_goals))*(away_goals - away_expected_goals)/2
-        away_attack_new = away_attack_new - 0.2*k * (1+(away_goals - away_expected_goals))*(away_goals - away_expected_goals)/2
-
 # Define a function to predict the outcome of a match based on the attack and defense ratings of each team
 def predict_outcome(home_team, away_team):
     home_attack_rating_dist = norm(team_attack_mean[home_team], team_attack_std[home_team])
@@ -79,11 +75,11 @@ def predict_outcome(home_team, away_team):
     print(f"\nProbability distribution of scores:")
     print(f"{home_team}: {[(i, home_score_probs[i]*100) for i in range(6)]}")
     print(f"{away_team}: {[(i, away_score_probs[i]*100) for i in range(6)]}")
-    if outcome_probs[0] > outcome_probs[1]:
+    if outcome_probs[0] > outcome_probs[1] and outcome_probs[2]<outcome_probs[0]:
         return home_team, np.argmax(home_score_probs), np.argmax(away_score_probs)
-    elif outcome_probs[0] < outcome_probs[1]:
+    elif outcome_probs[0] < outcome_probs[1] and outcome_probs[2]<outcome_probs[1]:
         return away_team, np.argmax(home_score_probs), np.argmax(away_score_probs)
-    else:
+    elif outcome_probs[2]>outcome_probs[0] and outcome_probs[2]>outcome_probs[1]:
         return 'Draw', np.argmax(home_score_probs), np.argmax(away_score_probs)
 # Initialize the attack and defense ratings for all teams to 1.0
 team_attack_mean = dict.fromkeys(teams, 1.0)
