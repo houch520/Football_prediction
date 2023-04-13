@@ -155,6 +155,11 @@ with open('predictionsJ2.csv', 'w', encoding='utf-8')  as file:
 
         # Write the prediction to the output file
         file.write('{},{},{},{},H,{:.2%},D,{:.2%},A,{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
+with open('team_ratings.csv', 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['Team', 'Attack Rating', 'Defense Rating'])
+        for team in team_attack_mean.keys():
+            writer.writerow([team, team_attack_mean[team], team_defense_mean[team]])
 # Print the results
 print('Accuracy:', accuracy)
 correct_predictions = [p == a or a=='Draw' for p, a in zip(predictions, actual_results)]
