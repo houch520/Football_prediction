@@ -4,7 +4,7 @@ import scipy.stats as stats
 from scipy.stats import norm, poisson
     
 # Read in the dataset
-data = pd.read_csv('J2.csv')
+data = pd.read_csv('E1.csv')
 # train_data = data# Use first 80% of data as train data
 train_data = data.iloc[:int(0.8*len(data)), :]# Use first 80% of data as train data
 test_data = data.iloc[int(0.8*len(data)):, :] # Use last 20% of data as test data
@@ -39,11 +39,13 @@ def update_ratings(home_team, away_team, home_goals, away_goals):
     home_goals_likelihood = stats.poisson.pmf(home_goals, home_expected_goals)
     away_goals_likelihood = stats.poisson.pmf(away_goals, away_expected_goals)
 
+    home_diff=min(max(home_goals - home_expected_goals, -5),5)
+    away_diff=min(max(away_goals - away_expected_goals, -5),5)
     # Update the attack and defense ratings based on the actual goals scored
-    home_attack_new = home_attack + k * (home_goals - home_expected_goals)- 0.2*k * (1+(home_goals - home_expected_goals))*(home_goals - home_expected_goals-1)/2
-    home_defense_new = home_defense + k * (away_goals - away_expected_goals)- 0.2*k * (1+(away_goals - away_expected_goals))*(away_goals - away_expected_goals-1)/2
-    away_attack_new = away_attack + k * (away_goals - away_expected_goals)- 0.2*k * (1+(away_goals - away_expected_goals))*(away_goals - away_expected_goals-1)/2
-    away_defense_new = away_defense + k * (home_goals - home_expected_goals)- 0.2*k * (1+(home_goals - home_expected_goals))*(home_goals - home_expected_goals-1)/2
+    home_attack_new = home_attack + k * ((home_diff)- max(0.075 * (1+(home_diff-1))*(home_diff)/2,0))
+    home_defense_new = home_defense + k * ((away_diff)- max(0.075 * (1+(away_diff-1))*(away_diff)/2,0))
+    away_attack_new = away_attack + k * ((away_diff)- max(0.075 * (1+(away_diff-1))*(away_diff)/2,0))
+    away_defense_new = away_defense + k * ((home_diff)- max(0.075 * (1+(home_diff-1))*(home_diff)/2,0))
 
     # Update the team ratings with a weighted average of the old and new ratings
     team_attack_mean[home_team] = alpha * home_attack_new + (1 - alpha) * home_attack
@@ -137,10 +139,10 @@ accuracy = sum(correct_predictions) / len(correct_predictions)
 
 
 # Read in the test dataset
-test_data = pd.read_csv('J2Test.csv')
+test_data = pd.read_csv('E1Test.csv')
 
 # Open a new file to write the predictions
-with open('predictionsJ2.csv', 'w', encoding='utf-8')  as file:
+with open('predictionsE1.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Date,Home,Away,PredictResult\n')
 
@@ -155,11 +157,7 @@ with open('predictionsJ2.csv', 'w', encoding='utf-8')  as file:
 
         # Write the prediction to the output file
         file.write('{},{},{},{},H,{:.2%},D,{:.2%},A,{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
-with open('team_ratings.csv', 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(['Team', 'Attack Rating', 'Defense Rating'])
-        for team in team_attack_mean.keys():
-            writer.writerow([team, team_attack_mean[team], team_defense_mean[team]])
+        
 # Print the results
 print('Accuracy:', accuracy)
 correct_predictions = [p == a or a=='Draw' for p, a in zip(predictions, actual_results)]

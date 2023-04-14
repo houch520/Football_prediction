@@ -1,0 +1,225 @@
+Date,Home,Away
+12/04/2023,Barracas Central,Platense
+12/04/2023,Argentinos Juniors,Unión
+12/04/2023,Central Córdoba SdE,Lanús
+12/04/2023,Instituto,Vélez Sarsfield
+12/04/2023,Banfield,Defensa y Justicia
+13/04/2023,San Lorenzo,Boca Juniors
+13/04/2023,Belgrano,Huracán
+13/04/2023,Racing Club,Newell's Old Boys
+13/04/2023,Rosario Central,Independiente
+13/04/2023,Estudiantes,Atlético Tucumán
+14/04/2023,Arsenal,Godoy Cruz
+14/04/2023,Colón,Talleres de Córdoba
+14/04/2023,River Plate,Gimnasia La Plata
+14/04/2023,Tigre,Sarmiento
+22/04/2023,Colón,Vélez Sarsfield
+23/04/2023,Lanús,Sarmiento
+23/04/2023,Arsenal,Unión
+23/04/2023,San Lorenzo,Platense
+23/04/2023,Central Córdoba SdE,Godoy Cruz
+23/04/2023,Belgrano,Newell's Old Boys
+24/04/2023,Rosario Central,Boca Juniors
+24/04/2023,Estudiantes,Talleres de Córdoba
+24/04/2023,Instituto,Banfield
+24/04/2023,River Plate,Independiente
+25/04/2023,Barracas Central,Defensa y Justicia
+25/04/2023,Racing Club,Atlético Tucumán
+25/04/2023,Tigre,Huracán
+25/04/2023,Argentinos Juniors,Gimnasia La Plata
+28/04/2023,Platense,Estudiantes
+28/04/2023,Sarmiento,Godoy Cruz
+29/04/2023,Newell's Old Boys,Argentinos Juniors
+29/04/2023,Huracán,Arsenal
+29/04/2023,Atlético Tucumán,River Plate
+30/04/2023,Vélez Sarsfield,San Lorenzo
+30/04/2023,Gimnasia La Plata,Tigre
+30/04/2023,Instituto,Central Córdoba SdE
+30/04/2023,Banfield,Barracas Central
+30/04/2023,Boca Juniors,Racing Club
+01/05/2023,Defensa y Justicia,Colón
+01/05/2023,Independiente,Belgrano
+01/05/2023,Talleres de Córdoba,Rosario Central
+01/05/2023,Unión,Lanús
+06/05/2023,Barracas Central,Instituto
+06/05/2023,Godoy Cruz,Unión
+07/05/2023,Lanús,Huracán
+07/05/2023,Belgrano,Atlético Tucumán
+07/05/2023,Colón,Banfield
+07/05/2023,Argentinos Juniors,Independiente
+08/05/2023,Rosario Central,Platense
+08/05/2023,River Plate,Boca Juniors
+08/05/2023,Tigre,Newell's Old Boys
+08/05/2023,Estudiantes,Vélez Sarsfield
+09/05/2023,Arsenal,Gimnasia La Plata
+09/05/2023,San Lorenzo,Defensa y Justicia
+09/05/2023,Racing Club,Talleres de Córdoba
+09/05/2023,Central Córdoba SdE,Sarmiento
+13/05/2023,Huracán,Godoy Cruz
+13/05/2023,Atlético Tucumán,Argentinos Juniors
+14/05/2023,Independiente,Tigre
+14/05/2023,Banfield,San Lorenzo
+14/05/2023,Instituto,Colón
+14/05/2023,Newell's Old Boys,Arsenal
+15/05/2023,Defensa y Justicia,Estudiantes
+15/05/2023,Platense,Racing Club
+15/05/2023,Boca Juniors,Belgrano
+15/05/2023,Talleres de Córdoba,River Plate
+16/05/2023,Barracas Central,Central Córdoba SdE
+16/05/2023,Gimnasia La Plata,Lanús
+16/05/2023,Vélez Sarsfield,Rosario Central
+16/05/2023,Unión,Sarmiento
+21/05/2023,Central Córdoba SdE,Unión
+21/05/2023,Sarmiento,Huracán
+21/05/2023,Godoy Cruz,Gimnasia La Plata
+21/05/2023,Lanús,Newell's Old Boys
+21/05/2023,Arsenal,Independiente
+21/05/2023,Tigre,Atlético Tucumán
+21/05/2023,Argentinos Juniors,Boca Juniors
+21/05/2023,Belgrano,Talleres de Córdoba
+21/05/2023,River Plate,Platense
+21/05/2023,Racing Club,Vélez Sarsfield
+21/05/2023,Rosario Central,Defensa y Justicia
+21/05/2023,Estudiantes,Banfield
+21/05/2023,San Lorenzo,Instituto
+21/05/2023,Colón,Barracas Central
+28/05/2023,Colón,Central Córdoba SdE
+28/05/2023,Barracas Central,San Lorenzo
+28/05/2023,Instituto,Estudiantes
+28/05/2023,Banfield,Rosario Central
+28/05/2023,Defensa y Justicia,Racing Club
+28/05/2023,Vélez Sarsfield,River Plate
+28/05/2023,Platense,Belgrano
+28/05/2023,Talleres de Córdoba,Argentinos Juniors
+28/05/2023,Boca Juniors,Tigre
+28/05/2023,Atlético Tucumán,Arsenal
+28/05/2023,Independiente,Lanús
+28/05/2023,Newell's Old Boys,Godoy Cruz
+28/05/2023,Gimnasia La Plata,Sarmiento
+28/05/2023,Huracán,Unión
+04/06/2023,Central Córdoba SdE,Huracán
+04/06/2023,Unión,Gimnasia La Plata
+04/06/2023,Sarmiento,Newell's Old Boys
+04/06/2023,Godoy Cruz,Independiente
+04/06/2023,Lanús,Atlético Tucumán
+04/06/2023,Arsenal,Boca Juniors
+04/06/2023,Tigre,Talleres de Córdoba
+04/06/2023,Argentinos Juniors,Platense
+04/06/2023,Belgrano,Vélez Sarsfield
+04/06/2023,River Plate,Defensa y Justicia
+04/06/2023,Racing Club,Banfield
+04/06/2023,Rosario Central,Instituto
+04/06/2023,Estudiantes,Barracas Central
+04/06/2023,San Lorenzo,Colón
+11/06/2023,San Lorenzo,Central Córdoba SdE
+11/06/2023,Colón,Estudiantes
+11/06/2023,Barracas Central,Rosario Central
+11/06/2023,Instituto,Racing Club
+11/06/2023,Banfield,River Plate
+11/06/2023,Defensa y Justicia,Belgrano
+11/06/2023,Vélez Sarsfield,Argentinos Juniors
+11/06/2023,Platense,Tigre
+11/06/2023,Talleres de Córdoba,Arsenal
+11/06/2023,Boca Juniors,Lanús
+11/06/2023,Atlético Tucumán,Godoy Cruz
+11/06/2023,Independiente,Sarmiento
+11/06/2023,Newell's Old Boys,Unión
+11/06/2023,Gimnasia La Plata,Huracán
+21/06/2023,Central Córdoba SdE,Gimnasia La Plata
+21/06/2023,Huracán,Newell's Old Boys
+21/06/2023,Unión,Independiente
+21/06/2023,Sarmiento,Atlético Tucumán
+21/06/2023,Godoy Cruz,Boca Juniors
+21/06/2023,Lanús,Talleres de Córdoba
+21/06/2023,Arsenal,Platense
+21/06/2023,Tigre,Vélez Sarsfield
+21/06/2023,Argentinos Juniors,Defensa y Justicia
+21/06/2023,Belgrano,Banfield
+21/06/2023,River Plate,Instituto
+21/06/2023,Racing Club,Barracas Central
+21/06/2023,Rosario Central,Colón
+21/06/2023,Estudiantes,San Lorenzo
+02/07/2023,Estudiantes,Central Córdoba SdE
+02/07/2023,San Lorenzo,Rosario Central
+02/07/2023,Colón,Racing Club
+02/07/2023,Barracas Central,River Plate
+02/07/2023,Instituto,Belgrano
+02/07/2023,Banfield,Argentinos Juniors
+02/07/2023,Defensa y Justicia,Tigre
+02/07/2023,Vélez Sarsfield,Arsenal
+02/07/2023,Platense,Lanús
+02/07/2023,Talleres de Córdoba,Godoy Cruz
+02/07/2023,Boca Juniors,Sarmiento
+02/07/2023,Atlético Tucumán,Unión
+02/07/2023,Independiente,Huracán
+02/07/2023,Newell's Old Boys,Gimnasia La Plata
+05/07/2023,Central Córdoba SdE,Newell's Old Boys
+05/07/2023,Gimnasia La Plata,Independiente
+05/07/2023,Huracán,Atlético Tucumán
+05/07/2023,Unión,Boca Juniors
+05/07/2023,Sarmiento,Talleres de Córdoba
+05/07/2023,Godoy Cruz,Platense
+05/07/2023,Lanús,Vélez Sarsfield
+05/07/2023,Arsenal,Defensa y Justicia
+05/07/2023,Tigre,Banfield
+05/07/2023,Argentinos Juniors,Instituto
+05/07/2023,Belgrano,Barracas Central
+05/07/2023,River Plate,Colón
+05/07/2023,Racing Club,San Lorenzo
+05/07/2023,Rosario Central,Estudiantes
+09/07/2023,Rosario Central,Central Córdoba SdE
+09/07/2023,Estudiantes,Racing Club
+09/07/2023,San Lorenzo,River Plate
+09/07/2023,Colón,Belgrano
+09/07/2023,Barracas Central,Argentinos Juniors
+09/07/2023,Instituto,Tigre
+09/07/2023,Banfield,Arsenal
+09/07/2023,Defensa y Justicia,Lanús
+09/07/2023,Vélez Sarsfield,Godoy Cruz
+09/07/2023,Platense,Sarmiento
+09/07/2023,Talleres de Córdoba,Unión
+09/07/2023,Boca Juniors,Huracán
+09/07/2023,Atlético Tucumán,Gimnasia La Plata
+09/07/2023,Independiente,Newell's Old Boys
+16/07/2023,Central Córdoba SdE,Independiente
+16/07/2023,Newell's Old Boys,Atlético Tucumán
+16/07/2023,Gimnasia La Plata,Boca Juniors
+16/07/2023,Huracán,Talleres de Córdoba
+16/07/2023,Unión,Platense
+16/07/2023,Sarmiento,Vélez Sarsfield
+16/07/2023,Godoy Cruz,Defensa y Justicia
+16/07/2023,Lanús,Banfield
+16/07/2023,Arsenal,Instituto
+16/07/2023,Tigre,Barracas Central
+16/07/2023,Argentinos Juniors,Colón
+16/07/2023,Belgrano,San Lorenzo
+16/07/2023,River Plate,Estudiantes
+16/07/2023,Racing Club,Rosario Central
+23/07/2023,Racing Club,Central Córdoba SdE
+23/07/2023,Rosario Central,River Plate
+23/07/2023,Estudiantes,Belgrano
+23/07/2023,San Lorenzo,Argentinos Juniors
+23/07/2023,Colón,Tigre
+23/07/2023,Barracas Central,Arsenal
+23/07/2023,Instituto,Lanús
+23/07/2023,Banfield,Godoy Cruz
+23/07/2023,Defensa y Justicia,Sarmiento
+23/07/2023,Vélez Sarsfield,Unión
+23/07/2023,Platense,Huracán
+23/07/2023,Talleres de Córdoba,Gimnasia La Plata
+23/07/2023,Boca Juniors,Newell's Old Boys
+23/07/2023,Atlético Tucumán,Independiente
+30/07/2023,Central Córdoba SdE,Atlético Tucumán
+30/07/2023,Independiente,Boca Juniors
+30/07/2023,Newell's Old Boys,Talleres de Córdoba
+30/07/2023,Gimnasia La Plata,Platense
+30/07/2023,Huracán,Vélez Sarsfield
+30/07/2023,Unión,Defensa y Justicia
+30/07/2023,Sarmiento,Banfield
+30/07/2023,Godoy Cruz,Instituto
+30/07/2023,Lanús,Barracas Central
+30/07/2023,Arsenal,Colón
+30/07/2023,Tigre,San Lorenzo
+30/07/2023,Argentinos Juniors,Estudiantes
+30/07/2023,Belgrano,Rosario Central
+30/07/2023,River Plate,Racing Club

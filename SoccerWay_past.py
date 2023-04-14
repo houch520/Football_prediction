@@ -46,7 +46,7 @@ def extract_data(driver, csvwriter):
                 except NoSuchElementException:
                     away_team = "N/A"
 
-                score = row.find_element(by=By.CLASS_NAME, value="score-time").text
+                score = row.find_element(by=By.CSS_SELECTOR, value=".score-time").text
                 hg, ag = score.split("-")
                 hg =hg.strip()
                 ag = ag.strip()
@@ -68,10 +68,10 @@ def extract_data(driver, csvwriter):
 driver = webdriver.Chrome()
 
 # Load the webpage
-driver.get("https://us.soccerway.com/national/japan/j2-league/2023/regular-season/r73553/")
+driver.get("https://int.soccerway.com/national/japan/j1-league/2023/regular-season/r73435/")
 
 # Open a CSV file for writing with 'utf-8' encoding
-with open("J2.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("JPN.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Date","Home", "Away", "HG", "AG","Res"])
     
@@ -88,6 +88,7 @@ with open("J2.csv", "w", newline="", encoding="utf-8") as csvfile:
         else:
             # If the link is enabled, click it and wait for the page to load
             previous_link.click()
+            time.sleep(1)
             driver.implicitly_wait(100)
         
 # Quit the driver
