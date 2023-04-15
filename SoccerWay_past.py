@@ -70,10 +70,10 @@ def extract_data(driver, csvwriter):
 driver = webdriver.Chrome()
 
 # Load the webpage
-driver.get("https://int.soccerway.com/national/japan/j1-league/2023/regular-season/r73435/")
+driver.get("https://int.soccerway.com/national/england/championship/20222023/regular-season/r69905/")
 
 # Open a CSV file for writing with 'utf-8' encoding
-with open("JPN.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("E1.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Date","Home", "Away", "HG", "AG","Res"])
     
@@ -91,7 +91,7 @@ with open("JPN.csv", "w", newline="", encoding="utf-8") as csvfile:
         else:
             # If the link is enabled, click it and wait for the page to load
             previous_link.click()
-            time.sleep(1)
+            time.sleep(2)
             driver.implicitly_wait(100)
         
 # Quit the driver

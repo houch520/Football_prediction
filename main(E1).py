@@ -20,7 +20,7 @@ team_attack_mean = {team: prior_mean for team in teams}
 team_defense_mean = {team: prior_mean for team in teams}
 team_attack_std = {team: prior_std for team in teams}
 team_defense_std = {team: prior_std for team in teams}
-k = 0.38 # Set the value of k
+k = 0.3 # Set the value of k
 alpha = 0.82  # Set the value of alpha 
 #test set 0.38,0.82
 #0.11,0.25
@@ -32,9 +32,17 @@ def update_ratings(home_team, away_team, home_goals, away_goals):
     away_attack = team_attack_mean[away_team]
     away_defense = team_defense_mean[away_team]
 
+    home_attack_rating_dist = norm(team_attack_mean[home_team], team_attack_std[home_team])
+    away_defense_rating_dist = norm(team_defense_mean[away_team], team_defense_std[away_team])
+    home_score_probs = [poisson.pmf(i, home_attack_rating_dist.mean() * away_defense_rating_dist.mean()) for i in range(6)]
+    away_attack_rating_dist = norm(team_attack_mean[away_team], team_attack_std[away_team])
+    home_defense_rating_dist = norm(team_defense_mean[home_team], team_defense_std[home_team])
+    away_score_probs = [poisson.pmf(i, away_attack_rating_dist.mean() * home_defense_rating_dist.mean()) for i in range(6)]
+    home_expected_goals = sum(i * home_score_probs[i] for i in range(6))
+    away_expected_goals = sum(i * away_score_probs[i] for i in range(6))
     # Calculate the expected goals for each team
-    home_expected_goals = max(0.01, home_attack * away_defense)
-    away_expected_goals = max(0.01, away_attack * home_defense)
+    # home_expected_goals = max(0.01, home_attack * away_defense)
+    # away_expected_goals = max(0.01, away_attack * home_defense)
 
     # Calculate the likelihood function for the number of goals scored by each team
     home_goals_likelihood = stats.poisson.pmf(home_goals, home_expected_goals)
@@ -76,6 +84,9 @@ def predict_outcome(home_team, away_team):
     print(f"Probability of {away_team} winning: {outcome_probs[1]:.2%}")
     print(f"Probability of a draw: {outcome_probs[2]:.2%}")
     print(f"\nProbability distribution of scores:")
+    home_expected_goals = sum(i * home_score_probs[i] for i in range(6))
+    away_expected_goals = sum(i * away_score_probs[i] for i in range(6))
+    print(f"expected goals {home_expected_goals}-{away_expected_goals}")
     print(f"{home_team}: {[(i, home_score_probs[i]*100) for i in range(6)]}")
     print(f"{away_team}: {[(i, away_score_probs[i]*100) for i in range(6)]}")
     if outcome_probs[0] > outcome_probs[1] and outcome_probs[2]<outcome_probs[0]:
@@ -143,7 +154,7 @@ accuracy = sum(correct_predictions) / len(correct_predictions)
 test_data = pd.read_csv(tour+'Test.csv')
 
 # Open a new file to write the predictions
-with open('predictions'+tour+'R.csv', 'w', encoding='utf-8')  as file:
+with open('predictions'+tour+'.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Date,Home,Away,PredictResult\n')
 
@@ -165,7 +176,7 @@ with open('Stat'+tour+'.csv', 'w', encoding='utf-8')  as file:
     # Make predictions for each match in the test data
     for i in teams:
         team = i
-        attack = team_defense_mean[i]
+        attack = team_attack_mean[i]
         defense = team_defense_mean[i]
         file.write('{},{},{}\n'.format(team,attack,defense))
 
