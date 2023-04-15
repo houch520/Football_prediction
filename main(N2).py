@@ -3,7 +3,7 @@ import numpy as np
 import scipy.stats as stats
 from scipy.stats import norm, poisson
     
-tour='E1'
+tour='N2'
 # Read in the dataset
 data = pd.read_csv(tour+'.csv')
 # train_data = data# Use first 80% of data as train data
@@ -20,8 +20,8 @@ team_attack_mean = {team: prior_mean for team in teams}
 team_defense_mean = {team: prior_mean for team in teams}
 team_attack_std = {team: prior_std for team in teams}
 team_defense_std = {team: prior_std for team in teams}
-k = 0.38 # Set the value of k
-alpha = 0.82  # Set the value of alpha 
+k = 0.3 # Set the value of k
+alpha = 0.9  # Set the value of alpha 
 #test set 0.38,0.82
 #0.11,0.25
 #0.4
@@ -49,10 +49,10 @@ def update_ratings(home_team, away_team, home_goals, away_goals):
     away_defense_new = away_defense + k * ((home_diff)- max(0.2 * ((home_diff))*(home_diff)/2,0))
 
     # Update the team ratings with a weighted average of the old and new ratings
-    team_attack_mean[home_team] = alpha * home_attack_new + (1 - alpha) * home_attack
-    team_defense_mean[home_team] = alpha * home_defense_new + (1 - alpha) * home_defense
-    team_attack_mean[away_team] = alpha * away_attack_new + (1 - alpha) * away_attack
-    team_defense_mean[away_team] = alpha * away_defense_new + (1 - alpha) * away_defense
+    team_attack_mean[home_team] = max(alpha * home_attack_new + (1 - alpha) * home_attack,0.01)
+    team_defense_mean[home_team] = max(alpha * home_defense_new + (1 - alpha) * home_defense,0.01)
+    team_attack_mean[away_team] = max(alpha * away_attack_new + (1 - alpha) * away_attack,0.01)
+    team_defense_mean[away_team] = max(alpha * away_defense_new + (1 - alpha) * away_defense,0.01)
 
 # Define a function to predict the outcome of a match based on the attack and defense ratings of each team
 def predict_outcome(home_team, away_team):
@@ -143,7 +143,7 @@ accuracy = sum(correct_predictions) / len(correct_predictions)
 test_data = pd.read_csv(tour+'Test.csv')
 
 # Open a new file to write the predictions
-with open('predictions'+tour+'R.csv', 'w', encoding='utf-8')  as file:
+with open('predictions'+tour+'.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Date,Home,Away,PredictResult\n')
 

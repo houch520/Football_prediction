@@ -36,6 +36,8 @@ def extract_data(driver, csvwriter):
     for row in rows:
         while True:
             try:
+                if "border border betting" in row.get_attribute("class"):
+                    break
                 if "no-date-repetition-new" in row.get_attribute("class"):
                     date = row.find_element(by=By.CLASS_NAME, value="date").text.split(" ")[1]
                     break
@@ -82,6 +84,7 @@ with open("JPN.csv", "w", newline="", encoding="utf-8") as csvfile:
         
         # Check if the "Previous" link is enabled
         previous_link = driver.find_element(by=By.ID,value="page_competition_1_block_competition_matches_summary_9_previous")
+        
         if "disabled" in previous_link.get_attribute("class"):
             # If the link is disabled, break out of the loop
             break
