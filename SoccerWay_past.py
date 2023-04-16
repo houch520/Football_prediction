@@ -70,10 +70,10 @@ def extract_data(driver, csvwriter):
 driver = webdriver.Chrome()
 
 # Load the webpage
-driver.get("https://int.soccerway.com/national/england/championship/20222023/regular-season/r69905/")
+driver.get("https://int.soccerway.com/national/argentina/primera-division/2023/2nd-phase/r73333/")
 
 # Open a CSV file for writing with 'utf-8' encoding
-with open("E1.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("ARG.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Date","Home", "Away", "HG", "AG","Res"])
     

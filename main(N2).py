@@ -158,7 +158,7 @@ with open('predictions'+tour+'.csv', 'w', encoding='utf-8')  as file:
 
         # Write the prediction to the output file
         file.write('{},{},{},{},H,{:.2%},D,{:.2%},A,{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
-with open('Stat'+tour+'.csv', 'w', encoding='utf-8')  as file:
+with open('Stat'+tour+'R.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Team,Attack,Defense\n')
 
