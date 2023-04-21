@@ -1,0 +1,139 @@
+Date,Home,Away,HG,AG,Res
+7/10/2022,Melbourne City,Western United,2,1,H
+8/10/2022,Brisbane Roar,Macarthur,0,0,D
+8/10/2022,Sydney,Melbourne Victory,2,3,A
+9/10/2022,Wellington Phoenix,Adelaide United,1,1,D
+9/10/2022,Western Sydney Wanderers,Perth Glory,1,0,H
+14/10/2022,Brisbane Roar,Melbourne City,0,2,A
+15/10/2022,Newcastle Jets,Perth Glory,2,1,H
+15/10/2022,Melbourne Victory,Western Sydney Wanderers,0,1,A
+16/10/2022,Wellington Phoenix,Central Coast Mariners,2,2,D
+16/10/2022,Macarthur,Adelaide United,2,0,H
+16/10/2022,Western United,Sydney,1,3,A
+21/10/2022,Western United,Macarthur,1,1,D
+22/10/2022,Newcastle Jets,Wellington Phoenix,3,1,H
+22/10/2022,Western Sydney Wanderers,Brisbane Roar,1,1,D
+22/10/2022,Melbourne Victory,Melbourne City,0,2,A
+23/10/2022,Central Coast Mariners,Perth Glory,1,2,A
+23/10/2022,Sydney,Adelaide United,2,2,D
+28/10/2022,Western Sydney Wanderers,Newcastle Jets,2,0,H
+29/10/2022,Brisbane Roar,Melbourne Victory,0,0,D
+29/10/2022,Central Coast Mariners,Western United,4,2,H
+29/10/2022,Macarthur,Sydney,2,3,A
+30/10/2022,Adelaide United,Perth Glory,2,1,H
+30/10/2022,Melbourne City,Wellington Phoenix,2,2,D
+4/11/2022,Melbourne Victory,Newcastle Jets,4,0,H
+5/11/2022,Melbourne City,Perth Glory,4,0,H
+5/11/2022,Western Sydney Wanderers,Central Coast Mariners,0,3,A
+6/11/2022,Wellington Phoenix,Macarthur,4,1,H
+6/11/2022,Brisbane Roar,Sydney,3,1,H
+6/11/2022,Western United,Adelaide United,2,4,A
+11/11/2022,Adelaide United,Melbourne Victory,3,0,H
+12/11/2022,Newcastle Jets,Melbourne City,1,2,A
+12/11/2022,Sydney,Western Sydney Wanderers,0,1,A
+13/11/2022,Wellington Phoenix,Western United,2,3,A
+13/11/2022,Central Coast Mariners,Macarthur,2,3,A
+9/12/2022,Brisbane Roar,Adelaide United,1,1,D
+10/12/2022,Wellington Phoenix,Western Sydney Wanderers,1,1,D
+10/12/2022,Sydney,Melbourne City,2,1,H
+10/12/2022,Perth Glory,Western United,2,1,H
+11/12/2022,Central Coast Mariners,Newcastle Jets,1,2,A
+11/12/2022,Macarthur,Melbourne Victory,0,1,A
+16/12/2022,Newcastle Jets,Brisbane Roar,0,1,A
+17/12/2022,Wellington Phoenix,Adelaide United,3,1,H
+17/12/2022,Central Coast Mariners,Sydney,2,1,H
+18/12/2022,Western United,Western Sydney Wanderers,1,0,H
+18/12/2022,Macarthur,Perth Glory,1,0,H
+21/12/2022,Central Coast Mariners,Newcastle Jets,3,0,H
+23/12/2022,Brisbane Roar,Western Sydney Wanderers,1,1,D
+23/12/2022,Perth Glory,Wellington Phoenix,1,1,D
+24/12/2022,Sydney,Macarthur,0,3,A
+26/12/2022,Western United,Melbourne Victory,1,0,H
+27/12/2022,Melbourne City,Central Coast Mariners,1,0,H
+27/12/2022,Adelaide United,Newcastle Jets,0,1,A
+30/12/2022,Western United,Brisbane Roar,1,1,D
+31/12/2022,Central Coast Mariners,Melbourne Victory,2,1,H
+1/1/2023,Newcastle Jets,Sydney,0,2,A
+1/1/2023,Western Sydney Wanderers,Macarthur,4,0,H
+2/1/2023,Wellington Phoenix,Melbourne City,1,3,A
+2/1/2023,Adelaide United,Perth Glory,2,0,H
+6/1/2023,Melbourne Victory,Brisbane Roar,0,1,A
+6/1/2023,Perth Glory,Western Sydney Wanderers,1,0,H
+7/1/2023,Sydney,Wellington Phoenix,0,1,A
+7/1/2023,Central Coast Mariners,Adelaide United,4,0,H
+7/1/2023,Melbourne City,Western United,4,0,H
+8/1/2023,Macarthur,Newcastle Jets,2,0,H
+10/1/2023,Perth Glory,Brisbane Roar,2,1,H
+13/1/2023,Macarthur,Central Coast Mariners,1,2,A
+14/1/2023,Brisbane Roar,Wellington Phoenix,0,1,A
+14/1/2023,Adelaide United,Melbourne Victory,1,1,D
+14/1/2023,Perth Glory,Sydney,2,2,D
+15/1/2023,Western Sydney Wanderers,Melbourne City,1,1,D
+15/1/2023,Western United,Newcastle Jets,1,1,D
+20/1/2023,Adelaide United,Macarthur,1,0,H
+21/1/2023,Western United,Sydney,1,0,H
+21/1/2023,Brisbane Roar,Melbourne City,0,0,D
+21/1/2023,Perth Glory,Melbourne Victory,3,1,H
+22/1/2023,Wellington Phoenix,Central Coast Mariners,2,1,H
+22/1/2023,Newcastle Jets,Western Sydney Wanderers,1,1,D
+26/1/2023,Melbourne Victory,Sydney,1,2,A
+27/1/2023,Newcastle Jets,Brisbane Roar,4,0,H
+28/1/2023,Wellington Phoenix,Perth Glory,2,2,D
+28/1/2023,Macarthur,Western United,2,2,D
+28/1/2023,Central Coast Mariners,Western Sydney Wanderers,2,2,D
+29/1/2023,Melbourne City,Adelaide United,3,3,D
+3/2/2023,Melbourne Victory,Wellington Phoenix,3,1,H
+4/2/2023,Melbourne City,Macarthur,6,1,H
+4/2/2023,Sydney,Central Coast Mariners,3,2,H
+4/2/2023,Adelaide United,Brisbane Roar,2,1,H
+4/2/2023,Perth Glory,Newcastle Jets,2,2,D
+5/2/2023,Western Sydney Wanderers,Western United,1,0,H
+10/2/2023,Brisbane Roar,Central Coast Mariners,1,2,A
+11/2/2023,Western United,Adelaide United,2,3,A
+11/2/2023,Western Sydney Wanderers,Sydney,0,1,A
+11/2/2023,Perth Glory,Melbourne City,2,4,A
+12/2/2023,Newcastle Jets,Melbourne Victory,2,1,H
+12/2/2023,Macarthur,Wellington Phoenix,2,1,H
+17/2/2023,Western United,Wellington Phoenix,0,3,A
+18/2/2023,Sydney,Brisbane Roar,1,1,D
+18/2/2023,Macarthur,Newcastle Jets,0,1,A
+18/2/2023,Melbourne Victory,Melbourne City,3,2,H
+18/2/2023,Perth Glory,Central Coast Mariners,2,2,D
+19/2/2023,Adelaide United,Western Sydney Wanderers,4,4,D
+24/2/2023,Central Coast Mariners,Wellington Phoenix,1,1,D
+25/2/2023,Newcastle Jets,Western United,1,3,A
+25/2/2023,Melbourne City,Sydney,3,2,H
+25/2/2023,Western Sydney Wanderers,Macarthur,4,0,H
+26/2/2023,Melbourne Victory,Adelaide United,1,1,D
+26/2/2023,Brisbane Roar,Perth Glory,2,1,H
+3/3/2023,Adelaide United,Melbourne City,4,2,H
+4/3/2023,Wellington Phoenix,Newcastle Jets,2,1,H
+4/3/2023,Western United,Perth Glory,2,1,H
+4/3/2023,Western Sydney Wanderers,Central Coast Mariners,2,0,H
+4/3/2023,Sydney,Melbourne Victory,1,0,H
+5/3/2023,Macarthur,Brisbane Roar,3,2,H
+10/3/2023,Perth Glory,Western Sydney Wanderers,1,0,H
+11/3/2023,Central Coast Mariners,Macarthur,4,1,H
+11/3/2023,Newcastle Jets,Adelaide United,2,4,A
+12/3/2023,Wellington Phoenix,Sydney,1,0,H
+12/3/2023,Melbourne City,Brisbane Roar,2,1,H
+13/3/2023,Melbourne Victory,Western United,1,2,A
+17/3/2023,Adelaide United,Wellington Phoenix,5,1,H
+18/3/2023,Newcastle Jets,Perth Glory,2,2,D
+18/3/2023,Brisbane Roar,Western United,1,0,H
+18/3/2023,Sydney,Western Sydney Wanderers,0,4,A
+19/3/2023,Melbourne Victory,Central Coast Mariners,2,0,H
+19/3/2023,Macarthur,Melbourne City,1,1,D
+31/3/2023,Western Sydney Wanderers,Adelaide United,2,3,A
+1/4/2023,Wellington Phoenix,Melbourne Victory,1,2,A
+1/4/2023,Central Coast Mariners,Brisbane Roar,4,1,H
+1/4/2023,Sydney,Western United,3,3,D
+1/4/2023,Perth Glory,Macarthur,2,1,H
+2/4/2023,Melbourne City,Newcastle Jets,1,1,D
+5/4/2023,Melbourne City,Melbourne Victory,2,1,H
+7/4/2023,Western United,Central Coast Mariners,0,3,A
+7/4/2023,Adelaide United,Sydney,1,1,D
+8/4/2023,Brisbane Roar,Newcastle Jets,3,0,H
+8/4/2023,Macarthur,Western Sydney Wanderers,2,2,D
+9/4/2023,Melbourne Victory,Perth Glory,0,0,D
+10/4/2023,Melbourne City,Wellington Phoenix,4,1,H

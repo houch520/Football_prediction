@@ -1,4 +1,92 @@
 Date,Home,Away,HG,AG,Res
+18/2/2023,Ventforet Kofu,Montedio Yamagata,1,2,A
+18/2/2023,Iwaki,Fujieda MYFC,2,3,A
+18/2/2023,ThespaKusatsu Gunma,Blaublitz Akita,0,0,D
+18/2/2023,Shimizu S-Pulse,Mito Hollyhock,0,0,D
+18/2/2023,Júbilo Iwata,Fagiano Okayama,2,3,A
+18/2/2023,Renofa Yamaguchi,Omiya Ardija,1,0,H
+18/2/2023,V-Varen Nagasaki,JEF United,0,1,A
+19/2/2023,Tokyo Verdy,Zweigen Kanazawa,1,0,H
+19/2/2023,Machida Zelvia,Vegalta Sendai,0,0,D
+19/2/2023,Tokushima Vortis,Oita Trinita,1,2,A
+19/2/2023,Tochigi,Roasso Kumamoto,1,1,D
+25/2/2023,Ventforet Kofu,Tokushima Vortis,1,1,D
+25/2/2023,Omiya Ardija,Zweigen Kanazawa,2,0,H
+25/2/2023,JEF United,Montedio Yamagata,1,3,A
+25/2/2023,Fujieda MYFC,V-Varen Nagasaki,2,0,H
+26/2/2023,Fagiano Okayama,Shimizu S-Pulse,0,0,D
+26/2/2023,Roasso Kumamoto,Blaublitz Akita,0,1,A
+26/2/2023,Vegalta Sendai,Tochigi,1,0,H
+26/2/2023,Oita Trinita,Tokyo Verdy,1,0,H
+26/2/2023,Renofa Yamaguchi,Júbilo Iwata,1,1,D
+26/2/2023,Machida Zelvia,ThespaKusatsu Gunma,2,0,H
+26/2/2023,Mito Hollyhock,Iwaki,2,2,D
+4/3/2023,Júbilo Iwata,Montedio Yamagata,2,1,H
+4/3/2023,Fujieda MYFC,Blaublitz Akita,0,1,A
+4/3/2023,Tokushima Vortis,Vegalta Sendai,1,1,D
+4/3/2023,V-Varen Nagasaki,Shimizu S-Pulse,1,1,D
+5/3/2023,Iwaki,Renofa Yamaguchi,0,1,A
+5/3/2023,Roasso Kumamoto,Omiya Ardija,3,0,H
+5/3/2023,JEF United,ThespaKusatsu Gunma,2,2,D
+5/3/2023,Tokyo Verdy,Ventforet Kofu,0,0,D
+5/3/2023,Zweigen Kanazawa,Machida Zelvia,1,2,A
+5/3/2023,Oita Trinita,Tochigi,1,0,H
+5/3/2023,Mito Hollyhock,Fagiano Okayama,1,1,D
+11/3/2023,Ventforet Kofu,Fujieda MYFC,2,1,H
+11/3/2023,Omiya Ardija,Júbilo Iwata,1,0,H
+11/3/2023,Renofa Yamaguchi,Roasso Kumamoto,1,3,A
+12/3/2023,Vegalta Sendai,Iwaki,0,1,A
+12/3/2023,Blaublitz Akita,JEF United,1,0,H
+12/3/2023,Tochigi,V-Varen Nagasaki,0,0,D
+12/3/2023,Machida Zelvia,Mito Hollyhock,3,0,H
+12/3/2023,Shimizu S-Pulse,Oita Trinita,0,0,D
+12/3/2023,Fagiano Okayama,Zweigen Kanazawa,3,0,H
+12/3/2023,Tokushima Vortis,Tokyo Verdy,0,2,A
+12/3/2023,ThespaKusatsu Gunma,Montedio Yamagata,1,0,H
+18/3/2023,Júbilo Iwata,Shimizu S-Pulse,2,2,D
+19/3/2023,Blaublitz Akita,Mito Hollyhock,1,1,D
+19/3/2023,Montedio Yamagata,Machida Zelvia,0,3,A
+19/3/2023,Iwaki,Tokushima Vortis,1,0,H
+19/3/2023,Tochigi,Omiya Ardija,2,1,H
+19/3/2023,ThespaKusatsu Gunma,Vegalta Sendai,1,2,A
+19/3/2023,Zweigen Kanazawa,Renofa Yamaguchi,5,2,H
+19/3/2023,Fujieda MYFC,Tokyo Verdy,0,5,A
+19/3/2023,Fagiano Okayama,Ventforet Kofu,2,3,A
+19/3/2023,Roasso Kumamoto,V-Varen Nagasaki,0,2,A
+19/3/2023,Oita Trinita,JEF United,2,1,H
+25/3/2023,Vegalta Sendai,Zweigen Kanazawa,2,3,A
+25/3/2023,Omiya Ardija,Oita Trinita,3,0,H
+25/3/2023,JEF United,Fagiano Okayama,1,1,D
+25/3/2023,Tokushima Vortis,Blaublitz Akita,0,0,D
+25/3/2023,V-Varen Nagasaki,Montedio Yamagata,3,2,H
+25/3/2023,Tokyo Verdy,Roasso Kumamoto,3,0,H
+26/3/2023,Iwaki,Machida Zelvia,0,1,A
+26/3/2023,Renofa Yamaguchi,Fujieda MYFC,0,3,A
+26/3/2023,Mito Hollyhock,Ventforet Kofu,2,4,A
+29/3/2023,Shimizu S-Pulse,ThespaKusatsu Gunma,1,3,A
+29/3/2023,Júbilo Iwata,Tochigi,2,0,H
+1/4/2023,Ventforet Kofu,Shimizu S-Pulse,1,0,H
+1/4/2023,Vegalta Sendai,V-Varen Nagasaki,0,1,A
+1/4/2023,Blaublitz Akita,Renofa Yamaguchi,0,1,A
+1/4/2023,Oita Trinita,Júbilo Iwata,2,1,H
+1/4/2023,Tokyo Verdy,Omiya Ardija,1,0,H
+2/4/2023,Roasso Kumamoto,Tokushima Vortis,1,1,D
+2/4/2023,Montedio Yamagata,Mito Hollyhock,0,1,A
+2/4/2023,Tochigi,ThespaKusatsu Gunma,1,2,A
+2/4/2023,Machida Zelvia,Fujieda MYFC,1,0,H
+2/4/2023,Zweigen Kanazawa,JEF United,2,0,H
+2/4/2023,Fagiano Okayama,Iwaki,1,1,D
+8/4/2023,Ventforet Kofu,Vegalta Sendai,0,3,A
+8/4/2023,Iwaki,Oita Trinita,1,3,A
+8/4/2023,ThespaKusatsu Gunma,V-Varen Nagasaki,1,0,H
+8/4/2023,Omiya Ardija,Montedio Yamagata,2,1,H
+8/4/2023,JEF United,Tokushima Vortis,2,2,D
+8/4/2023,Machida Zelvia,Blaublitz Akita,0,1,A
+8/4/2023,Shimizu S-Pulse,Tokyo Verdy,2,1,H
+8/4/2023,Fujieda MYFC,Fagiano Okayama,2,2,D
+8/4/2023,Renofa Yamaguchi,Tochigi,1,1,D
+8/4/2023,Mito Hollyhock,Júbilo Iwata,1,5,A
+9/4/2023,Roasso Kumamoto,Zweigen Kanazawa,3,1,H
 12/4/2023,Tochigi,Montedio Yamagata,2,1,H
 12/4/2023,Omiya Ardija,ThespaKusatsu Gunma,0,1,A
 12/4/2023,Tokyo Verdy,Blaublitz Akita,2,1,H
@@ -10,102 +98,14 @@ Date,Home,Away,HG,AG,Res
 12/4/2023,Tokushima Vortis,Mito Hollyhock,0,2,A
 12/4/2023,V-Varen Nagasaki,Ventforet Kofu,2,1,H
 12/4/2023,Oita Trinita,Renofa Yamaguchi,3,1,H
-9/4/2023,Roasso Kumamoto,Zweigen Kanazawa,3,1,H
-8/4/2023,Ventforet Kofu,Vegalta Sendai,0,3,A
-8/4/2023,Iwaki,Oita Trinita,1,3,A
-8/4/2023,ThespaKusatsu Gunma,V-Varen Nagasaki,1,0,H
-8/4/2023,Omiya Ardija,Montedio Yamagata,2,1,H
-8/4/2023,JEF United,Tokushima Vortis,2,2,D
-8/4/2023,Machida Zelvia,Blaublitz Akita,0,1,A
-8/4/2023,Shimizu S-Pulse,Tokyo Verdy,2,1,H
-8/4/2023,Fujieda MYFC,Fagiano Okayama,2,2,D
-8/4/2023,Renofa Yamaguchi,Tochigi,1,1,D
-8/4/2023,Mito Hollyhock,Júbilo Iwata,1,5,A
-2/4/2023,Roasso Kumamoto,Tokushima Vortis,1,1,D
-2/4/2023,Montedio Yamagata,Mito Hollyhock,0,1,A
-2/4/2023,Tochigi,ThespaKusatsu Gunma,1,2,A
-2/4/2023,Machida Zelvia,Fujieda MYFC,1,0,H
-2/4/2023,Zweigen Kanazawa,JEF United,2,0,H
-2/4/2023,Fagiano Okayama,Iwaki,1,1,D
-1/4/2023,Ventforet Kofu,Shimizu S-Pulse,1,0,H
-1/4/2023,Vegalta Sendai,V-Varen Nagasaki,0,1,A
-1/4/2023,Blaublitz Akita,Renofa Yamaguchi,0,1,A
-1/4/2023,Oita Trinita,Júbilo Iwata,2,1,H
-1/4/2023,Tokyo Verdy,Omiya Ardija,1,0,H
-29/3/2023,Shimizu S-Pulse,ThespaKusatsu Gunma,1,3,A
-29/3/2023,Júbilo Iwata,Tochigi,2,0,H
-26/3/2023,Iwaki,Machida Zelvia,0,1,A
-26/3/2023,Renofa Yamaguchi,Fujieda MYFC,0,3,A
-26/3/2023,Mito Hollyhock,Ventforet Kofu,2,4,A
-25/3/2023,Vegalta Sendai,Zweigen Kanazawa,2,3,A
-25/3/2023,Omiya Ardija,Oita Trinita,3,0,H
-25/3/2023,JEF United,Fagiano Okayama,1,1,D
-25/3/2023,Tokushima Vortis,Blaublitz Akita,0,0,D
-25/3/2023,V-Varen Nagasaki,Montedio Yamagata,3,2,H
-25/3/2023,Tokyo Verdy,Roasso Kumamoto,3,0,H
-19/3/2023,Blaublitz Akita,Mito Hollyhock,1,1,D
-19/3/2023,Montedio Yamagata,Machida Zelvia,0,3,A
-19/3/2023,Iwaki,Tokushima Vortis,1,0,H
-19/3/2023,Tochigi,Omiya Ardija,2,1,H
-19/3/2023,ThespaKusatsu Gunma,Vegalta Sendai,1,2,A
-19/3/2023,Zweigen Kanazawa,Renofa Yamaguchi,5,2,H
-19/3/2023,Fujieda MYFC,Tokyo Verdy,0,5,A
-19/3/2023,Fagiano Okayama,Ventforet Kofu,2,3,A
-19/3/2023,Roasso Kumamoto,V-Varen Nagasaki,0,2,A
-19/3/2023,Oita Trinita,JEF United,2,1,H
-18/3/2023,Júbilo Iwata,Shimizu S-Pulse,2,2,D
-12/3/2023,Vegalta Sendai,Iwaki,0,1,A
-12/3/2023,Blaublitz Akita,JEF United,1,0,H
-12/3/2023,Tochigi,V-Varen Nagasaki,0,0,D
-12/3/2023,Machida Zelvia,Mito Hollyhock,3,0,H
-12/3/2023,Shimizu S-Pulse,Oita Trinita,0,0,D
-12/3/2023,Fagiano Okayama,Zweigen Kanazawa,3,0,H
-12/3/2023,Tokushima Vortis,Tokyo Verdy,0,2,A
-12/3/2023,ThespaKusatsu Gunma,Montedio Yamagata,1,0,H
-11/3/2023,Ventforet Kofu,Fujieda MYFC,2,1,H
-11/3/2023,Omiya Ardija,Júbilo Iwata,1,0,H
-11/3/2023,Renofa Yamaguchi,Roasso Kumamoto,1,3,A
-5/3/2023,Iwaki,Renofa Yamaguchi,0,1,A
-5/3/2023,Roasso Kumamoto,Omiya Ardija,3,0,H
-5/3/2023,JEF United,ThespaKusatsu Gunma,2,2,D
-5/3/2023,Tokyo Verdy,Ventforet Kofu,0,0,D
-5/3/2023,Zweigen Kanazawa,Machida Zelvia,1,2,A
-5/3/2023,Oita Trinita,Tochigi,1,0,H
-5/3/2023,Mito Hollyhock,Fagiano Okayama,1,1,D
-4/3/2023,Júbilo Iwata,Montedio Yamagata,2,1,H
-4/3/2023,Fujieda MYFC,Blaublitz Akita,0,1,A
-4/3/2023,Tokushima Vortis,Vegalta Sendai,1,1,D
-4/3/2023,V-Varen Nagasaki,Shimizu S-Pulse,1,1,D
-26/2/2023,Fagiano Okayama,Shimizu S-Pulse,0,0,D
-26/2/2023,Roasso Kumamoto,Blaublitz Akita,0,1,A
-26/2/2023,Vegalta Sendai,Tochigi,1,0,H
-26/2/2023,Oita Trinita,Tokyo Verdy,1,0,H
-26/2/2023,Renofa Yamaguchi,Júbilo Iwata,1,1,D
-26/2/2023,Machida Zelvia,ThespaKusatsu Gunma,2,0,H
-26/2/2023,Mito Hollyhock,Iwaki,2,2,D
-25/2/2023,Ventforet Kofu,Tokushima Vortis,1,1,D
-25/2/2023,Omiya Ardija,Zweigen Kanazawa,2,0,H
-25/2/2023,JEF United,Montedio Yamagata,1,3,A
-25/2/2023,Fujieda MYFC,V-Varen Nagasaki,2,0,H
-19/2/2023,Tokyo Verdy,Zweigen Kanazawa,1,0,H
-19/2/2023,Machida Zelvia,Vegalta Sendai,0,0,D
-19/2/2023,Tokushima Vortis,Oita Trinita,1,2,A
-19/2/2023,Tochigi,Roasso Kumamoto,1,1,D
-18/2/2023,Ventforet Kofu,Montedio Yamagata,1,2,A
-18/2/2023,Iwaki,Fujieda MYFC,2,3,A
-18/2/2023,ThespaKusatsu Gunma,Blaublitz Akita,0,0,D
-18/2/2023,Shimizu S-Pulse,Mito Hollyhock,0,0,D
-18/2/2023,Júbilo Iwata,Fagiano Okayama,2,3,A
-18/2/2023,Renofa Yamaguchi,Omiya Ardija,1,0,H
-18/2/2023,V-Varen Nagasaki,JEF United,0,1,A
-16/04/2023,Ventforet Kofu,Tochigi,1,0,H
-16/04/2023,Vegalta Sendai,Fagiano Okayama,1,1,D
-16/04/2023,Blaublitz Akita,Omiya Ardija,2,1,H
-16/04/2023,Montedio Yamagata,Zweigen Kanazawa,0,1,A
-16/04/2023,Iwaki,ThespaKusatsu Gunma,2,1,H
-16/04/2023,JEF United,Tokyo Verdy,1,0,H
-16/04/2023,Machida Zelvia,Oita Trinita,3,1,H
-16/04/2023,Renofa Yamaguchi,Shimizu S-Pulse,0,6,A
-16/04/2023,Tokushima Vortis,V-Varen Nagasaki,0,4,A
-16/04/2023,Mito Hollyhock,Fujieda MYFC,1,4,A
-16/04/2023,Júbilo Iwata,Roasso Kumamoto,1,1,D
+16/4/2023,Ventforet Kofu,Tochigi,1,0,H
+16/4/2023,Vegalta Sendai,Fagiano Okayama,1,1,D
+16/4/2023,Blaublitz Akita,Omiya Ardija,2,1,H
+16/4/2023,Montedio Yamagata,Zweigen Kanazawa,0,1,A
+16/4/2023,Iwaki,ThespaKusatsu Gunma,2,1,H
+16/4/2023,JEF United,Tokyo Verdy,1,0,H
+16/4/2023,Machida Zelvia,Oita Trinita,3,1,H
+16/4/2023,Renofa Yamaguchi,Shimizu S-Pulse,0,6,A
+16/4/2023,Tokushima Vortis,V-Varen Nagasaki,0,4,A
+16/4/2023,Mito Hollyhock,Fujieda MYFC,1,4,A
+16/4/2023,Júbilo Iwata,Roasso Kumamoto,1,1,D

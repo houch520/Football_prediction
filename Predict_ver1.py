@@ -95,15 +95,15 @@ def predict_outcome(home_team, away_team):
             else:
                 outcome_probs[2] += home_score_probs[i] * away_score_probs[j]
     outcome_probs /= np.sum(outcome_probs)
-    print(f"Probability of {home_team} winning: {outcome_probs[0]:.2%}")
-    print(f"Probability of {away_team} winning: {outcome_probs[1]:.2%}")
-    print(f"Probability of a draw: {outcome_probs[2]:.2%}")
-    print(f"\nProbability distribution of scores:")
+    # print(f"Probability of {home_team} winning: {outcome_probs[0]:.2%}")
+    # print(f"Probability of {away_team} winning: {outcome_probs[1]:.2%}")
+    # print(f"Probability of a draw: {outcome_probs[2]:.2%}")
+    # print(f"\nProbability distribution of scores:")
     home_expected_goals = sum(i * home_score_probs[i] for i in range(6))
     away_expected_goals = sum(i * away_score_probs[i] for i in range(6))
-    print(f"expected goals {home_expected_goals}-{away_expected_goals}")
-    print(f"{home_team}: {[(i, home_score_probs[i]*100) for i in range(6)]}")
-    print(f"{away_team}: {[(i, away_score_probs[i]*100) for i in range(6)]}")
+    # print(f"expected goals {home_expected_goals}-{away_expected_goals}")
+    # print(f"{home_team}: {[(i, home_score_probs[i]*100) for i in range(6)]}")
+    # print(f"{away_team}: {[(i, away_score_probs[i]*100) for i in range(6)]}")
     if outcome_probs[0] > outcome_probs[1] and outcome_probs[2]<outcome_probs[0]:
         return home_team, outcome_probs[0], outcome_probs[1]
     elif outcome_probs[0] < outcome_probs[1] and outcome_probs[2]<outcome_probs[1]:
@@ -149,13 +149,13 @@ for i in range(len(test_data)):
     actual_results.append(actual_result)
     
     # Print the team ratings and predicted/actual results for the match
-    print('Match {}: {} vs. {}:'.format(i+1, home_team, away_team))
-    print('- Team ratings:')
-    print('  - {}: attack={:.2f}, defense={:.2f}'.format(home_team, team_attack_mean[home_team], team_defense_mean[home_team]))
-    print('  - {}: attack={:.2f}, defense={:.2f}'.format(away_team, team_attack_mean[away_team], team_defense_mean[away_team]))
-    print('- Predicted outcome:{}({}-{})'.format(prediction,pre_home_score,pre_away_score))
-    print('- Actual outcome:{}({}-{})'.format(actual_result,home_goals,away_goals))
-    print()
+    # print('Match {}: {} vs. {}:'.format(i+1, home_team, away_team))
+    # print('- Team ratings:')
+    # print('  - {}: attack={:.2f}, defense={:.2f}'.format(home_team, team_attack_mean[home_team], team_defense_mean[home_team]))
+    # print('  - {}: attack={:.2f}, defense={:.2f}'.format(away_team, team_attack_mean[away_team], team_defense_mean[away_team]))
+    # print('- Predicted outcome:{}({}-{})'.format(prediction,pre_home_score,pre_away_score))
+    # print('- Actual outcome:{}({}-{})'.format(actual_result,home_goals,away_goals))
+    # print()
 
     # Update the ratings for the home and away teams
     update_ratings(home_team, away_team, home_goals, away_goals)
@@ -171,7 +171,7 @@ test_data = pd.read_csv('TestData\\'+tour+'Test.csv')
 # Open a new file to write the predictions
 with open(output, 'w', encoding='utf-8')  as file:
     # Write the header row
-    file.write('Date,Home,Away,PredictResult\n')
+    file.write('Date,Home,Away,PredictResult,H,D,A\n')
 
     # Make predictions for each match in the test data
     for i in range(len(test_data)):
@@ -183,7 +183,7 @@ with open(output, 'w', encoding='utf-8')  as file:
         prediction, HP, AP = predict_outcome(home_team, away_team)
 
         # Write the prediction to the output file
-        file.write('{},{},{},{},H,{:.2%},D,{:.2%},A,{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
+        file.write('{},{},{},{},{:.2%},{:.2%},{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
 with open('Result\\Stat\\Stat'+tour+'.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Team,Attack,Defense\n')
