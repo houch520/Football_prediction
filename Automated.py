@@ -6,7 +6,7 @@ import shutil
 from datetime import datetime
 
 # Define the input string
-input_str = 'AUG'
+input_str = 'J2'
 input_nth = ''
 input_r = 'R'
 
@@ -44,10 +44,10 @@ df = df.iloc[::-1]
 # Save the data to a new CSV file
 df.to_csv('Source\\'+input_str+input_r+'.csv', index=False)
 
-# # Run the command and pass the input string as input
-# subprocess.call(['python', 'Predict_ver1.py', input_str, input_nth])
-# # Run the command and pass the input string as input
-# subprocess.call(['python', 'Predict_ver1.py', input_str, input_r])
+# Run the command and pass the input string as input
+subprocess.call(['python', 'Predict_ver1.py', input_str, input_nth])
+# Run the command and pass the input string as input
+subprocess.call(['python', 'Predict_ver1.py', input_str, input_r])
 
 # Read CSV files
 csv_file1 = 'Result\predictions'+input_str+'.csv'

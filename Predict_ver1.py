@@ -35,7 +35,7 @@ team_attack_mean = {team: prior_mean for team in teams}
 team_defense_mean = {team: prior_mean for team in teams}
 team_attack_std = {team: prior_std for team in teams}
 team_defense_std = {team: prior_std for team in teams}
-k = 0.3 # Set the value of k
+k = 0.2 # Set the value of k
 alpha = 0.82  # Set the value of alpha 
 #test set 0.38,0.82
 #0.11,0.25

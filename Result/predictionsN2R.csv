@@ -1,11 +1,12 @@
-Date,Home,Away,PredictResult
-15/04/2023,Den Bosch,Helmond Sport,Helmond Sport,H,8.72%,D,15.75%,A,75.53%
-15/04/2023,Heracles,Roda JC,Heracles,H,72.32%,D,15.47%,A,12.20%
-15/04/2023,MVV,Dordrecht,Dordrecht,H,35.34%,D,23.66%,A,41.01%
-15/04/2023,NAC Breda,Willem II,Willem II,H,6.05%,D,9.95%,A,84.00%
-15/04/2023,PEC Zwolle,Telstar,PEC Zwolle,H,43.92%,D,33.18%,A,22.91%
-15/04/2023,TOP Oss,De Graafschap,De Graafschap,H,32.27%,D,32.75%,A,34.99%
-15/04/2023,VVV,Eindhoven,VVV,H,86.91%,D,9.44%,A,3.65%
-16/04/2023,ADO Den Haag,Almere City,Draw,H,32.05%,D,43.87%,A,24.08%
-18/04/2023,Ajax II,PSV II,PSV II,H,24.09%,D,19.16%,A,56.75%
-18/04/2023,AZ II,Utrecht II,AZ II,H,63.97%,D,17.76%,A,18.27%
+Date,Home,Away,PredictResult,H,D,A
+22/04/2023,Almere City,PEC Zwolle,PEC Zwolle,26.21%,34.48%,39.31%
+22/04/2023,Dordrecht,AZ II,AZ II,36.73%,23.53%,39.74%
+22/04/2023,Eindhoven,NAC Breda,NAC Breda,10.70%,16.37%,72.92%
+22/04/2023,De Graafschap,ADO Den Haag,De Graafschap,41.21%,31.23%,27.57%
+22/04/2023,Helmond Sport,Heracles,Heracles,17.27%,21.83%,60.89%
+22/04/2023,Roda JC,Den Bosch,Roda JC,60.41%,22.99%,16.59%
+22/04/2023,Telstar,VVV,VVV,27.49%,28.50%,44.01%
+22/04/2023,Willem II,TOP Oss,Willem II,64.76%,20.35%,14.89%
+25/04/2023,PSV II,MVV,MVV,37.89%,22.39%,39.72%
+25/04/2023,Utrecht II,Ajax II,Ajax II,23.09%,22.88%,54.03%
+25/4/2023,NAC Breda,Willem II,Willem II,14.21%,17.71%,68.08%

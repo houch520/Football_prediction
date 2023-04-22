@@ -1,15 +1,15 @@
-Date,Home,Away
-16/4/2023,Defensa y Justicia,Instituto
-16/4/2023,Boca Juniors,Estudiantes
-16/4/2023,Gimnasia La Plata,Belgrano
-16/4/2023,Huracán,Argentinos Juniors
-17/4/2023,Vélez Sarsfield,Barracas Central
-17/4/2023,Unión,Tigre
-17/4/2023,Independiente,Racing Club
-17/4/2023,Newell's Old Boys,River Plate
-17/4/2023,Talleres de Córdoba,San Lorenzo
-18/4/2023,Platense,Colón
-18/4/2023,Banfield,Central Córdoba SdE
-18/4/2023,Sarmiento,Arsenal
-18/4/2023,Atlético Tucumán,Rosario Central
-18/4/2023,Godoy Cruz,Lanús
+Date,Home,Away,HG,AG,Res
+22/04/2023,Colón,Vélez Sarsfield
+23/04/2023,Lanús,Sarmiento
+23/04/2023,Arsenal,Unión
+23/04/2023,Central Córdoba SdE,Godoy Cruz
+23/04/2023,Belgrano,Newell's Old Boys
+23/04/2023,San Lorenzo,Platense
+24/04/2023,Rosario Central,Boca Juniors
+24/04/2023,Instituto,Banfield
+24/04/2023,Estudiantes,Talleres de Córdoba
+24/04/2023,River Plate,Independiente
+25/04/2023,Barracas Central,Defensa y Justicia
+25/04/2023,Racing Club,Atlético Tucumán
+25/04/2023,Tigre,Huracán
+25/04/2023,Argentinos Juniors,Gimnasia La Plata

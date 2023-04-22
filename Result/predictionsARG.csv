@@ -1,15 +1,15 @@
-Date,Home,Away,PredictResult
-16/4/2023,Defensa y Justicia,Instituto,Draw,H,39.20%,D,42.01%,A,18.79%
-16/4/2023,Boca Juniors,Estudiantes,Estudiantes,H,31.23%,D,31.05%,A,37.72%
-16/4/2023,Gimnasia La Plata,Belgrano,Belgrano,H,14.15%,D,26.30%,A,59.55%
-16/4/2023,Huracán,Argentinos Juniors,Argentinos Juniors,H,6.70%,D,15.03%,A,78.28%
-17/4/2023,Vélez Sarsfield,Barracas Central,Vélez Sarsfield,H,46.59%,D,32.21%,A,21.20%
-17/4/2023,Unión,Tigre,Tigre,H,15.68%,D,22.71%,A,61.60%
-17/4/2023,Independiente,Racing Club,Racing Club,H,31.27%,D,29.98%,A,38.75%
-17/4/2023,Newell's Old Boys,River Plate,River Plate,H,3.50%,D,46.87%,A,49.64%
-17/4/2023,Talleres de Córdoba,San Lorenzo,San Lorenzo,H,26.59%,D,33.51%,A,39.90%
-18/4/2023,Platense,Colón,Colón,H,24.33%,D,31.64%,A,44.02%
-18/4/2023,Banfield,Central Córdoba SdE,Central Córdoba SdE,H,13.98%,D,23.43%,A,62.60%
-18/4/2023,Sarmiento,Arsenal,Sarmiento,H,51.09%,D,30.80%,A,18.11%
-18/4/2023,Atlético Tucumán,Rosario Central,Rosario Central,H,15.10%,D,40.03%,A,44.88%
-18/4/2023,Godoy Cruz,Lanús,Lanús,H,19.46%,D,22.20%,A,58.34%
+Date,Home,Away,PredictResult,H,D,A
+22/04/2023,Colón,Vélez Sarsfield,Draw,32.54%,36.46%,31.00%
+23/04/2023,Lanús,Sarmiento,Lanús,37.50%,32.42%,30.07%
+23/04/2023,Arsenal,Unión,Unión,33.83%,32.12%,34.05%
+23/04/2023,Central Córdoba SdE,Godoy Cruz,Godoy Cruz,35.48%,27.34%,37.18%
+23/04/2023,Belgrano,Newell's Old Boys,Draw,34.48%,46.43%,19.09%
+23/04/2023,San Lorenzo,Platense,San Lorenzo,43.44%,43.35%,13.21%
+24/04/2023,Rosario Central,Boca Juniors,Rosario Central,44.16%,28.63%,27.22%
+24/04/2023,Instituto,Banfield,Instituto,36.79%,36.37%,26.84%
+24/04/2023,Estudiantes,Talleres de Córdoba,Talleres de Córdoba,24.01%,30.31%,45.68%
+24/04/2023,River Plate,Independiente,River Plate,76.74%,19.44%,3.82%
+25/04/2023,Barracas Central,Defensa y Justicia,Defensa y Justicia,10.01%,35.33%,54.66%
+25/04/2023,Racing Club,Atlético Tucumán,Racing Club,40.70%,29.88%,29.43%
+25/04/2023,Tigre,Huracán,Tigre,37.74%,36.35%,25.91%
+25/04/2023,Argentinos Juniors,Gimnasia La Plata,Argentinos Juniors,53.39%,29.73%,16.87%
