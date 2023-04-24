@@ -1,0 +1,166 @@
+Date,Home,Away,HG,AG,Res
+20/4/2023,Reading,Luton Town,1,1,D
+20/4/2023,Middlesbrough,Hull City,3,1,H
+20/4/2023,Watford,Cardiff City,1,3,A
+20/4/2023,Swansea City,Preston North End,4,2,H
+20/4/2023,Queens Park Rangers,Norwich City,1,1,D
+20/4/2023,Blackburn Rovers,Coventry City,1,1,D
+19/4/2023,Millwall,Birmingham City,0,1,A
+19/4/2023,Sunderland,Huddersfield Town,1,1,D
+19/4/2023,Stoke City,Wigan Athletic,0,1,A
+19/4/2023,Sheffield United,Bristol City,1,0,H
+19/4/2023,Rotherham United,Burnley,2,2,D
+19/4/2023,Blackpool,West Bromwich Albion,0,2,A
+11/4/2023,Burnley,Sheffield United,2,0,H
+11/4/2023,Bristol City,Middlesbrough,2,2,D
+10/4/2023,Wigan Athletic,Swansea City,0,2,A
+10/4/2023,West Bromwich Albion,Queens Park Rangers,2,2,D
+10/4/2023,Preston North End,Reading,2,1,H
+10/4/2023,Norwich City,Rotherham United,0,0,D
+10/4/2023,Luton Town,Blackpool,3,1,H
+10/4/2023,Hull City,Millwall,1,0,H
+10/4/2023,Coventry City,Watford,2,2,D
+10/4/2023,Cardiff City,Sunderland,0,1,A
+10/4/2023,Birmingham City,Stoke City,0,0,D
+10/4/2023,Huddersfield Town,Blackburn Rovers,2,2,D
+8/4/2023,Middlesbrough,Burnley,1,2,A
+8/4/2023,Sunderland,Hull City,4,4,D
+7/4/2023,Watford,Huddersfield Town,2,3,A
+7/4/2023,Swansea City,Coventry City,0,0,D
+7/4/2023,Stoke City,Bristol City,1,2,A
+7/4/2023,Sheffield United,Wigan Athletic,1,0,H
+7/4/2023,Reading,Birmingham City,1,1,D
+7/4/2023,Queens Park Rangers,Preston North End,0,2,A
+7/4/2023,Blackpool,Cardiff City,1,3,A
+7/4/2023,Blackburn Rovers,Norwich City,0,2,A
+7/4/2023,Rotherham United,West Bromwich Albion,3,1,H
+7/4/2023,Millwall,Luton Town,0,0,D
+1/4/2023,Wigan Athletic,Queens Park Rangers,1,0,H
+1/4/2023,West Bromwich Albion,Millwall,0,0,D
+1/4/2023,Norwich City,Sheffield United,0,1,A
+1/4/2023,Hull City,Rotherham United,0,0,D
+1/4/2023,Huddersfield Town,Middlesbrough,4,2,H
+1/4/2023,Coventry City,Stoke City,0,4,A
+1/4/2023,Cardiff City,Swansea City,2,3,A
+1/4/2023,Bristol City,Reading,1,1,D
+1/4/2023,Birmingham City,Blackburn Rovers,1,0,H
+1/4/2023,Preston North End,Blackpool,3,1,H
+1/4/2023,Luton Town,Watford,2,0,H
+1/4/2023,Burnley,Sunderland,0,0,D
+19/3/2023,Swansea City,Bristol City,2,0,H
+18/3/2023,Watford,Wigan Athletic,1,1,D
+18/3/2023,Sunderland,Luton Town,1,1,D
+18/3/2023,Stoke City,Norwich City,0,0,D
+18/3/2023,Reading,Hull City,1,1,D
+18/3/2023,Queens Park Rangers,Birmingham City,0,1,A
+18/3/2023,Millwall,Huddersfield Town,0,1,A
+18/3/2023,Middlesbrough,Preston North End,4,0,H
+18/3/2023,Blackpool,Coventry City,1,4,A
+16/3/2023,Sunderland,Sheffield United,1,2,A
+16/3/2023,Luton Town,Bristol City,1,0,H
+16/3/2023,Hull City,Burnley,1,3,A
+16/3/2023,Huddersfield Town,Norwich City,1,1,D
+16/3/2023,Cardiff City,West Bromwich Albion,1,1,D
+16/3/2023,Blackburn Rovers,Reading,2,1,H
+15/3/2023,Middlesbrough,Stoke City,1,1,D
+15/3/2023,Wigan Athletic,Coventry City,1,1,D
+15/3/2023,Watford,Birmingham City,3,0,H
+15/3/2023,Rotherham United,Preston North End,1,2,A
+15/3/2023,Millwall,Swansea City,2,1,H
+15/3/2023,Blackpool,Queens Park Rangers,6,1,H
+12/3/2023,Norwich City,Sunderland,0,1,A
+11/3/2023,West Bromwich Albion,Huddersfield Town,1,0,H
+11/3/2023,Swansea City,Middlesbrough,1,3,A
+11/3/2023,Sheffield United,Luton Town,0,1,A
+11/3/2023,Reading,Millwall,0,1,A
+11/3/2023,Queens Park Rangers,Watford,1,0,H
+11/3/2023,Preston North End,Cardiff City,2,0,H
+11/3/2023,Coventry City,Hull City,1,1,D
+11/3/2023,Burnley,Wigan Athletic,3,0,H
+11/3/2023,Birmingham City,Rotherham United,2,0,H
+11/3/2023,Bristol City,Blackpool,2,0,H
+11/3/2023,Stoke City,Blackburn Rovers,3,2,H
+8/3/2023,West Bromwich Albion,Wigan Athletic,1,0,H
+8/3/2023,Reading,Sheffield United,0,1,A
+8/3/2023,Huddersfield Town,Bristol City,0,0,D
+4/3/2023,Wigan Athletic,Birmingham City,1,1,D
+4/3/2023,Watford,Preston North End,0,0,D
+4/3/2023,Sunderland,Stoke City,1,5,A
+4/3/2023,Rotherham United,Queens Park Rangers,3,1,H
+4/3/2023,Millwall,Norwich City,2,3,A
+4/3/2023,Middlesbrough,Reading,5,0,H
+4/3/2023,Luton Town,Swansea City,1,0,H
+4/3/2023,Huddersfield Town,Coventry City,0,4,A
+4/3/2023,Blackpool,Burnley,0,0,D
+4/3/2023,Cardiff City,Bristol City,2,0,H
+4/3/2023,Blackburn Rovers,Sheffield United,1,0,H
+4/3/2023,Hull City,West Bromwich Albion,2,0,H
+1/3/2023,Luton Town,Millwall,2,2,D
+1/3/2023,Preston North End,Coventry City,0,0,D
+28/2/2023,Swansea City,Rotherham United,1,1,D
+25/2/2023,West Bromwich Albion,Middlesbrough,2,0,H
+25/2/2023,Stoke City,Millwall,0,1,A
+25/2/2023,Sheffield United,Watford,1,0,H
+25/2/2023,Reading,Blackpool,3,1,H
+25/2/2023,Queens Park Rangers,Blackburn Rovers,1,3,A
+25/2/2023,Preston North End,Wigan Athletic,2,1,H
+25/2/2023,Norwich City,Cardiff City,2,0,H
+25/2/2023,Burnley,Huddersfield Town,4,0,H
+25/2/2023,Bristol City,Hull City,1,0,H
+25/2/2023,Birmingham City,Luton Town,0,1,A
+25/2/2023,Coventry City,Sunderland,2,1,H
+22/2/2023,Swansea City,Stoke City,1,3,A
+22/2/2023,Rotherham United,Sunderland,2,1,H
+22/2/2023,Norwich City,Birmingham City,3,1,H
+22/2/2023,Millwall,Burnley,1,1,D
+22/2/2023,Blackburn Rovers,Blackpool,1,0,H
+21/2/2023,Watford,West Bromwich Albion,3,2,H
+18/2/2023,Wigan Athletic,Norwich City,0,0,D
+18/2/2023,Sunderland,Bristol City,1,1,D
+18/2/2023,Rotherham United,Coventry City,0,2,A
+18/2/2023,Middlesbrough,Queens Park Rangers,3,1,H
+18/2/2023,Luton Town,Burnley,0,1,A
+18/2/2023,Hull City,Preston North End,0,0,D
+18/2/2023,Huddersfield Town,Birmingham City,2,1,H
+18/2/2023,Blackpool,Stoke City,1,0,H
+18/2/2023,Blackburn Rovers,Swansea City,1,0,H
+18/2/2023,Millwall,Sheffield United,3,2,H
+18/2/2023,Cardiff City,Reading,1,0,H
+16/2/2023,West Bromwich Albion,Blackburn Rovers,1,1,D
+16/2/2023,Sheffield United,Middlesbrough,1,3,A
+16/2/2023,Swansea City,Blackpool,2,1,H
+16/2/2023,Stoke City,Huddersfield Town,3,0,H
+16/2/2023,Preston North End,Luton Town,1,1,D
+16/2/2023,Bristol City,Wigan Athletic,1,1,D
+15/2/2023,Reading,Rotherham United,2,1,H
+15/2/2023,Burnley,Watford,1,1,D
+15/2/2023,Queens Park Rangers,Sunderland,0,3,A
+15/2/2023,Norwich City,Hull City,3,1,H
+15/2/2023,Coventry City,Millwall,1,0,H
+15/2/2023,Birmingham City,Cardiff City,0,2,A
+11/2/2023,Wigan Athletic,Huddersfield Town,1,0,H
+11/2/2023,Watford,Blackburn Rovers,1,1,D
+11/2/2023,Sunderland,Reading,1,0,H
+11/2/2023,Stoke City,Hull City,0,0,D
+11/2/2023,Sheffield United,Swansea City,3,0,H
+11/2/2023,Queens Park Rangers,Millwall,1,2,A
+11/2/2023,Coventry City,Luton Town,1,1,D
+11/2/2023,Cardiff City,Middlesbrough,1,3,A
+11/2/2023,Burnley,Preston North End,3,0,H
+11/2/2023,Bristol City,Norwich City,1,0,H
+11/2/2023,Blackpool,Rotherham United,0,0,D
+11/2/2023,Birmingham City,West Bromwich Albion,2,0,H
+8/2/2023,Blackpool,Huddersfield Town,2,2,D
+7/2/2023,Blackburn Rovers,Wigan Athletic,0,0,D
+4/2/2023,Swansea City,Birmingham City,3,4,A
+4/2/2023,Reading,Watford,2,2,D
+4/2/2023,Preston North End,Bristol City,1,2,A
+4/2/2023,Millwall,Sunderland,1,1,D
+4/2/2023,Middlesbrough,Blackpool,3,0,H
+4/2/2023,Luton Town,Stoke City,1,0,H
+4/2/2023,Hull City,Cardiff City,1,0,H
+4/2/2023,Huddersfield Town,Queens Park Rangers,1,1,D
+4/2/2023,Rotherham United,Sheffield United,0,0,D
+4/2/2023,Norwich City,Burnley,0,3,A
+4/2/2023,West Bromwich Albion,Coventry City,1,0,H
+1/2/2023,Luton Town,Cardiff City,1,0,H

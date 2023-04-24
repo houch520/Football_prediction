@@ -35,8 +35,8 @@ team_attack_mean = {team: prior_mean for team in teams}
 team_defense_mean = {team: prior_mean for team in teams}
 team_attack_std = {team: prior_std for team in teams}
 team_defense_std = {team: prior_std for team in teams}
-k = 0.2 # Set the value of k
-alpha = 0.82  # Set the value of alpha 
+k = 0.2# Set the value of k
+alpha =0.8  # Set the value of alpha 
 #test set 0.38,0.82
 #0.11,0.25
 #0.4
@@ -55,21 +55,43 @@ def update_ratings(home_team, away_team, home_goals, away_goals):
     away_score_probs = [poisson.pmf(i, away_attack_rating_dist.mean() * home_defense_rating_dist.mean()) for i in range(6)]
     home_expected_goals = sum(i * home_score_probs[i] for i in range(6))
     away_expected_goals = sum(i * away_score_probs[i] for i in range(6))
-    # Calculate the expected goals for each team
-    # home_expected_goals = max(0.01, home_attack * away_defense)
-    # away_expected_goals = max(0.01, away_attack * home_defense)
 
-    # Calculate the likelihood function for the number of goals scored by each team
-    home_goals_likelihood = stats.poisson.pmf(home_goals, home_expected_goals)
-    away_goals_likelihood = stats.poisson.pmf(away_goals, away_expected_goals)
 
     home_diff=min(max(home_goals - home_expected_goals, -2),3)
     away_diff=min(max(away_goals - away_expected_goals, -2),3)
+    #multipler
+    multipler=0
+    attack_diff=team_attack_mean[home_team]-team_attack_mean[away_team]
+    defense_diff=team_defense_mean[home_team]-team_defense_mean[away_team]
+    if(attack_diff>0):
+        multipler+=attack_diff
+    else:
+        multipler-=attack_diff
+    if(defense_diff>0):
+        multipler-=defense_diff
+    else:
+        multipler+=defense_diff
+    multipler=multipler/2 # + home>away -home<away
+    if(home_diff > 0):
+        sign_h = 1
+    else:
+        sign_h = -1
+
+    if(away_diff > 0):
+        sign_a = 1
+    else:
+        sign_a = -1
+
+    home_attack_new = home_attack + k * ((home_diff) - 0.2 * ((1+home_diff))*(home_diff)/2) * (1 + sign_h * multipler)
+    away_defense_new = away_defense + k * ((home_diff) - 0.2 * ((1+home_diff))*(home_diff)/2) * (1 + sign_h * multipler)
+    home_defense_new = home_defense + k * ((away_diff) - 0.2 * ((1+away_diff))*(away_diff)/2) * (1 + sign_a * multipler)
+    away_attack_new = away_attack + k * ((away_diff) - 0.2 * ((1+away_diff))*(away_diff)/2) * (1 + sign_a * multipler)
+
     # Update the attack and defense ratings based on the actual goals scored
-    home_attack_new = home_attack + k * ((home_diff)- max(0.2 * ((1+home_diff))*(home_diff)/2,0))
-    home_defense_new = home_defense + k * ((away_diff)- max(0.2 * ((1+away_diff))*(away_diff)/2,0))
-    away_attack_new = away_attack + k * ((away_diff)- max(0.2 * ((1+away_diff))*(away_diff)/2,0))
-    away_defense_new = away_defense + k * ((home_diff)- max(0.2 * ((1+home_diff))*(home_diff)/2,0))
+    # home_attack_new = home_attack + k * ((home_diff)- 0.2 * ((1+home_diff))*(home_diff)/2)*(1-multipler)
+    # home_defense_new = home_defense + k * ((away_diff)- 0.2 * ((1+away_diff))*(away_diff)/2)*(1-multipler)
+    # away_attack_new = away_attack + k * ((away_diff)- 0.2 * ((1+away_diff))*(away_diff)/2)*(1+multipler)
+    # away_defense_new = away_defense + k * ((home_diff)- 0.2 * ((1+home_diff))*(home_diff)/2)*(1+multipler)
 
     # Update the team ratings with a weighted average of the old and new ratings
     team_attack_mean[home_team] = alpha * home_attack_new + (1 - alpha) * home_attack
@@ -148,15 +170,6 @@ for i in range(len(test_data)):
     predictions.append(prediction)
     actual_results.append(actual_result)
     
-    # Print the team ratings and predicted/actual results for the match
-    # print('Match {}: {} vs. {}:'.format(i+1, home_team, away_team))
-    # print('- Team ratings:')
-    # print('  - {}: attack={:.2f}, defense={:.2f}'.format(home_team, team_attack_mean[home_team], team_defense_mean[home_team]))
-    # print('  - {}: attack={:.2f}, defense={:.2f}'.format(away_team, team_attack_mean[away_team], team_defense_mean[away_team]))
-    # print('- Predicted outcome:{}({}-{})'.format(prediction,pre_home_score,pre_away_score))
-    # print('- Actual outcome:{}({}-{})'.format(actual_result,home_goals,away_goals))
-    # print()
-
     # Update the ratings for the home and away teams
     update_ratings(home_team, away_team, home_goals, away_goals)
 
@@ -184,7 +197,7 @@ with open(output, 'w', encoding='utf-8')  as file:
 
         # Write the prediction to the output file
         file.write('{},{},{},{},{:.2%},{:.2%},{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
-with open('Result\\Stat\\Stat'+tour+'.csv', 'w', encoding='utf-8')  as file:
+with open('Result\\Stat\\Stat'+tour+Reverse+'.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Team,Attack,Defense\n')
 
