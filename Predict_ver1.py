@@ -4,22 +4,22 @@ import scipy.stats as stats
 from scipy.stats import norm, poisson
 import argparse
 
-# Create an ArgumentParser object
-parser = argparse.ArgumentParser(description='Description of your program')
+# # Create an ArgumentParser object
+# parser = argparse.ArgumentParser(description='Description of your program')
 
-# Add an argument for the first string
-parser.add_argument('string1', type=str, help='Description of the first string')
+# # Add an argument for the first string
+# parser.add_argument('string1', type=str, help='Description of the first string')
 
-# Add an argument for the second string
-parser.add_argument('string2', type=str, help='Description of the second string')
+# # Add an argument for the second string
+# parser.add_argument('string2', type=str, help='Description of the second string')
 
-# Parse the command-line arguments
-args = parser.parse_args()
+# # Parse the command-line arguments
+# args = parser.parse_args()
 
-tour=args.string1
-Reverse = args.string2
+tour="All"
+Reverse = ""
 # Read in the dataset
-data = pd.read_csv('Source\\'+tour+Reverse+'.csv')
+data = pd.read_csv('Source\\'+tour+Reverse+'.csv', encoding='ISO-8859-1')
 output =  'Result\\predictions'+tour+Reverse+'.csv'
 # train_data = data# Use first 80% of data as train data
 train_data = data.iloc[:int(0.8*len(data)), :]# Use first 80% of data as train data
@@ -178,25 +178,25 @@ correct_predictions = [p == a  for p, a in zip(predictions, actual_results)]
 accuracy = sum(correct_predictions) / len(correct_predictions)
 
 
-# Read in the test dataset
-test_data = pd.read_csv('TestData\\'+tour+'Test.csv')
+# # Read in the test dataset
+# test_data = pd.read_csv('TestData\\'+tour+'Test.csv')
 
-# Open a new file to write the predictions
-with open(output, 'w', encoding='utf-8')  as file:
-    # Write the header row
-    file.write('Date,Home,Away,PredictResult,H,D,A\n')
+# # Open a new file to write the predictions
+# with open(output, 'w', encoding='utf-8')  as file:
+#     # Write the header row
+#     file.write('Date,Home,Away,PredictResult,H,D,A\n')
 
-    # Make predictions for each match in the test data
-    for i in range(len(test_data)):
-        date = test_data.iloc[i]['Date']
-        home_team = test_data.iloc[i]['Home']
-        away_team = test_data.iloc[i]['Away']
+#     # Make predictions for each match in the test data
+#     for i in range(len(test_data)):
+#         date = test_data.iloc[i]['Date']
+#         home_team = test_data.iloc[i]['Home']
+#         away_team = test_data.iloc[i]['Away']
 
-        # Predict the outcome of the match
-        prediction, HP, AP = predict_outcome(home_team, away_team)
+#         # Predict the outcome of the match
+#         prediction, HP, AP = predict_outcome(home_team, away_team)
 
-        # Write the prediction to the output file
-        file.write('{},{},{},{},{:.2%},{:.2%},{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
+#         # Write the prediction to the output file
+#         file.write('{},{},{},{},{:.2%},{:.2%},{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
 with open('Result\\Stat\\Stat'+tour+Reverse+'.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Team,Attack,Defense\n')
