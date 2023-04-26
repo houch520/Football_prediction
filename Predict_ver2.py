@@ -4,26 +4,26 @@ import scipy.stats as stats
 from scipy.stats import norm, poisson
 import argparse
 
-# Create an ArgumentParser object
-parser = argparse.ArgumentParser(description='Description of your program')
+# # Create an ArgumentParser object
+# parser = argparse.ArgumentParser(description='Description of your program')
 
-# Add an argument for the first string
-parser.add_argument('string1', type=str, help='Description of the first string')
+# # Add an argument for the first string
+# parser.add_argument('string1', type=str, help='Description of the first string')
 
-# Add an argument for the second string
-parser.add_argument('string2', type=str, help='Description of the second string')
+# # Add an argument for the second string
+# parser.add_argument('string2', type=str, help='Description of the second string')
 
-# Parse the command-line arguments
-args = parser.parse_args()
+# # Parse the command-line arguments
+# args = parser.parse_args()
 
-tour=args.string1
-Reverse = args.string2
+tour="All"
+Reverse = ""
 # Read in the dataset
-data = pd.read_csv('Source\\'+tour+Reverse+'.csv')
+data = pd.read_csv('Source\\'+tour+Reverse+'.csv', encoding="ISO-8859-1")
 output =  'Result\\predictions'+tour+Reverse+'.csv'
 # train_data = data# Use first 80% of data as train data
-train_data = data.iloc[:int(0.8*len(data)), :]# Use first 80% of data as train data
-test_data = data.iloc[int(0.8*len(data)):, :] # Use last 20% of data as test data
+train_data = data.iloc[:int(0.5*len(data)), :]# Use first 80% of data as train data
+test_data = data.iloc[int(0.5*len(data)):, :] # Use last 20% of data as test data
 
 # Create a set of all unique teams
 teams = set(data['Home']) | set(data['Away'])
@@ -35,8 +35,8 @@ team_attack_mean = {team: prior_mean for team in teams}
 team_defense_mean = {team: prior_mean for team in teams}
 team_attack_std = {team: prior_std for team in teams}
 team_defense_std = {team: prior_std for team in teams}
-k = 0.2# Set the value of k
-alpha =0.8  # Set the value of alpha 
+k = 0.3 # Set the value of k
+alpha = 0.82 # Set the value of alpha 
 #test set 0.38,0.82
 #0.11,0.25
 #0.4
@@ -55,43 +55,21 @@ def update_ratings(home_team, away_team, home_goals, away_goals):
     away_score_probs = [poisson.pmf(i, away_attack_rating_dist.mean() * home_defense_rating_dist.mean()) for i in range(6)]
     home_expected_goals = sum(i * home_score_probs[i] for i in range(6))
     away_expected_goals = sum(i * away_score_probs[i] for i in range(6))
+    # Calculate the expected goals for each team
+    # home_expected_goals = max(0.01, home_attack * away_defense)
+    # away_expected_goals = max(0.01, away_attack * home_defense)
 
+    # Calculate the likelihood function for the number of goals scored by each team
+    home_goals_likelihood = stats.poisson.pmf(home_goals, home_expected_goals)
+    away_goals_likelihood = stats.poisson.pmf(away_goals, away_expected_goals)
 
     home_diff=min(max(home_goals - home_expected_goals, -2),3)
     away_diff=min(max(away_goals - away_expected_goals, -2),3)
-    #multipler
-    multipler=0
-    attack_diff=team_attack_mean[home_team]-team_attack_mean[away_team]
-    defense_diff=team_defense_mean[home_team]-team_defense_mean[away_team]
-    if(attack_diff>0):
-        multipler+=attack_diff
-    else:
-        multipler-=attack_diff
-    if(defense_diff>0):
-        multipler-=defense_diff
-    else:
-        multipler+=defense_diff
-    multipler=multipler/2 # + home>away -home<away
-    if(home_diff > 0):
-        sign_h = 1
-    else:
-        sign_h = -1
-
-    if(away_diff > 0):
-        sign_a = 1
-    else:
-        sign_a = -1
-
-    home_attack_new = home_attack + k * ((home_diff) - 0.2 * ((1+home_diff))*(home_diff)/2) * (1 + sign_h * multipler)
-    away_defense_new = away_defense + k * ((home_diff) - 0.2 * ((1+home_diff))*(home_diff)/2) * (1 + sign_h * multipler)
-    home_defense_new = home_defense + k * ((away_diff) - 0.2 * ((1+away_diff))*(away_diff)/2) * (1 + sign_a * multipler)
-    away_attack_new = away_attack + k * ((away_diff) - 0.2 * ((1+away_diff))*(away_diff)/2) * (1 + sign_a * multipler)
-
     # Update the attack and defense ratings based on the actual goals scored
-    # home_attack_new = home_attack + k * ((home_diff)- 0.2 * ((1+home_diff))*(home_diff)/2)*(1-multipler)
-    # home_defense_new = home_defense + k * ((away_diff)- 0.2 * ((1+away_diff))*(away_diff)/2)*(1-multipler)
-    # away_attack_new = away_attack + k * ((away_diff)- 0.2 * ((1+away_diff))*(away_diff)/2)*(1+multipler)
-    # away_defense_new = away_defense + k * ((home_diff)- 0.2 * ((1+home_diff))*(home_diff)/2)*(1+multipler)
+    home_attack_new = home_attack + k * ((home_diff)- max(0.2 * ((1+home_diff))*(home_diff)/2,0))
+    home_defense_new = home_defense + k * ((away_diff)- max(0.2 * ((1+away_diff))*(away_diff)/2,0))
+    away_attack_new = away_attack + k * ((away_diff)- max(0.2 * ((1+away_diff))*(away_diff)/2,0))
+    away_defense_new = away_defense + k * ((home_diff)- max(0.2 * ((1+home_diff))*(home_diff)/2,0))
 
     # Update the team ratings with a weighted average of the old and new ratings
     team_attack_mean[home_team] = alpha * home_attack_new + (1 - alpha) * home_attack
@@ -147,57 +125,70 @@ for i in range(len(train_data)):
     
     # Update the ratings for the home and away teams
     update_ratings(home_team, away_team, home_goals, away_goals)
+# Create empty lists to store the predicted and actual results
+predictions = []
+actual_results = []
 
-for i in range(len(test_data)):
-    home_team = test_data.iloc[i]['Home']
-    away_team = test_data.iloc[i]['Away']
-    home_goals = test_data.iloc[i]['HG']
-    away_goals = test_data.iloc[i]['AG']
-    
-    # Extract the actual result from the 'Res' column and convert to 'Home', 'Away', or 'Draw'
-    result = test_data.iloc[i]['Res']
-    if result == 'H':
-        actual_result = home_team
-    elif result == 'A':
-        actual_result = away_team
-    else:
-        actual_result = 'Draw'
-    
-    # Predict the outcome of the match
-    prediction,pre_home_score,pre_away_score = predict_outcome(home_team, away_team)
-    
-    # Append the predicted and actual results to the lists
-    predictions.append(prediction)
-    actual_results.append(actual_result)
-    
-    # Update the ratings for the home and away teams
-    update_ratings(home_team, away_team, home_goals, away_goals)
+# Open a file for writing
+with open('predictions.csv', 'w', encoding='ISO-8859-1') as file:
+    # Write the header row to the file
+    file.write('Date,Home,Away,HG,AG,Res,prediction,B365H,B365D,B365A,AHCh,B365CAHH,B365CAHA\n')
+
+    for i in range(len(test_data)):
+        date = test_data.iloc[i]['Date']
+        home_team = test_data.iloc[i]['Home']
+        away_team = test_data.iloc[i]['Away']
+        home_goals = test_data.iloc[i]['HG']
+        away_goals = test_data.iloc[i]['AG']
+        result = test_data.iloc[i]['Res']
+        B365H = test_data.iloc[i]['B365H']
+        B365D = test_data.iloc[i]['B365D']
+        B365A = test_data.iloc[i]['B365A']
+        AHCh = test_data.iloc[i]['AHCh']
+        B365CAHH = test_data.iloc[i]['B365CAHH']
+        B365CAHA = test_data.iloc[i]['B365CAHA']
+        
+        if result == 'H':
+            actual_result = home_team
+        elif result == 'A':
+            actual_result = away_team
+        else:
+            actual_result = 'Draw'
+
+        prediction, pre_home_score, pre_away_score= predict_outcome(home_team, away_team)
+        
+        predictions.append(prediction)
+        actual_results.append(actual_result)
+        
+        # Write the prediction results to the file
+        file.write('{},{},{},{},{},{},{},{},{},{},{}\n'.format(date, home_team, away_team, home_goals, away_goals, actual_result,prediction, B365H, B365D, B365A, AHCh, B365CAHH, B365CAHA))
+        update_ratings(home_team, away_team, home_goals, away_goals)
 
 # Calculate the accuracy of the predictions
 correct_predictions = [p == a  for p, a in zip(predictions, actual_results)]
 accuracy = sum(correct_predictions) / len(correct_predictions)
 
 
-# Read in the test dataset
-test_data = pd.read_csv('TestData\\'+tour+'Test.csv')
+# # Read in the test dataset
+# test_data = pd.read_csv('TestData\\'+tour+'Test.csv')
 
-# Open a new file to write the predictions
-with open(output, 'w', encoding='utf-8')  as file:
-    # Write the header row
-    file.write('Date,Home,Away,PredictResult,H,D,A\n')
+# # Open a new file to write the predictions
+# with open(output, 'w', encoding='utf-8')  as file:
+#     # Write the header row
+#     file.write('Date,Home,Away,PredictResult,H,D,A\n')
 
-    # Make predictions for each match in the test data
-    for i in range(len(test_data)):
-        date = test_data.iloc[i]['Date']
-        home_team = test_data.iloc[i]['Home']
-        away_team = test_data.iloc[i]['Away']
+#     # Make predictions for each match in the test data
+#     for i in range(len(test_data)):
+#         date = test_data.iloc[i]['Date']
+#         home_team = test_data.iloc[i]['Home']
+#         away_team = test_data.iloc[i]['Away']
 
-        # Predict the outcome of the match
-        prediction, HP, AP = predict_outcome(home_team, away_team)
+#         # Predict the outcome of the match
+#         prediction, HP, AP = predict_outcome(home_team, away_team)
 
-        # Write the prediction to the output file
-        file.write('{},{},{},{},{:.2%},{:.2%},{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
-with open('Result\\Stat\\Stat'+tour+Reverse+'.csv', 'w', encoding='utf-8')  as file:
+#         # Write the prediction to the output file
+#         file.write('{},{},{},{},{:.2%},{:.2%},{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
+with open('Result\\Stat\\Stat'+tour+'.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Team,Attack,Defense\n')
 
