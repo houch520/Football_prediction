@@ -1,15 +1,114 @@
 Date,Home,Away,HG,AG,Res
-4/2/2023,ADO Den Haag,NAC Breda,2,1,H
-4/2/2023,Almere City,PSV II,1,2,A
-4/2/2023,Dordrecht,Eindhoven,4,0,H
-4/2/2023,De Graafschap,Telstar,0,1,A
-4/2/2023,Heracles,Utrecht II,6,1,H
-4/2/2023,TOP Oss,Den Bosch,3,0,H
-4/2/2023,Willem II,Helmond Sport,5,1,H
-4/2/2023,AZ II,VVV,4,3,H
-5/2/2023,Roda JC,MVV,2,1,H
-7/2/2023,Ajax II,PEC Zwolle,0,0,D
-7/2/2023,Willem II,Eindhoven,3,0,H
+13/8/2022,Almere City,TOP Oss,3,0,H
+13/8/2022,De Graafschap,VVV,1,2,A
+13/8/2022,Eindhoven,Willem II,2,1,H
+13/8/2022,Helmond Sport,AZ II,1,3,A
+13/8/2022,Roda JC,Ajax II,1,0,H
+13/8/2022,Telstar,PEC Zwolle,0,5,A
+14/8/2022,ADO Den Haag,Den Bosch,0,2,A
+16/8/2022,Utrecht II,Heracles,0,3,A
+16/8/2022,PSV II,Dordrecht,1,0,H
+16/8/2022,MVV,NAC Breda,3,1,H
+27/8/2022,Almere City,Den Bosch,2,0,H
+27/8/2022,Eindhoven,AZ II,1,0,H
+27/8/2022,De Graafschap,Dordrecht,1,1,D
+27/8/2022,TOP Oss,VVV,1,2,A
+27/8/2022,PEC Zwolle,PSV II,4,2,H
+27/8/2022,Roda JC,NAC Breda,1,3,A
+27/8/2022,Telstar,Helmond Sport,2,1,H
+28/8/2022,ADO Den Haag,Ajax II,4,0,H
+30/8/2022,Heracles,MVV,2,2,D
+30/8/2022,Utrecht II,Willem II,0,0,D
+10/9/2022,ADO Den Haag,AZ II,2,2,D
+10/9/2022,Almere City,Telstar,0,1,A
+10/9/2022,Dordrecht,Den Bosch,2,1,H
+10/9/2022,Eindhoven,MVV,5,0,H
+10/9/2022,De Graafschap,NAC Breda,1,1,D
+10/9/2022,Heracles,VVV,5,3,H
+10/9/2022,TOP Oss,Ajax II,1,1,D
+10/9/2022,PEC Zwolle,Willem II,2,2,D
+10/9/2022,Roda JC,PSV II,1,1,D
+10/9/2022,Utrecht II,Helmond Sport,2,0,H
+13/9/2022,Ajax II,NAC Breda,3,1,H
+13/9/2022,Almere City,Eindhoven,1,1,D
+13/9/2022,AZ II,PEC Zwolle,2,3,A
+13/9/2022,PSV II,Den Bosch,3,1,H
+13/9/2022,Roda JC,De Graafschap,3,2,H
+13/9/2022,Utrecht II,ADO Den Haag,1,1,D
+24/9/2022,Dordrecht,MVV,1,2,A
+24/9/2022,Heracles,Helmond Sport,2,0,H
+24/9/2022,TOP Oss,Willem II,1,3,A
+24/9/2022,VVV,Telstar,1,1,D
+8/10/2022,ADO Den Haag,Eindhoven,1,0,H
+8/10/2022,Ajax II,Helmond Sport,0,1,A
+8/10/2022,AZ II,NAC Breda,4,0,H
+8/10/2022,Dordrecht,PEC Zwolle,3,0,H
+8/10/2022,Heracles,De Graafschap,3,2,H
+8/10/2022,TOP Oss,MVV,0,1,A
+8/10/2022,PSV II,Telstar,0,2,A
+8/10/2022,Roda JC,VVV,4,1,H
+8/10/2022,Utrecht II,Almere City,0,2,A
+8/10/2022,Willem II,Den Bosch,1,2,A
+22/10/2022,ADO Den Haag,De Graafschap,2,2,D
+22/10/2022,Heracles,Eindhoven,3,0,H
+22/10/2022,TOP Oss,Roda JC,3,0,H
+22/10/2022,Willem II,Almere City,1,1,D
+23/10/2022,Dordrecht,NAC Breda,0,3,A
+23/10/2022,MVV,Den Bosch,3,1,H
+25/10/2022,Ajax II,VVV,1,1,D
+25/10/2022,AZ II,Telstar,0,0,D
+25/10/2022,PSV II,Helmond Sport,6,0,H
+25/10/2022,Utrecht II,PEC Zwolle,0,1,A
+5/11/2022,ADO Den Haag,VVV,2,3,A
+5/11/2022,Den Bosch,De Graafschap,2,1,H
+5/11/2022,Dordrecht,Ajax II,3,4,A
+5/11/2022,MVV,Helmond Sport,4,0,H
+5/11/2022,NAC Breda,Telstar,1,1,D
+5/11/2022,TOP Oss,PEC Zwolle,0,5,A
+5/11/2022,Willem II,Heracles,1,2,A
+8/11/2022,AZ II,Roda JC,2,0,H
+8/11/2022,PSV II,Almere City,0,1,A
+8/11/2022,Utrecht II,Eindhoven,0,1,A
+17/11/2022,ADO Den Haag,Roda JC,0,1,A
+18/11/2022,PSV II,Utrecht II,2,1,H
+18/11/2022,AZ II,Ajax II,1,1,D
+19/11/2022,Eindhoven,Telstar,3,0,H
+19/11/2022,Helmond Sport,De Graafschap,0,2,A
+19/11/2022,Den Bosch,VVV,0,2,A
+20/11/2022,Heracles,TOP Oss,3,0,H
+20/11/2022,MVV,Almere City,1,0,H
+20/11/2022,NAC Breda,PEC Zwolle,0,2,A
+20/11/2022,Dordrecht,Willem II,2,2,D
+16/12/2022,PSV II,Ajax II,2,2,D
+17/12/2022,ADO Den Haag,TOP Oss,0,0,D
+17/12/2022,Eindhoven,VVV,0,2,A
+17/12/2022,De Graafschap,Willem II,0,3,A
+17/12/2022,Helmond Sport,Den Bosch,1,0,H
+17/12/2022,Heracles,Dordrecht,8,1,H
+17/12/2022,NAC Breda,Almere City,0,1,A
+10/1/2023,Utrecht II,AZ II,0,2,A
+14/1/2023,ADO Den Haag,MVV,2,1,H
+14/1/2023,De Graafschap,Ajax II,3,0,H
+14/1/2023,Helmond Sport,NAC Breda,2,2,D
+14/1/2023,Roda JC,TOP Oss,1,1,D
+14/1/2023,Telstar,AZ II,1,0,H
+15/1/2023,Almere City,Willem II,1,0,H
+15/1/2023,Heracles,PEC Zwolle,0,3,A
+17/1/2023,Eindhoven,Den Bosch,4,1,H
+17/1/2023,Utrecht II,Dordrecht,0,1,A
+24/1/2023,PSV II,VVV,1,2,A
+25/1/2023,Telstar,MVV,5,3,H
+28/1/2023,Den Bosch,MVV,3,3,D
+28/1/2023,Eindhoven,Heracles,1,0,H
+28/1/2023,Helmond Sport,Ajax II,1,1,D
+28/1/2023,NAC Breda,AZ II,5,1,H
+28/1/2023,PEC Zwolle,TOP Oss,4,1,H
+28/1/2023,Roda JC,Dordrecht,1,0,H
+28/1/2023,Telstar,Almere City,0,1,A
+28/1/2023,VVV,ADO Den Haag,0,0,D
+31/1/2023,PSV II,Willem II,3,2,H
+31/1/2023,Utrecht II,De Graafschap,1,1,D
+31/1/2023,Roda JC,PEC Zwolle,1,2,A
 11/2/2023,Den Bosch,Ajax II,4,2,H
 11/2/2023,Eindhoven,Almere City,0,1,A
 11/2/2023,Helmond Sport,Roda JC,1,0,H
@@ -20,17 +119,6 @@ Date,Home,Away,HG,AG,Res
 11/2/2023,Willem II,Dordrecht,1,0,H
 14/2/2023,PSV II,ADO Den Haag,1,2,A
 14/2/2023,Utrecht II,Telstar,0,1,A
-14/2/2023,MVV,Heracles,0,2,A
-18/2/2023,ADO Den Haag,PEC Zwolle,3,1,H
-18/2/2023,Almere City,Helmond Sport,0,0,D
-18/2/2023,Dordrecht,VVV,1,2,A
-18/2/2023,Heracles,Willem II,1,1,D
-18/2/2023,Telstar,PSV II,1,1,D
-18/2/2023,TOP Oss,Eindhoven,2,0,H
-18/2/2023,AZ II,Den Bosch,3,1,H
-19/2/2023,De Graafschap,Roda JC,2,0,H
-21/2/2023,Ajax II,MVV,4,2,H
-21/2/2023,Utrecht II,NAC Breda,4,1,H
 25/2/2023,Eindhoven,De Graafschap,0,4,A
 25/2/2023,Helmond Sport,Utrecht II,2,0,H
 25/2/2023,Heracles,Telstar,7,0,H
@@ -41,16 +129,6 @@ Date,Home,Away,HG,AG,Res
 26/2/2023,Den Bosch,ADO Den Haag,0,0,D
 28/2/2023,PSV II,AZ II,3,3,D
 28/2/2023,MVV,PEC Zwolle,3,2,H
-4/3/2023,Dordrecht,Almere City,0,1,A
-4/3/2023,MVV,VVV,0,1,A
-4/3/2023,PEC Zwolle,Den Bosch,13,0,H
-4/3/2023,Telstar,Eindhoven,0,1,A
-7/3/2023,ADO Den Haag,Heracles,0,3,A
-7/3/2023,De Graafschap,Helmond Sport,2,0,H
-7/3/2023,Ajax II,TOP Oss,1,2,A
-7/3/2023,AZ II,Willem II,2,2,D
-7/3/2023,PSV II,NAC Breda,1,2,A
-7/3/2023,Utrecht II,Roda JC,1,3,A
 11/3/2023,Dordrecht,De Graafschap,0,4,A
 11/3/2023,Eindhoven,Ajax II,5,1,H
 11/3/2023,Helmond Sport,PSV II,3,0,H
@@ -66,30 +144,10 @@ Date,Home,Away,HG,AG,Res
 14/3/2023,NAC Breda,Ajax II,2,6,A
 14/3/2023,Roda JC,AZ II,2,0,H
 14/3/2023,Utrecht II,PSV II,0,1,A
-18/3/2023,ADO Den Haag,Willem II,1,3,A
-18/3/2023,Den Bosch,Dordrecht,3,1,H
-18/3/2023,Helmond Sport,Telstar,2,2,D
-18/3/2023,MVV,Utrecht II,1,0,H
-18/3/2023,TOP Oss,Heracles,1,5,A
-18/3/2023,PEC Zwolle,NAC Breda,2,0,H
-18/3/2023,Ajax II,Almere City,0,2,A
-18/3/2023,AZ II,Eindhoven,1,1,D
-18/3/2023,PSV II,De Graafschap,2,1,H
-19/3/2023,VVV,Roda JC,1,1,D
 26/3/2023,Dordrecht,Helmond Sport,0,0,D
 26/3/2023,Heracles,Den Bosch,3,2,H
 26/3/2023,Telstar,TOP Oss,1,0,H
 26/3/2023,Willem II,MVV,2,0,H
-1/4/2023,ADO Den Haag,Telstar,3,1,H
-1/4/2023,Heracles,Almere City,1,1,D
-1/4/2023,MVV,Eindhoven,3,2,H
-1/4/2023,TOP Oss,Helmond Sport,2,2,D
-1/4/2023,PEC Zwolle,Utrecht II,2,0,H
-1/4/2023,VVV,NAC Breda,1,3,A
-2/4/2023,Den Bosch,Willem II,0,2,A
-4/4/2023,Ajax II,Dordrecht,4,1,H
-4/4/2023,AZ II,De Graafschap,0,1,A
-4/4/2023,PSV II,Roda JC,5,1,H
 4/4/2023,Almere City,Utrecht II,1,0,H
 8/4/2023,Almere City,AZ II,2,1,H
 8/4/2023,Dordrecht,PSV II,1,0,H
@@ -101,12 +159,13 @@ Date,Home,Away,HG,AG,Res
 8/4/2023,Telstar,Ajax II,2,3,A
 9/4/2023,Willem II,VVV,2,1,H
 11/4/2023,Utrecht II,TOP Oss,4,2,H
-15/4/2023,Den Bosch,Helmond Sport,1,2,A
-15/4/2023,Heracles,Roda JC,1,0,H
-15/4/2023,MVV,Dordrecht,2,1,H
-15/4/2023,PEC Zwolle,Telstar,2,0,H
-15/4/2023,TOP Oss,De Graafschap,3,3,D
-15/4/2023,VVV,Eindhoven,2,2,D
-16/4/2023,ADO Den Haag,Almere City,2,3,A
-18/4/2023,Ajax II,PSV II,5,4,H
-18/4/2023,AZ II,Utrecht II,4,0,H
+22/4/2023,Almere City,PEC Zwolle,1,1,D
+22/4/2023,Dordrecht,AZ II,1,0,H
+22/4/2023,Eindhoven,NAC Breda,1,2,A
+22/4/2023,De Graafschap,ADO Den Haag,0,1,A
+22/4/2023,Helmond Sport,Heracles,0,1,A
+22/4/2023,Roda JC,Den Bosch,0,1,A
+22/4/2023,Telstar,VVV,1,0,H
+22/4/2023,Willem II,TOP Oss,4,0,H
+25/4/2023,PSV II,MVV,0,1,A
+25/4/2023,Utrecht II,Ajax II,1,0,H

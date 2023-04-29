@@ -73,7 +73,7 @@ def extract_data(driver, csvwriter):
 driver = webdriver.Chrome()
 
 # Load the webpage
-driver.get("https://int.soccerway.com/national/korea-republic/k-league-classic/2023/regular-season/r73211/")
+driver.get("https://int.soccerway.com/national/netherlands/eerste-divisie/20222023/regular-season/r68964/")
 
 # Open a CSV file for writing with 'utf-8' encoding
 with open("Source\\K1.csv", "w", newline="", encoding="utf-8") as csvfile:

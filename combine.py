@@ -1,7 +1,8 @@
 import pandas as pd
 
+file_name = '2020-2021'
 # Load the Excel file into a pandas DataFrame
-excel_file = pd.ExcelFile('All.xlsx')
+excel_file = pd.ExcelFile('Simulation\\'+file_name+'.xlsx')
 
 # Get the list of sheet names in the Excel file
 sheet_names = excel_file.sheet_names
@@ -18,4 +19,4 @@ for sheet_name in sheet_names:
 combined_df = pd.concat(df_list, ignore_index=True)
 
 # Export the combined data to a CSV file
-combined_df.to_csv('combined_data.csv', index=False)
+combined_df.to_csv('Simulation\\Combined\\'+file_name+'.csv', index=False)
