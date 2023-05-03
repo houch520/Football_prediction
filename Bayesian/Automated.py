@@ -6,7 +6,7 @@ import shutil
 from datetime import datetime
 
 # Define the input string
-input_str = 'N2'
+input_str = 'F2'
 input_nth = ''
 input_r = 'R'
 
@@ -45,9 +45,9 @@ df = df.iloc[::-1]
 df.to_csv('Source\\'+input_str+input_r+'.csv', index=False)
 
 # Run the command and pass the input string as input
-subprocess.call(['python', 'Predict_ver1.py', input_str, input_nth])
+subprocess.call(['python', 'Bayesian\Predict_ver1.py', input_str, input_nth])
 # Run the command and pass the input string as input
-subprocess.call(['python', 'Predict_ver1.py', input_str, input_r])
+subprocess.call(['python', 'Bayesian\Predict_ver1.py', input_str, input_r])
 
 # Read CSV files
 csv_file1 = 'Result\predictions'+input_str+'.csv'

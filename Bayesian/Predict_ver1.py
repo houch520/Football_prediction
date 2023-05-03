@@ -107,6 +107,8 @@ def predict_outcome(home_team, away_team):
     away_attack_rating_dist = norm(team_attack_mean[away_team], team_attack_std[away_team])
     home_defense_rating_dist = norm(team_defense_mean[home_team], team_defense_std[home_team])
     away_score_probs = [poisson.pmf(i, away_attack_rating_dist.mean() * home_defense_rating_dist.mean()) for i in range(6)]
+    home_expected_goals = sum(i * home_score_probs[i] for i in range(6))
+    away_expected_goals = sum(i * away_score_probs[i] for i in range(6))
     outcome_probs = np.zeros((3,))
     for i in range(6):
         for j in range(6):
@@ -127,11 +129,11 @@ def predict_outcome(home_team, away_team):
     # print(f"{home_team}: {[(i, home_score_probs[i]*100) for i in range(6)]}")
     # print(f"{away_team}: {[(i, away_score_probs[i]*100) for i in range(6)]}")
     if outcome_probs[0] > outcome_probs[1] and outcome_probs[2]<outcome_probs[0]:
-        return home_team, outcome_probs[0], outcome_probs[1]
+        return home_team, outcome_probs[0], outcome_probs[1],home_expected_goals,away_expected_goals
     elif outcome_probs[0] < outcome_probs[1] and outcome_probs[2]<outcome_probs[1]:
-        return away_team, outcome_probs[0], outcome_probs[1]
+        return away_team, outcome_probs[0], outcome_probs[1],home_expected_goals,away_expected_goals
     elif outcome_probs[2]>outcome_probs[0] and outcome_probs[2]>outcome_probs[1]:
-        return 'Draw', outcome_probs[0], outcome_probs[1]
+        return 'Draw', outcome_probs[0], outcome_probs[1],home_expected_goals,away_expected_goals
 # Initialize the attack and defense ratings for all teams to 1.0
 team_attack_mean = dict.fromkeys(teams, 1.0)
 team_defense_mean = dict.fromkeys(teams, 1.0)
@@ -164,7 +166,7 @@ for i in range(len(test_data)):
         actual_result = 'Draw'
     
     # Predict the outcome of the match
-    prediction,pre_home_score,pre_away_score = predict_outcome(home_team, away_team)
+    prediction,pre_home_score,pre_away_score,home_expected_goals,away_expected_goals = predict_outcome(home_team, away_team)
     
     # Append the predicted and actual results to the lists
     predictions.append(prediction)
@@ -193,10 +195,10 @@ with open(output, 'w', encoding='utf-8')  as file:
         away_team = test_data.iloc[i]['Away']
 
         # Predict the outcome of the match
-        prediction, HP, AP = predict_outcome(home_team, away_team)
+        prediction, HP, AP,home_expected_goals,away_expected_goals = predict_outcome(home_team, away_team)
 
         # Write the prediction to the output file
-        file.write('{},{},{},{},{:.2%},{:.2%},{:.2%}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP))
+        file.write('{},{},{},{},{:.2%},{:.2%},{:.2%},{:.2f},{:.2f}\n'.format(date, home_team, away_team, prediction,HP,1-HP-AP,AP,home_expected_goals,away_expected_goals))
 with open('Result\\Stat\\Stat'+tour+Reverse+'.csv', 'w', encoding='utf-8')  as file:
     # Write the header row
     file.write('Team,Attack,Defense\n')

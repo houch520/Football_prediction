@@ -1,0 +1,97 @@
+Date,Home,Away,HG,AG,Res
+22/04/2023,Khimki,Torpedo Moskva,4,2,H
+22/04/2023,Fakel,Orenburg,1,3,A
+23/04/2023,Zenit,Dinamo Moscow,3,1,H
+23/04/2023,Ural,Rostov,1,3,A
+23/04/2023,Nizhny Novgorod,Krylya Sovetov,2,1,H
+23/04/2023,Akhmat Grozny,Sochi,1,0,H
+24/04/2023,CSKA Moscow,Lokomotiv Moscow,1,1,D
+25/04/2023,Spartak Moscow,Krasnodar,4,3,H
+08/04/2023,Torpedo Moskva,Fakel,2,0,H
+08/04/2023,Akhmat Grozny,Ural,2,0,H
+09/04/2023,Spartak Moscow,Dinamo Moscow,3,3,D
+09/04/2023,Sochi,Krylya Sovetov,1,2,A
+09/04/2023,CSKA Moscow,Khimki,3,0,H
+10/04/2023,Krasnodar,Nizhny Novgorod,3,1,H
+10/04/2023,Lokomotiv Moscow,Zenit,1,2,A
+10/04/2023,Orenburg,Rostov,2,2,D
+18/03/2023,Orenburg,Spartak Moscow,2,0,H
+18/03/2023,Ural,Dinamo Moscow,0,1,A
+18/03/2023,Fakel,Sochi,3,0,H
+19/03/2023,Lokomotiv Moscow,Krasnodar,3,2,H
+19/03/2023,Khimki,Rostov,0,1,A
+19/03/2023,Krylya Sovetov,Akhmat Grozny,0,1,A
+19/03/2023,Nizhny Novgorod,Torpedo Moskva,0,3,A
+20/03/2023,CSKA Moscow,Zenit,1,0,H
+04/03/2023,Fakel,Khimki,1,1,D
+04/03/2023,Spartak Moscow,Ural,2,2,D
+04/03/2023,Zenit,Nizhny Novgorod,3,0,H
+04/03/2023,Akhmat Grozny,Orenburg,3,1,H
+05/03/2023,Rostov,Lokomotiv Moscow,1,3,A
+05/03/2023,Dinamo Moscow,Krylya Sovetov,1,0,H
+05/03/2023,Krasnodar,Torpedo Moskva,2,2,D
+06/03/2023,Sochi,CSKA Moscow,2,0,H
+05/11/2022,Khimki,Orenburg,2,0,H
+05/11/2022,Sochi,Spartak Moscow,1,1,D
+05/11/2022,Zenit,Akhmat Grozny,1,2,A
+05/11/2022,Fakel,Krasnodar,3,3,D
+06/11/2022,CSKA Moscow,Nizhny Novgorod,0,1,A
+06/11/2022,Ural,Lokomotiv Moscow,2,2,D
+06/11/2022,Torpedo Moskva,Krylya Sovetov,0,2,A
+07/11/2022,Rostov,Dinamo Moscow,2,1,H
+22/10/2022,Nizhny Novgorod,Krasnodar,0,2,A
+22/10/2022,Fakel,Rostov,1,1,D
+23/10/2022,Lokomotiv Moscow,Dinamo Moscow,1,3,A
+23/10/2022,Orenburg,CSKA Moscow,2,2,D
+23/10/2022,Spartak Moscow,Khimki,5,0,H
+24/10/2022,Akhmat Grozny,Torpedo Moskva,1,0,H
+24/10/2022,Ural,Krylya Sovetov,2,1,H
+25/10/2022,Zenit,Sochi,7,0,H
+07/10/2022,Ural,Khimki,2,1,H
+08/10/2022,Fakel,Zenit,1,1,D
+08/10/2022,CSKA Moscow,Dinamo Moscow,1,1,D
+09/10/2022,Sochi,Lokomotiv Moscow,4,0,H
+09/10/2022,Spartak Moscow,Krylya Sovetov,5,2,H
+09/10/2022,Torpedo Moskva,Nizhny Novgorod,0,0,D
+09/10/2022,Orenburg,Akhmat Grozny,2,1,H
+10/10/2022,Rostov,Krasnodar,3,2,H
+17/09/2022,Ural,Akhmat Grozny,1,2,A
+17/09/2022,Torpedo Moskva,CSKA Moscow,1,0,H
+17/09/2022,Rostov,Krylya Sovetov,2,1,H
+18/09/2022,Dinamo Moscow,Zenit,0,2,A
+18/09/2022,Nizhny Novgorod,Orenburg,0,2,A
+18/09/2022,Krasnodar,Khimki,3,1,H
+18/09/2022,Sochi,Fakel,1,1,D
+19/09/2022,Spartak Moscow,Lokomotiv Moscow,1,0,H
+03/09/2022,Orenburg,Khimki,3,1,H
+03/09/2022,Nizhny Novgorod,Fakel,3,1,H
+03/09/2022,Krasnodar,Sochi,2,1,H
+04/09/2022,Dinamo Moscow,Ural,2,1,H
+04/09/2022,Krylya Sovetov,CSKA Moscow,0,1,A
+04/09/2022,Lokomotiv Moscow,Akhmat Grozny,1,2,A
+05/09/2022,Spartak Moscow,Zenit,1,2,A
+06/09/2022,Torpedo Moskva,Rostov,0,1,A
+20/08/2022,Krylya Sovetov,Fakel,1,1,D
+20/08/2022,Ural,Nizhny Novgorod,0,1,A
+20/08/2022,Khimki,Lokomotiv Moscow,0,3,A
+20/08/2022,Dinamo Moscow,Spartak Moscow,1,0,H
+21/08/2022,Rostov,Sochi,2,2,D
+21/08/2022,CSKA Moscow,Akhmat Grozny,4,2,H
+21/08/2022,Zenit,Torpedo Moskva,2,0,H
+22/08/2022,Krasnodar,Orenburg,2,0,H
+06/08/2022,Ural,Spartak Moscow,0,2,A
+06/08/2022,CSKA Moscow,Fakel,4,1,H
+07/08/2022,Krasnodar,Lokomotiv Moscow,3,0,H
+07/08/2022,Akhmat Grozny,Zenit,0,0,D
+07/08/2022,Torpedo Moskva,Khimki,1,3,A
+07/08/2022,Krylya Sovetov,Dinamo Moscow,0,2,A
+08/08/2022,Rostov,Orenburg,2,1,H
+08/08/2022,Sochi,Nizhny Novgorod,2,1,H
+23/07/2022,Zenit,Krylya Sovetov,3,0,H
+23/07/2022,CSKA Moscow,Sochi,3,0,H
+23/07/2022,Orenburg,Ural,3,0,H
+24/07/2022,Krasnodar,Spartak Moscow,1,4,A
+24/07/2022,Khimki,Nizhny Novgorod,3,0,H
+24/07/2022,Dinamo Moscow,Torpedo Moskva,4,0,H
+25/07/2022,Lokomotiv Moscow,Rostov,2,2,D
+25/07/2022,Akhmat Grozny,Fakel,2,1,H

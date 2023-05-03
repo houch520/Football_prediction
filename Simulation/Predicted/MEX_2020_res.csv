@@ -1,0 +1,207 @@
+Date,Home,Away,HG,AG,Res,prediction,Hit?,odds,AvgH,AvgD,AvgA,Better,Asian_res,Asian_hit
+31/10/2020,Necaxa,Toluca,3,2,Necaxa,Draw,0,-1,2.29,3.33,3.0,Necaxa,Necaxa,-1
+31/10/2020,Club Tijuana,Pachuca,0,2,Pachuca,Pachuca,1,1.63,2.67,3.18,2.63,Pachuca,Pachuca,1
+31/10/2020,Juarez,Queretaro,1,0,Juarez,Juarez,1,1.54,2.54,3.24,2.72,Juarez,Juarez,1
+31/10/2020,Atlas,Puebla,0,1,Puebla,Atlas,0,-1,2.22,3.33,3.14,Atlas,Draw,0
+1/11/2020,U.N.A.M.- Pumas,Guadalajara Chivas,2,2,Draw,U.N.A.M.- Pumas,0,-1,2.29,3.26,3.05,U.N.A.M.- Pumas,U.N.A.M.- Pumas,1
+1/11/2020,Monterrey,Cruz Azul,1,0,Monterrey,Cruz Azul,0,-1,2.52,3.42,2.62,Monterrey,Monterrey,0
+1/11/2020,Club America,U.A.N.L.- Tigres,3,1,Club America,U.A.N.L.- Tigres,0,-1,2.65,3.43,2.5,U.A.N.L.- Tigres,Club America,0
+3/11/2020,Club Leon,Santos Laguna,2,1,Club Leon,Club Leon,1,0.8999999999999999,1.9,3.72,3.6,Club Leon,Club Leon,1
+7/11/2020,Puebla,Atl. San Luis,1,0,Puebla,Puebla,1,0.6799999999999999,1.68,3.95,4.53,Puebla,Puebla,1
+7/11/2020,Juarez,Club America,1,1,Draw,Club America,0,-1,3.08,3.5,2.18,Club America,Club America,1
+7/11/2020,Guadalajara Chivas,Monterrey,3,1,Guadalajara Chivas,Monterrey,0,-1,2.84,3.32,2.41,Monterrey,Guadalajara Chivas,0
+7/11/2020,Pachuca,Necaxa,0,1,Necaxa,Pachuca,0,-1,2.9,3.16,2.43,Necaxa,Necaxa,0
+8/11/2020,U.A.N.L.- Tigres,Atlas,1,1,Draw,U.A.N.L.- Tigres,0,-1,1.47,4.17,6.74,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1
+8/11/2020,Cruz Azul,U.N.A.M.- Pumas,1,2,U.N.A.M.- Pumas,U.N.A.M.- Pumas,1,3.45,1.72,3.8,4.45,Cruz Azul,Draw,0
+8/11/2020,Toluca,Club Leon,2,2,Draw,Club Leon,0,-1,3.46,3.74,1.95,Club Leon,Club Leon,1
+9/11/2020,Santos Laguna,Mazatlan FC,4,0,Santos Laguna,Mazatlan FC,0,-1,1.56,4.21,5.26,Santos Laguna,Santos Laguna,0
+9/11/2020,Queretaro,Club Tijuana,2,2,Draw,Queretaro,0,-1,1.99,3.57,3.5,Queretaro,Queretaro,1
+22/11/2020,Santos Laguna,Pachuca,0,3,Pachuca,Santos Laguna,0,-1,2.17,3.19,3.35,Santos Laguna,Pachuca,0
+22/11/2020,Guadalajara Chivas,Necaxa,1,0,Guadalajara Chivas,Necaxa,0,-1,2.33,3.08,3.14,Guadalajara Chivas,Guadalajara Chivas,0
+23/11/2020,U.A.N.L.- Tigres,Toluca,2,1,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1,0.55,1.55,4.17,5.27,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1
+23/11/2020,Monterrey,Puebla,2,2,Draw,Monterrey,0,-1,1.51,4.26,5.65,Monterrey,Monterrey,1
+26/11/2020,Puebla,Club Leon,2,1,Puebla,Club Leon,0,-1,4.55,3.75,1.71,Club Leon,Draw,0
+26/11/2020,Guadalajara Chivas,Club America,1,0,Guadalajara Chivas,Club America,0,-1,2.44,3.07,2.95,Guadalajara Chivas,Guadalajara Chivas,0
+27/11/2020,U.A.N.L.- Tigres,Cruz Azul,1,3,Cruz Azul,U.A.N.L.- Tigres,0,-1,2.4,3.19,2.92,U.A.N.L.- Tigres,Cruz Azul,0
+27/11/2020,Pachuca,U.N.A.M.- Pumas,0,1,U.N.A.M.- Pumas,Pachuca,0,-1,1.89,3.35,4.1,Pachuca,Draw,0
+29/11/2020,Club Leon,Puebla,2,0,Club Leon,Club Leon,1,0.32000000000000006,1.32,5.1,8.55,Club Leon,Club Leon,1
+29/11/2020,Club America,Guadalajara Chivas,1,2,Guadalajara Chivas,Guadalajara Chivas,1,3.04,1.9,3.35,4.04,Club America,Draw,0
+29/11/2020,U.N.A.M.- Pumas,Pachuca,0,0,Draw,U.N.A.M.- Pumas,0,-1,3.63,3.46,1.97,Pachuca,Pachuca,0
+30/11/2020,Cruz Azul,U.A.N.L.- Tigres,0,1,U.A.N.L.- Tigres,Cruz Azul,0,-1,2.32,3.51,2.81,Cruz Azul,Draw,0
+3/12/2020,Guadalajara Chivas,Club Leon,1,1,Draw,Guadalajara Chivas,0,-1,3.07,3.27,2.28,Club Leon,Club Leon,0
+4/12/2020,Cruz Azul,U.N.A.M.- Pumas,4,0,Cruz Azul,U.N.A.M.- Pumas,0,-1,1.67,3.78,4.78,Cruz Azul,Cruz Azul,0
+6/12/2020,Club Leon,Guadalajara Chivas,1,0,Club Leon,Guadalajara Chivas,0,-1,1.71,3.69,4.61,Club Leon,Club Leon,0
+7/12/2020,U.N.A.M.- Pumas,Cruz Azul,4,0,U.N.A.M.- Pumas,Cruz Azul,0,-1,2.96,3.46,2.24,Cruz Azul,U.N.A.M.- Pumas,0
+11/12/2020,U.N.A.M.- Pumas,Club Leon,1,1,Draw,Club Leon,0,-1,3.72,3.28,2.01,Club Leon,Club Leon,1
+15/12/2020,Club Leon,U.N.A.M.- Pumas,2,0,Club Leon,Club Leon,1,0.5900000000000001,1.59,3.98,5.18,Club Leon,Club Leon,1
+9/1/2021,Puebla,Guadalajara Chivas,1,1,Draw,Guadalajara Chivas,0,-1,2.87,3.03,2.54,Guadalajara Chivas,Guadalajara Chivas,1
+9/1/2021,Club Tijuana,U.N.A.M.- Pumas,0,0,Draw,U.N.A.M.- Pumas,0,-1,1.98,3.42,3.62,Club Tijuana,Club Tijuana,0
+9/1/2021,Mazatlan FC,Necaxa,3,2,Mazatlan FC,Necaxa,0,-1,2.04,3.31,3.59,Mazatlan FC,Mazatlan FC,0
+9/1/2021,Atlas,Monterrey,0,2,Monterrey,Monterrey,1,0.97,3.55,3.55,1.97,Monterrey,Monterrey,1
+10/1/2021,U.A.N.L.- Tigres,Club Leon,2,0,U.A.N.L.- Tigres,Club Leon,0,-1,1.98,3.46,3.65,U.A.N.L.- Tigres,U.A.N.L.- Tigres,0
+10/1/2021,Club America,Atl. San Luis,2,1,Club America,Club America,1,0.6499999999999999,1.65,3.84,4.88,Club America,Club America,1
+10/1/2021,Toluca,Queretaro,3,1,Toluca,Toluca,1,1.23,2.23,3.42,3.01,Toluca,Toluca,1
+11/1/2021,Santos Laguna,Cruz Azul,1,0,Santos Laguna,Santos Laguna,1,1.5099999999999998,2.51,3.35,2.67,Santos Laguna,Santos Laguna,1
+12/1/2021,Pachuca,Juarez,1,1,Draw,Draw,1,2.94,1.55,3.94,5.79,Pachuca,Pachuca,-1
+16/1/2021,Necaxa,Atl. San Luis,1,0,Necaxa,Necaxa,1,0.9199999999999999,1.92,3.51,3.76,Necaxa,Necaxa,1
+16/1/2021,Juarez,Club Tijuana,0,0,Draw,Juarez,0,-1,2.57,3.25,2.67,Juarez,Juarez,1
+16/1/2021,Guadalajara Chivas,Toluca,1,1,Draw,Guadalajara Chivas,0,-1,1.85,3.52,4.06,Guadalajara Chivas,Guadalajara Chivas,1
+17/1/2021,Cruz Azul,Puebla,0,1,Puebla,Cruz Azul,0,-1,1.7,3.62,4.88,Cruz Azul,Draw,0
+17/1/2021,Monterrey,Club America,1,0,Monterrey,Monterrey,1,0.6699999999999999,1.67,3.9,4.65,Monterrey,Monterrey,1
+17/1/2021,U.N.A.M.- Pumas,Mazatlan FC,3,0,U.N.A.M.- Pumas,U.N.A.M.- Pumas,1,1.1099999999999999,2.11,3.46,3.25,U.N.A.M.- Pumas,U.N.A.M.- Pumas,1
+18/1/2021,Santos Laguna,U.A.N.L.- Tigres,2,0,Santos Laguna,U.A.N.L.- Tigres,0,-1,2.47,3.27,2.77,Santos Laguna,Santos Laguna,0
+18/1/2021,Queretaro,Atlas,1,0,Queretaro,Atlas,0,-1,2.41,3.23,2.89,Queretaro,Queretaro,0
+19/1/2021,Club Leon,Pachuca,0,0,Draw,Draw,1,2.36,2.06,3.36,3.47,Club Leon,Club Leon,-1
+22/1/2021,Atl. San Luis,Guadalajara Chivas,3,1,Atl. San Luis,Guadalajara Chivas,0,-1,3.63,3.23,2.05,Guadalajara Chivas,Atl. San Luis,0
+23/1/2021,Puebla,Club Tijuana,0,1,Club Tijuana,Puebla,0,-1,2.26,3.13,3.25,Puebla,Draw,0
+23/1/2021,Mazatlan FC,Santos Laguna,0,0,Draw,Santos Laguna,0,-1,3.02,3.42,2.24,Santos Laguna,Santos Laguna,1
+24/1/2021,Atlas,U.A.N.L.- Tigres,0,2,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1,1.17,3.33,3.23,2.17,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1
+24/1/2021,Toluca,Necaxa,2,0,Toluca,Toluca,1,1.13,2.13,3.3,3.35,Toluca,Toluca,1
+25/1/2021,Queretaro,U.N.A.M.- Pumas,2,0,Queretaro,U.N.A.M.- Pumas,0,-1,2.17,3.21,3.37,Queretaro,Queretaro,0
+26/1/2021,Pachuca,Cruz Azul,0,1,Cruz Azul,Draw,0,-1,1.9,3.31,4.17,Pachuca,Draw,-1
+27/1/2021,Club America,Juarez,2,0,Club America,Club America,1,1.0,2.0,3.19,3.9,Club America,Club America,1
+29/1/2021,U.A.N.L.- Tigres,Necaxa,1,1,Draw,U.A.N.L.- Tigres,0,-1,1.59,3.6,6.14,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1
+30/1/2021,Mazatlan FC,Pachuca,1,0,Mazatlan FC,Pachuca,0,-1,3.4,3.22,2.15,Pachuca,Draw,0
+31/1/2021,Guadalajara Chivas,Juarez,1,2,Juarez,Guadalajara Chivas,0,-1,1.96,3.3,3.88,Guadalajara Chivas,Draw,0
+31/1/2021,Cruz Azul,Queretaro,4,1,Cruz Azul,Cruz Azul,1,0.73,1.73,3.56,4.7,Cruz Azul,Cruz Azul,1
+31/1/2021,Club Tijuana,Toluca,3,2,Club Tijuana,Toluca,0,-1,1.87,3.65,3.84,Club Tijuana,Club Tijuana,0
+31/1/2021,U.N.A.M.- Pumas,Atlas,0,0,Draw,U.N.A.M.- Pumas,0,-1,2.71,3.0,2.72,U.N.A.M.- Pumas,U.N.A.M.- Pumas,1
+1/2/2021,Santos Laguna,Club America,1,1,Draw,Santos Laguna,0,-1,2.03,3.42,3.51,Santos Laguna,Santos Laguna,1
+2/2/2021,Club Leon,Atl. San Luis,3,1,Club Leon,Club Leon,1,0.6799999999999999,1.68,3.68,4.89,Club Leon,Club Leon,1
+3/2/2021,Puebla,Monterrey,0,0,Draw,Monterrey,0,-1,3.99,3.37,1.92,Monterrey,Monterrey,1
+5/2/2021,Atl. San Luis,Club Tijuana,2,2,Draw,Club Tijuana,0,-1,2.06,3.41,3.43,Atl. San Luis,Atl. San Luis,0
+5/2/2021,Queretaro,Pachuca,3,1,Queretaro,Draw,0,-1,3.09,3.17,2.32,Pachuca,Queretaro,-1
+6/2/2021,Necaxa,Cruz Azul,0,2,Cruz Azul,Cruz Azul,1,0.8500000000000001,4.32,3.34,1.85,Cruz Azul,Cruz Azul,1
+6/2/2021,Atlas,Santos Laguna,1,1,Draw,Santos Laguna,0,-1,2.92,3.13,2.45,Santos Laguna,Santos Laguna,1
+7/2/2021,Club America,Puebla,1,0,Club America,Club America,1,0.72,1.72,3.57,4.77,Club America,Club America,1
+7/2/2021,Monterrey,U.N.A.M.- Pumas,1,0,Monterrey,Monterrey,1,0.45999999999999996,1.46,4.18,6.8,Monterrey,Monterrey,1
+7/2/2021,Toluca,Mazatlan FC,4,1,Toluca,Toluca,1,0.8600000000000001,1.86,3.61,3.89,Toluca,Toluca,1
+9/2/2021,Club Leon,Guadalajara Chivas,1,3,Guadalajara Chivas,Club Leon,0,-1,1.87,3.41,4.17,Club Leon,Guadalajara Chivas,0
+13/2/2021,Puebla,Juarez,4,0,Puebla,Draw,0,-1,2.56,2.87,3.04,Puebla,Puebla,-1
+13/2/2021,Club Tijuana,Club Leon,2,0,Club Tijuana,Club Leon,0,-1,2.87,3.4,2.33,Club Leon,Club Tijuana,0
+13/2/2021,Mazatlan FC,Atl. San Luis,0,3,Atl. San Luis,Mazatlan FC,0,-1,2.14,3.39,3.24,Mazatlan FC,Atl. San Luis,0
+14/2/2021,Guadalajara Chivas,Necaxa,2,2,Draw,Guadalajara Chivas,0,-1,1.78,3.46,4.54,Guadalajara Chivas,Guadalajara Chivas,1
+14/2/2021,Club America,Queretaro,2,1,Club America,Club America,1,0.94,1.94,3.34,3.92,Club America,Club America,1
+14/2/2021,Toluca,U.N.A.M.- Pumas,1,0,Toluca,Toluca,1,0.8999999999999999,1.9,3.55,3.8,Toluca,Toluca,1
+15/2/2021,Santos Laguna,Monterrey,1,0,Santos Laguna,Draw,0,-1,3.23,3.29,2.19,Monterrey,Draw,-1
+16/2/2021,Pachuca,Atlas,0,1,Atlas,Draw,0,-1,1.97,3.13,4.13,Pachuca,Draw,-1
+18/2/2021,U.A.N.L.- Tigres,Cruz Azul,0,2,Cruz Azul,Cruz Azul,1,2.6,2.07,3.25,3.6,U.A.N.L.- Tigres,Cruz Azul,1
+19/2/2021,Atl. San Luis,Santos Laguna,1,0,Atl. San Luis,Santos Laguna,0,-1,2.46,3.15,2.89,Atl. San Luis,Atl. San Luis,0
+20/2/2021,Necaxa,Monterrey,1,1,Draw,Monterrey,0,-1,4.16,3.3,1.9,Monterrey,Monterrey,1
+20/2/2021,Juarez,Mazatlan FC,1,0,Juarez,Juarez,1,1.17,2.17,3.19,3.36,Juarez,Juarez,1
+21/2/2021,Cruz Azul,Toluca,3,2,Cruz Azul,Cruz Azul,1,0.72,1.72,3.7,4.54,Cruz Azul,Cruz Azul,1
+21/2/2021,Atlas,Club America,0,2,Club America,Club America,1,1.7599999999999998,2.68,2.98,2.76,Atlas,Club America,1
+21/2/2021,U.N.A.M.- Pumas,Club Leon,0,1,Club Leon,Draw,0,-1,3.75,3.52,1.92,Club Leon,Club Leon,-1
+21/2/2021,Queretaro,Puebla,1,1,Draw,Puebla,0,-1,2.21,3.16,3.31,Queretaro,Queretaro,0
+22/2/2021,U.A.N.L.- Tigres,Club Tijuana,3,2,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1,0.73,1.73,3.63,4.62,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1
+23/2/2021,Pachuca,Guadalajara Chivas,1,1,Draw,Guadalajara Chivas,0,-1,2.16,3.1,3.5,Pachuca,Pachuca,0
+26/2/2021,Atl. San Luis,U.A.N.L.- Tigres,2,2,Draw,U.A.N.L.- Tigres,0,-1,3.21,3.15,2.26,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1
+27/2/2021,Puebla,Necaxa,1,0,Puebla,Puebla,1,1.2400000000000002,2.24,3.07,3.37,Puebla,Puebla,1
+27/2/2021,Mazatlan FC,Queretaro,3,0,Mazatlan FC,Queretaro,0,-1,2.29,3.24,3.07,Mazatlan FC,Mazatlan FC,0
+27/2/2021,Toluca,Atlas,0,0,Draw,Toluca,0,-1,2.11,3.34,3.37,Toluca,Toluca,1
+28/2/2021,Club America,Pachuca,2,0,Club America,Club America,1,1.3199999999999998,2.32,2.97,3.28,Club America,Club America,1
+28/2/2021,Club Leon,Cruz Azul,0,1,Cruz Azul,Cruz Azul,1,1.94,2.45,3.11,2.94,Club Leon,Draw,0
+28/2/2021,Monterrey,Club Tijuana,1,1,Draw,Monterrey,0,-1,1.64,3.77,5.14,Monterrey,Monterrey,1
+1/3/2021,Santos Laguna,Juarez,3,2,Santos Laguna,Santos Laguna,1,0.8300000000000001,1.83,3.39,4.43,Santos Laguna,Santos Laguna,1
+1/3/2021,Guadalajara Chivas,U.N.A.M.- Pumas,2,1,Guadalajara Chivas,Guadalajara Chivas,1,0.8600000000000001,1.86,3.35,4.29,Guadalajara Chivas,Guadalajara Chivas,1
+2/3/2021,Atlas,Atl. San Luis,3,1,Atlas,Atl. San Luis,0,-1,2.08,3.1,3.75,Atlas,Atlas,0
+3/3/2021,U.A.N.L.- Tigres,Toluca,0,1,Toluca,Toluca,1,4.23,1.6,3.93,5.23,U.A.N.L.- Tigres,Draw,0
+3/3/2021,Club Leon,Puebla,1,2,Puebla,Draw,0,-1,1.7,3.55,4.98,Club Leon,Draw,-1
+4/3/2021,Juarez,Monterrey,1,6,Monterrey,Monterrey,1,0.9199999999999999,3.86,3.44,1.92,Monterrey,Monterrey,1
+4/3/2021,Queretaro,Guadalajara Chivas,2,2,Draw,Guadalajara Chivas,0,-1,3.01,3.18,2.36,Guadalajara Chivas,Guadalajara Chivas,1
+4/3/2021,Cruz Azul,Mazatlan FC,1,0,Cruz Azul,Cruz Azul,1,0.4099999999999999,1.41,4.38,7.57,Cruz Azul,Cruz Azul,1
+4/3/2021,Club Tijuana,Club America,0,2,Club America,Club America,1,1.7400000000000002,2.55,3.18,2.74,Club Tijuana,Club America,1
+5/3/2021,Necaxa,Pachuca,2,2,Draw,Draw,1,2.04,3.02,3.04,2.43,Pachuca,Pachuca,-1
+5/3/2021,U.N.A.M.- Pumas,Santos Laguna,1,0,U.N.A.M.- Pumas,Santos Laguna,0,-1,3.26,3.14,2.23,Santos Laguna,Draw,0
+6/3/2021,Atl. San Luis,Toluca,0,0,Draw,Toluca,0,-1,2.59,3.2,2.68,Atl. San Luis,Atl. San Luis,0
+6/3/2021,Puebla,U.A.N.L.- Tigres,1,1,Draw,Puebla,0,-1,3.21,2.98,2.35,U.A.N.L.- Tigres,U.A.N.L.- Tigres,0
+6/3/2021,Atlas,Juarez,2,0,Atlas,Atlas,1,0.74,1.74,3.44,4.84,Atlas,Atlas,1
+7/3/2021,Club America,Club Leon,2,1,Club America,Club America,1,1.0899999999999999,2.09,3.11,3.67,Club America,Club America,1
+7/3/2021,Monterrey,Queretaro,2,1,Monterrey,Monterrey,1,0.3999999999999999,1.4,4.61,7.09,Monterrey,Monterrey,1
+7/3/2021,Mazatlan FC,Guadalajara Chivas,1,1,Draw,Guadalajara Chivas,0,-1,3.06,3.07,2.38,Guadalajara Chivas,Guadalajara Chivas,1
+8/3/2021,Santos Laguna,Necaxa,3,1,Santos Laguna,Santos Laguna,1,0.5900000000000001,1.59,3.68,5.74,Santos Laguna,Santos Laguna,1
+8/3/2021,U.N.A.M.- Pumas,Cruz Azul,0,1,Cruz Azul,Cruz Azul,1,0.6299999999999999,5.41,3.63,1.63,Cruz Azul,Cruz Azul,1
+9/3/2021,Pachuca,Club Tijuana,2,1,Pachuca,Club Tijuana,0,-1,2.02,3.23,3.74,Pachuca,Pachuca,0
+11/3/2021,Monterrey,Club Leon,1,1,Draw,Monterrey,0,-1,1.63,3.82,5.05,Monterrey,Monterrey,1
+13/3/2021,Puebla,Atlas,0,1,Atlas,Draw,0,-1,3.06,2.83,2.55,Atlas,Atlas,-1
+13/3/2021,Juarez,U.N.A.M.- Pumas,1,1,Draw,U.N.A.M.- Pumas,0,-1,2.3,3.14,3.13,Juarez,Juarez,0
+14/3/2021,U.A.N.L.- Tigres,Mazatlan FC,1,2,Mazatlan FC,U.A.N.L.- Tigres,0,-1,1.48,4.02,6.86,U.A.N.L.- Tigres,Draw,0
+14/3/2021,Cruz Azul,Monterrey,1,0,Cruz Azul,Cruz Azul,1,1.25,2.25,3.15,3.21,Cruz Azul,Cruz Azul,1
+14/3/2021,Club Tijuana,Santos Laguna,0,1,Santos Laguna,Santos Laguna,1,1.5499999999999998,2.73,3.18,2.55,Santos Laguna,Santos Laguna,1
+14/3/2021,Toluca,Pachuca,0,2,Pachuca,Toluca,0,-1,2.75,3.26,2.49,Pachuca,Pachuca,0
+15/3/2021,Queretaro,Atl. San Luis,2,1,Queretaro,Atl. San Luis,0,-1,2.24,3.25,3.14,Queretaro,Queretaro,0
+15/3/2021,Guadalajara Chivas,Club America,0,3,Club America,Club America,1,1.7799999999999998,2.67,2.96,2.78,Guadalajara Chivas,Club America,1
+16/3/2021,Club Leon,Necaxa,3,1,Club Leon,Club Leon,1,0.42999999999999994,1.43,4.3,6.98,Club Leon,Club Leon,1
+19/3/2021,Pachuca,U.A.N.L.- Tigres,1,0,Pachuca,Pachuca,1,1.33,2.33,3.1,3.1,Pachuca,Pachuca,1
+20/3/2021,Necaxa,Juarez,1,0,Necaxa,Necaxa,1,0.98,1.98,3.29,3.83,Necaxa,Necaxa,1
+20/3/2021,Mazatlan FC,Club America,0,1,Club America,Club America,1,1.2400000000000002,3.37,3.06,2.24,Club America,Club America,1
+20/3/2021,Atl. San Luis,U.N.A.M.- Pumas,0,1,U.N.A.M.- Pumas,Draw,0,-1,2.44,3.04,3.0,Atl. San Luis,Draw,-1
+21/3/2021,Cruz Azul,Atlas,3,2,Cruz Azul,Draw,0,-1,2.17,2.89,3.76,Cruz Azul,Cruz Azul,-1
+21/3/2021,Club Tijuana,Queretaro,3,1,Club Tijuana,Queretaro,0,-1,2.04,3.23,3.71,Club Tijuana,Club Tijuana,0
+21/3/2021,Toluca,Puebla,4,4,Draw,Draw,1,2.14,2.35,3.14,3.04,Toluca,Toluca,-1
+22/3/2021,Santos Laguna,Club Leon,1,2,Club Leon,Santos Laguna,0,-1,2.45,3.18,2.87,Santos Laguna,Draw,0
+3/4/2021,Puebla,Mazatlan FC,3,1,Puebla,Puebla,1,0.95,1.95,3.07,4.28,Puebla,Puebla,1
+3/4/2021,Juarez,Cruz Azul,0,1,Cruz Azul,Cruz Azul,1,0.8400000000000001,4.31,3.37,1.84,Cruz Azul,Cruz Azul,1
+4/4/2021,Atlas,Club Tijuana,1,0,Atlas,Atlas,1,0.73,1.73,3.57,4.68,Atlas,Atlas,1
+4/4/2021,Club America,Necaxa,2,1,Club America,Club America,1,0.5800000000000001,1.58,3.81,5.67,Club America,Club America,1
+4/4/2021,Monterrey,Atl. San Luis,2,0,Monterrey,Monterrey,1,0.43999999999999995,1.44,4.3,6.83,Monterrey,Monterrey,1
+4/4/2021,U.N.A.M.- Pumas,Pachuca,2,2,Draw,Draw,1,2.11,3.6,3.11,2.12,Pachuca,Pachuca,-1
+4/4/2021,Guadalajara Chivas,Santos Laguna,1,1,Draw,Santos Laguna,0,-1,2.45,3.13,2.91,Guadalajara Chivas,Guadalajara Chivas,0
+5/4/2021,Queretaro,U.A.N.L.- Tigres,0,1,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1,1.15,3.35,3.26,2.15,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1
+5/4/2021,Club Leon,Toluca,2,1,Club Leon,Club Leon,1,0.52,1.52,4.17,5.87,Club Leon,Club Leon,1
+10/4/2021,Necaxa,U.N.A.M.- Pumas,0,1,U.N.A.M.- Pumas,U.N.A.M.- Pumas,1,2.17,2.27,3.18,3.17,Necaxa,Draw,0
+10/4/2021,Juarez,Atl. San Luis,2,1,Juarez,Atl. San Luis,0,-1,2.31,3.22,3.06,Juarez,Juarez,0
+10/4/2021,Atlas,Club Leon,1,3,Club Leon,Atlas,0,-1,2.15,3.22,3.38,Atlas,Club Leon,0
+11/4/2021,Cruz Azul,Guadalajara Chivas,1,0,Cruz Azul,Cruz Azul,1,0.77,1.77,3.44,4.6,Cruz Azul,Cruz Azul,1
+11/4/2021,U.A.N.L.- Tigres,Club America,1,3,Club America,Club America,1,2.21,2.24,3.21,3.21,U.A.N.L.- Tigres,Club America,1
+11/4/2021,Toluca,Monterrey,1,2,Monterrey,Monterrey,1,0.8999999999999999,3.9,3.44,1.9,Monterrey,Monterrey,1
+12/4/2021,Queretaro,Santos Laguna,1,0,Queretaro,Santos Laguna,0,-1,2.5,3.22,2.76,Queretaro,Queretaro,0
+12/4/2021,Club Tijuana,Mazatlan FC,2,3,Mazatlan FC,Club Tijuana,0,-1,1.86,3.51,4.07,Club Tijuana,Draw,0
+13/4/2021,Pachuca,Puebla,1,3,Puebla,Puebla,1,2.89,1.99,3.22,3.89,Pachuca,Puebla,1
+15/4/2021,Juarez,U.A.N.L.- Tigres,2,3,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1,0.94,4.03,3.27,1.94,U.A.N.L.- Tigres,U.A.N.L.- Tigres,1
+17/4/2021,Necaxa,Queretaro,0,0,Draw,Queretaro,0,-1,2.51,3.23,2.76,Necaxa,Necaxa,0
+17/4/2021,Mazatlan FC,Atlas,0,0,Draw,Atlas,0,-1,3.5,3.17,2.13,Atlas,Atlas,1
+17/4/2021,Atl. San Luis,Puebla,1,4,Puebla,Puebla,1,1.46,2.9,3.13,2.46,Puebla,Puebla,1
+18/4/2021,Guadalajara Chivas,Club Tijuana,2,0,Guadalajara Chivas,Guadalajara Chivas,1,0.78,1.78,3.53,4.4,Guadalajara Chivas,Guadalajara Chivas,1
+18/4/2021,Club America,Cruz Azul,1,1,Draw,Draw,1,1.9700000000000002,2.71,2.97,2.73,Club America,Club America,-1
+18/4/2021,U.N.A.M.- Pumas,U.A.N.L.- Tigres,0,0,Draw,U.N.A.M.- Pumas,0,-1,3.29,3.24,2.18,U.A.N.L.- Tigres,U.A.N.L.- Tigres,0
+19/4/2021,Santos Laguna,Toluca,3,1,Santos Laguna,Toluca,0,-1,1.76,3.73,4.25,Santos Laguna,Santos Laguna,0
+19/4/2021,Monterrey,Pachuca,0,1,Pachuca,Monterrey,0,-1,1.56,4.01,5.52,Monterrey,Draw,0
+20/4/2021,Club Leon,Juarez,2,0,Club Leon,Club Leon,1,0.3600000000000001,1.36,4.9,7.64,Club Leon,Club Leon,1
+22/4/2021,Monterrey,Guadalajara Chivas,1,2,Guadalajara Chivas,Monterrey,0,-1,1.55,3.95,5.79,Monterrey,Draw,0
+24/4/2021,Puebla,U.N.A.M.- Pumas,0,0,Draw,Puebla,0,-1,1.88,3.45,4.03,Puebla,Puebla,1
+24/4/2021,Club Tijuana,Necaxa,1,0,Club Tijuana,Club Tijuana,1,0.9199999999999999,1.92,3.64,3.68,Club Tijuana,Club Tijuana,1
+24/4/2021,Mazatlan FC,Club Leon,4,3,Mazatlan FC,Club Leon,0,-1,3.91,3.69,1.85,Club Leon,Draw,0
+24/4/2021,Cruz Azul,Atl. San Luis,3,2,Cruz Azul,Cruz Azul,1,0.44999999999999996,1.45,4.24,6.8,Cruz Azul,Cruz Azul,1
+25/4/2021,Atlas,Guadalajara Chivas,0,1,Guadalajara Chivas,Guadalajara Chivas,1,2.3,2.23,3.13,3.3,Atlas,Draw,0
+25/4/2021,U.A.N.L.- Tigres,Monterrey,2,1,U.A.N.L.- Tigres,Monterrey,0,-1,2.77,3.17,2.54,Monterrey,Draw,0
+25/4/2021,Toluca,Club America,3,1,Toluca,Club America,0,-1,3.03,3.23,2.32,Club America,Toluca,0
+26/4/2021,Queretaro,Juarez,1,0,Queretaro,Queretaro,1,0.6799999999999999,1.68,3.77,4.82,Queretaro,Queretaro,1
+27/4/2021,Pachuca,Santos Laguna,1,0,Pachuca,Pachuca,1,1.19,2.19,3.34,3.17,Pachuca,Pachuca,1
+30/4/2021,Atl. San Luis,Pachuca,1,5,Pachuca,Pachuca,1,0.97,3.7,3.45,1.97,Pachuca,Pachuca,1
+1/5/2021,Necaxa,Atlas,1,5,Atlas,Atlas,1,1.0699999999999998,3.76,3.11,2.07,Atlas,Atlas,1
+1/5/2021,Juarez,Toluca,1,0,Juarez,Toluca,0,-1,2.53,3.5,2.57,Juarez,Juarez,0
+1/5/2021,Club Leon,Queretaro,2,1,Club Leon,Club Leon,1,0.75,1.75,3.61,4.48,Club Leon,Club Leon,1
+1/5/2021,Guadalajara Chivas,U.A.N.L.- Tigres,0,0,Draw,Guadalajara Chivas,0,-1,2.37,2.9,3.32,Guadalajara Chivas,Guadalajara Chivas,1
+2/5/2021,Cruz Azul,Club Tijuana,1,1,Draw,Cruz Azul,0,-1,1.76,3.74,4.23,Cruz Azul,Cruz Azul,1
+2/5/2021,Monterrey,Mazatlan FC,1,0,Monterrey,Mazatlan FC,0,-1,1.35,4.91,8.09,Monterrey,Monterrey,0
+3/5/2021,Santos Laguna,Puebla,0,0,Draw,Puebla,0,-1,1.64,3.73,5.22,Santos Laguna,Santos Laguna,0
+3/5/2021,U.N.A.M.- Pumas,Club America,0,1,Club America,Draw,0,-1,2.49,3.09,2.91,U.N.A.M.- Pumas,Draw,-1
+9/5/2021,Atlas,U.A.N.L.- Tigres,1,0,Atlas,Draw,0,-1,2.03,3.08,3.9,Atlas,Atlas,-1
+9/5/2021,Santos Laguna,Queretaro,5,0,Santos Laguna,Draw,0,-1,1.7,3.51,5.05,Santos Laguna,Santos Laguna,-1
+10/5/2021,Club Leon,Toluca,2,2,Draw,Club Leon,0,-1,1.5,4.19,6.12,Club Leon,Club Leon,1
+10/5/2021,Pachuca,Guadalajara Chivas,4,2,Pachuca,Pachuca,1,1.2200000000000002,2.22,3.06,3.4,Pachuca,Pachuca,1
+13/5/2021,Toluca,Cruz Azul,2,1,Toluca,Cruz Azul,0,-1,3.37,3.25,2.13,Cruz Azul,Draw,0
+13/5/2021,Atlas,Puebla,1,0,Atlas,Puebla,0,-1,1.84,3.21,4.57,Atlas,Atlas,0
+14/5/2021,Pachuca,Club America,3,1,Pachuca,Club America,0,-1,2.49,3.09,2.89,Pachuca,Pachuca,0
+14/5/2021,Santos Laguna,Monterrey,2,1,Santos Laguna,Draw,0,-1,2.65,3.1,2.7,Santos Laguna,Santos Laguna,-1
+16/5/2021,Puebla,Atlas,1,0,Puebla,Atlas,0,-1,2.75,2.88,2.77,Puebla,Puebla,0
+16/5/2021,Cruz Azul,Toluca,3,1,Cruz Azul,Cruz Azul,1,0.3899999999999999,1.39,4.4,8.0,Cruz Azul,Cruz Azul,1
+17/5/2021,Monterrey,Santos Laguna,1,1,Draw,Santos Laguna,0,-1,1.64,3.86,4.89,Monterrey,Monterrey,0
+17/5/2021,Club America,Pachuca,4,2,Club America,Pachuca,0,-1,1.84,3.52,4.13,Club America,Club America,0
+20/5/2021,Pachuca,Cruz Azul,0,0,Draw,Pachuca,0,-1,2.76,3.04,2.63,Cruz Azul,Cruz Azul,0
+21/5/2021,Santos Laguna,Puebla,3,0,Santos Laguna,Puebla,0,-1,1.63,3.59,5.5,Santos Laguna,Santos Laguna,0
+23/5/2021,Cruz Azul,Pachuca,1,0,Cruz Azul,Cruz Azul,1,0.81,1.81,3.38,4.46,Cruz Azul,Cruz Azul,1
+24/5/2021,Puebla,Santos Laguna,1,0,Puebla,Santos Laguna,0,-1,2.24,3.24,3.13,Puebla,Puebla,0
+28/5/2021,Santos Laguna,Cruz Azul,0,1,Cruz Azul,Draw,0,-1,2.5,2.8,3.17,Santos Laguna,Draw,-1
+31/5/2021,Cruz Azul,Santos Laguna,1,1,Draw,Draw,1,2.35,1.93,3.35,3.89,Cruz Azul,Cruz Azul,-1

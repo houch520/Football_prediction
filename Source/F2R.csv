@@ -1,0 +1,161 @@
+Date,Home,Away,HG,AG,Res
+25/4/2023,Bordeaux,Grenoble Foot 38,3,0,H
+23/4/2023,Le Havre,Quevilly Rouen,0,0,D
+23/4/2023,Pau,Guingamp,2,1,H
+23/4/2023,Dijon,Bastia,1,1,D
+23/4/2023,Niort,Caen,1,2,A
+23/4/2023,Amiens SC,Valenciennes,0,2,A
+23/4/2023,Paris FC,Nîmes,3,0,H
+23/4/2023,Laval,Sochaux,2,1,H
+23/4/2023,Annecy,Rodez,0,3,A
+22/4/2023,Saint-Etienne,Metz,1,3,A
+11/4/2023,Annecy,Valenciennes,2,1,H
+9/4/2023,Le Havre,Guingamp,0,0,D
+9/4/2023,Pau,Metz,1,1,D
+9/4/2023,Dijon,Rodez,1,0,H
+9/4/2023,Niort,Sochaux,0,3,A
+9/4/2023,Amiens SC,Nîmes,1,0,H
+9/4/2023,Paris FC,Saint-Etienne,2,4,A
+9/4/2023,Laval,Grenoble Foot 38,0,1,A
+9/4/2023,Quevilly Rouen,Caen,2,1,H
+8/4/2023,Bordeaux,Bastia,2,0,H
+19/3/2023,Bordeaux,Nîmes,1,0,H
+19/3/2023,Caen,Valenciennes,2,1,H
+19/3/2023,Dijon,Pau,0,1,A
+19/3/2023,Niort,Laval,3,2,H
+19/3/2023,Amiens SC,Rodez,1,3,A
+19/3/2023,Paris FC,Bastia,0,1,A
+19/3/2023,Sochaux,Grenoble Foot 38,1,0,H
+19/3/2023,Annecy,Guingamp,1,1,D
+19/3/2023,Quevilly Rouen,Metz,1,2,A
+18/3/2023,Le Havre,Saint-Etienne,2,2,D
+7/3/2023,Caen,Sochaux,0,0,D
+5/3/2023,Le Havre,Laval,2,1,H
+5/3/2023,Dijon,Grenoble Foot 38,1,0,H
+5/3/2023,Bastia,Nîmes,4,2,H
+5/3/2023,Niort,Rodez,2,3,A
+5/3/2023,Amiens SC,Pau,1,0,H
+5/3/2023,Paris FC,Guingamp,1,2,A
+5/3/2023,Annecy,Metz,0,3,A
+5/3/2023,Quevilly Rouen,Valenciennes,1,1,D
+4/3/2023,Bordeaux,Saint-Etienne,1,1,D
+21/2/2023,Nîmes,Saint-Etienne,1,2,A
+19/2/2023,Caen,Grenoble Foot 38,2,1,H
+19/2/2023,Le Havre,Niort,1,0,H
+19/2/2023,Pau,Laval,0,1,A
+19/2/2023,Dijon,Metz,0,0,D
+19/2/2023,Bastia,Guingamp,1,1,D
+19/2/2023,Valenciennes,Rodez,0,0,D
+19/2/2023,Annecy,Amiens SC,2,0,H
+19/2/2023,Quevilly Rouen,Sochaux,0,0,D
+18/2/2023,Bordeaux,Paris FC,2,1,H
+7/2/2023,Amiens SC,Metz,0,2,A
+4/2/2023,Saint-Etienne,Annecy,3,2,H
+4/2/2023,Pau,Bordeaux,0,2,A
+4/2/2023,Caen,Bastia,3,1,H
+4/2/2023,Le Havre,Paris FC,0,0,D
+4/2/2023,Nîmes,Grenoble Foot 38,0,2,A
+4/2/2023,Dijon,Niort,0,1,A
+4/2/2023,Valenciennes,Laval,3,1,H
+4/2/2023,Rodez,Sochaux,1,2,A
+4/2/2023,Quevilly Rouen,Guingamp,2,0,H
+29/1/2023,Dijon,Bordeaux,0,3,A
+29/1/2023,Caen,Laval,0,0,D
+29/1/2023,Nîmes,Niort,3,2,H
+29/1/2023,Pau,Annecy,2,2,D
+29/1/2023,Amiens SC,Le Havre,1,1,D
+29/1/2023,Grenoble Foot 38,Bastia,0,1,A
+29/1/2023,Valenciennes,Metz,1,1,D
+29/1/2023,Rodez,Guingamp,0,1,A
+29/1/2023,Quevilly Rouen,Paris FC,3,1,H
+28/1/2023,Saint-Etienne,Sochaux,2,3,A
+11/1/2023,Caen,Bordeaux,2,2,D
+11/1/2023,Le Havre,Sochaux,1,0,H
+11/1/2023,Nîmes,Metz,1,4,A
+11/1/2023,Pau,Grenoble Foot 38,0,0,D
+11/1/2023,Amiens SC,Guingamp,1,1,D
+11/1/2023,Valenciennes,Annecy,2,2,D
+11/1/2023,Rodez,Niort,1,1,D
+11/1/2023,Paris FC,Dijon,2,1,H
+11/1/2023,Saint-Etienne,Laval,1,0,H
+11/1/2023,Quevilly Rouen,Bastia,1,1,D
+27/12/2022,Nîmes,Guingamp,1,2,A
+27/12/2022,Pau,Paris FC,0,1,A
+27/12/2022,Dijon,Laval,5,0,H
+27/12/2022,Bastia,Caen,1,0,H
+27/12/2022,Valenciennes,Amiens SC,1,1,D
+27/12/2022,Sochaux,Rodez,1,0,H
+27/12/2022,Metz,Niort,0,0,D
+27/12/2022,Quevilly Rouen,Grenoble Foot 38,2,0,H
+27/12/2022,Le Havre,Bordeaux,1,0,H
+27/12/2022,Annecy,Saint-Etienne,2,1,H
+8/11/2022,Metz,Saint-Etienne,3,2,H
+6/11/2022,Pau,Amiens SC,2,1,H
+6/11/2022,Dijon,Guingamp,1,1,D
+6/11/2022,Bastia,Paris FC,0,1,A
+6/11/2022,Valenciennes,Caen,1,1,D
+6/11/2022,Rodez,Grenoble Foot 38,0,1,A
+6/11/2022,Laval,Niort,2,1,H
+6/11/2022,Annecy,Sochaux,2,1,H
+6/11/2022,Quevilly Rouen,Le Havre,0,1,A
+5/11/2022,Nîmes,Bordeaux,1,0,H
+18/10/2022,Bastia,Bordeaux,1,1,D
+16/10/2022,Nîmes,Amiens SC,2,0,H
+16/10/2022,Dijon,Quevilly Rouen,0,0,D
+16/10/2022,Niort,Grenoble Foot 38,0,3,A
+16/10/2022,Valenciennes,Guingamp,1,0,H
+16/10/2022,Rodez,Le Havre,1,1,D
+16/10/2022,Laval,Caen,4,0,H
+16/10/2022,Annecy,Pau,0,2,A
+16/10/2022,Metz,Sochaux,0,0,D
+15/10/2022,Saint-Etienne,Paris FC,0,2,A
+4/10/2022,Laval,Bordeaux,1,2,A
+2/10/2022,Caen,Quevilly Rouen,0,1,A
+2/10/2022,Nîmes,Paris FC,0,1,A
+2/10/2022,Dijon,Le Havre,0,0,D
+2/10/2022,Niort,Guingamp,0,0,D
+2/10/2022,Valenciennes,Sochaux,2,1,H
+2/10/2022,Rodez,Amiens SC,0,1,A
+2/10/2022,Annecy,Bastia,0,2,A
+2/10/2022,Metz,Pau,1,0,H
+1/10/2022,Saint-Etienne,Grenoble Foot 38,2,2,D
+13/9/2022,Metz,Guingamp,3,6,A
+11/9/2022,Caen,Amiens SC,3,1,H
+11/9/2022,Nîmes,Bastia,0,0,D
+11/9/2022,Dijon,Sochaux,0,2,A
+11/9/2022,Niort,Le Havre,0,1,A
+11/9/2022,Grenoble Foot 38,Paris FC,1,2,A
+11/9/2022,Rodez,Valenciennes,1,1,D
+11/9/2022,Laval,Pau,0,1,A
+11/9/2022,Annecy,Quevilly Rouen,1,0,H
+10/9/2022,Saint-Etienne,Bordeaux,2,0,H
+31/8/2022,Bordeaux,Quevilly Rouen,4,0,H
+31/8/2022,Guingamp,Sochaux,1,2,A
+31/8/2022,Caen,Pau,1,1,D
+31/8/2022,Dijon,Annecy,0,2,A
+31/8/2022,Niort,Valenciennes,0,1,A
+31/8/2022,Amiens SC,Paris FC,1,1,D
+31/8/2022,Grenoble Foot 38,Nîmes,3,2,H
+31/8/2022,Rodez,Metz,1,4,A
+31/8/2022,Laval,Le Havre,1,3,A
+31/8/2022,Saint-Etienne,Bastia,5,0,H
+23/8/2022,Grenoble Foot 38,Bordeaux,0,0,D
+21/8/2022,Caen,Guingamp,4,1,H
+21/8/2022,Pau,Sochaux,0,3,A
+21/8/2022,Dijon,Nîmes,2,1,H
+21/8/2022,Niort,Paris FC,2,1,H
+21/8/2022,Amiens SC,Bastia,3,1,H
+21/8/2022,Valenciennes,Quevilly Rouen,0,0,D
+21/8/2022,Rodez,Annecy,2,2,D
+21/8/2022,Laval,Metz,3,3,D
+20/8/2022,Saint-Etienne,Le Havre,0,6,A
+9/8/2022,Caen,Metz,1,0,H
+7/8/2022,Rodez,Bordeaux,0,3,A
+7/8/2022,Pau,Dijon,0,0,D
+7/8/2022,Niort,Bastia,1,4,A
+7/8/2022,Amiens SC,Annecy,1,0,H
+7/8/2022,Grenoble Foot 38,Sochaux,1,0,H
+7/8/2022,Valenciennes,Le Havre,1,0,H
+7/8/2022,Paris FC,Quevilly Rouen,2,1,H
+7/8/2022,Laval,Guingamp,1,2,A
+6/8/2022,Saint-Etienne,Nîmes,1,1,D

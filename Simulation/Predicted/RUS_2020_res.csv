@@ -1,0 +1,145 @@
+Date,Home,Away,HG,AG,Res,prediction,Hit?,odds,AvgH,AvgD,AvgA,Better,Asian_res,Asian_hit
+31/10/2020,Rubin Kazan,Arsenal Tula,3,1,Rubin Kazan,Rubin Kazan,1,0.6299999999999999,1.63,3.67,5.66,Rubin Kazan,Rubin Kazan,1
+31/10/2020,Akhmat Grozny,Krasnodar,2,0,Akhmat Grozny,Krasnodar,0,-1,2.43,3.41,2.8,Akhmat Grozny,Akhmat Grozny,0
+31/10/2020,Spartak Moscow,FK Rostov,0,1,FK Rostov,Spartak Moscow,0,-1,1.8,3.43,4.68,Spartak Moscow,Draw,0
+31/10/2020,Sochi,Lokomotiv Moscow,2,1,Sochi,Lokomotiv Moscow,0,-1,2.43,3.07,3.06,Sochi,Sochi,0
+1/11/2020,Ufa,Ural,1,2,Ural,Draw,0,-1,2.27,2.89,3.6,Ufa,Draw,-1
+1/11/2020,Khimki,Zenit,0,2,Zenit,Zenit,1,0.6000000000000001,5.23,4.07,1.6,Zenit,Zenit,1
+1/11/2020,R. Volgograd,CSKA Moscow,0,1,CSKA Moscow,CSKA Moscow,1,0.3700000000000001,8.38,4.74,1.37,CSKA Moscow,CSKA Moscow,1
+1/11/2020,Tambov,Dynamo Moscow,1,2,Dynamo Moscow,Dynamo Moscow,1,0.77,5.1,3.31,1.77,Dynamo Moscow,Dynamo Moscow,1
+6/11/2020,Sochi,Ufa,1,1,Draw,Sochi,0,-1,1.71,3.35,5.44,Sochi,Sochi,1
+7/11/2020,Ural,Spartak Moscow,2,2,Draw,Spartak Moscow,0,-1,4.56,3.34,1.83,Spartak Moscow,Spartak Moscow,1
+7/11/2020,Arsenal Tula,R. Volgograd,1,1,Draw,Arsenal Tula,0,-1,1.86,3.36,4.42,Arsenal Tula,Arsenal Tula,1
+7/11/2020,Tambov,Akhmat Grozny,0,1,Akhmat Grozny,Akhmat Grozny,1,0.78,4.64,3.5,1.78,Akhmat Grozny,Akhmat Grozny,1
+8/11/2020,Khimki,Rubin Kazan,2,0,Khimki,Rubin Kazan,0,-1,3.52,3.45,2.04,Rubin Kazan,Khimki,0
+8/11/2020,CSKA Moscow,FK Rostov,2,0,CSKA Moscow,CSKA Moscow,1,0.5,1.5,4.17,6.43,CSKA Moscow,CSKA Moscow,1
+8/11/2020,Dynamo Moscow,Lokomotiv Moscow,5,1,Dynamo Moscow,Dynamo Moscow,1,1.5899999999999999,2.59,3.17,2.75,Dynamo Moscow,Dynamo Moscow,1
+8/11/2020,Zenit,Krasnodar,3,1,Zenit,Zenit,1,0.6299999999999999,1.63,4.13,4.88,Zenit,Zenit,1
+21/11/2020,Krasnodar,Tambov,1,0,Krasnodar,Krasnodar,1,0.3999999999999999,1.4,4.48,7.84,Krasnodar,Krasnodar,1
+21/11/2020,Akhmat Grozny,Zenit,2,2,Draw,Zenit,0,-1,4.02,3.46,1.9,Zenit,Zenit,1
+21/11/2020,Lokomotiv Moscow,Arsenal Tula,1,0,Lokomotiv Moscow,Lokomotiv Moscow,1,0.72,1.72,3.67,4.75,Lokomotiv Moscow,Lokomotiv Moscow,1
+21/11/2020,Spartak Moscow,Dynamo Moscow,1,1,Draw,Dynamo Moscow,0,-1,2.21,3.25,3.3,Spartak Moscow,Spartak Moscow,0
+22/11/2020,CSKA Moscow,Sochi,1,1,Draw,CSKA Moscow,0,-1,1.61,3.99,5.18,CSKA Moscow,CSKA Moscow,1
+22/11/2020,R. Volgograd,Ural,0,0,Draw,Ural,0,-1,2.83,2.99,2.64,Ural,Ural,1
+22/11/2020,Rubin Kazan,FK Rostov,0,2,FK Rostov,FK Rostov,1,1.9,2.49,3.12,2.9,Rubin Kazan,FK Rostov,1
+23/11/2020,Ufa,Khimki,1,2,Khimki,Khimki,1,1.85,2.7,2.91,2.85,Ufa,Draw,0
+28/11/2020,Arsenal Tula,Zenit,0,0,Draw,Zenit,0,-1,6.54,4.33,1.47,Zenit,Zenit,1
+28/11/2020,Khimki,Krasnodar,1,0,Khimki,Khimki,1,4.56,5.56,4.19,1.55,Krasnodar,Draw,0
+28/11/2020,Akhmat Grozny,Lokomotiv Moscow,0,0,Draw,Akhmat Grozny,0,-1,1.9,3.39,4.11,Akhmat Grozny,Akhmat Grozny,1
+28/11/2020,FK Rostov,Dynamo Moscow,4,1,FK Rostov,Dynamo Moscow,0,-1,3.49,3.08,2.2,Dynamo Moscow,FK Rostov,0
+29/11/2020,Ural,Sochi,1,0,Ural,Sochi,0,-1,3.22,3.04,2.36,Sochi,Draw,0
+29/11/2020,Ufa,Tambov,4,0,Ufa,Draw,0,-1,1.95,3.03,4.56,Ufa,Ufa,-1
+29/11/2020,Rubin Kazan,CSKA Moscow,1,0,Rubin Kazan,CSKA Moscow,0,-1,3.76,3.52,1.94,CSKA Moscow,Draw,0
+29/11/2020,Spartak Moscow,R. Volgograd,2,0,Spartak Moscow,Spartak Moscow,1,0.3600000000000001,1.36,4.79,8.4,Spartak Moscow,Spartak Moscow,1
+5/12/2020,Lokomotiv Moscow,Rubin Kazan,3,1,Lokomotiv Moscow,Draw,0,-1,2.08,3.15,3.78,Lokomotiv Moscow,Lokomotiv Moscow,-1
+5/12/2020,Spartak Moscow,Tambov,5,1,Spartak Moscow,Spartak Moscow,1,0.050000000000000044,1.05,13.65,34.22,Spartak Moscow,Spartak Moscow,1
+5/12/2020,Krasnodar,R. Volgograd,5,0,Krasnodar,Krasnodar,1,0.29000000000000004,1.29,5.35,9.68,Krasnodar,Krasnodar,1
+5/12/2020,Zenit,Ural,5,1,Zenit,Zenit,1,0.28,1.28,5.42,9.95,Zenit,Zenit,1
+6/12/2020,FK Rostov,Ufa,0,1,Ufa,FK Rostov,0,-1,2.08,3.0,4.02,FK Rostov,Draw,0
+6/12/2020,Dynamo Moscow,Arsenal Tula,1,0,Dynamo Moscow,Dynamo Moscow,1,0.6000000000000001,1.6,3.78,5.75,Dynamo Moscow,Dynamo Moscow,1
+6/12/2020,CSKA Moscow,Khimki,2,2,Draw,CSKA Moscow,0,-1,1.43,4.48,6.97,CSKA Moscow,CSKA Moscow,1
+7/12/2020,Sochi,Akhmat Grozny,2,0,Sochi,Akhmat Grozny,0,-1,2.7,3.02,2.75,Sochi,Sochi,0
+11/12/2020,Khimki,Arsenal Tula,1,0,Khimki,Khimki,1,1.42,2.42,3.23,2.92,Khimki,Khimki,1
+12/12/2020,R. Volgograd,Ufa,1,0,R. Volgograd,Ufa,0,-1,3.24,2.93,2.41,Ufa,Draw,0
+12/12/2020,Sochi,Spartak Moscow,1,0,Sochi,Spartak Moscow,0,-1,2.92,3.14,2.47,Spartak Moscow,Draw,0
+12/12/2020,Zenit,Dynamo Moscow,3,1,Zenit,Zenit,1,0.6299999999999999,1.63,3.87,5.21,Zenit,Zenit,1
+13/12/2020,Tambov,Rubin Kazan,0,1,Rubin Kazan,Rubin Kazan,1,0.1399999999999999,17.36,7.64,1.14,Rubin Kazan,Rubin Kazan,1
+13/12/2020,Krasnodar,Lokomotiv Moscow,5,0,Krasnodar,Lokomotiv Moscow,0,-1,1.7,3.79,4.67,Krasnodar,Krasnodar,0
+13/12/2020,Akhmat Grozny,FK Rostov,0,1,FK Rostov,FK Rostov,1,2.84,2.03,3.19,3.84,Akhmat Grozny,Draw,0
+13/12/2020,CSKA Moscow,Ural,2,2,Draw,CSKA Moscow,0,-1,1.34,4.89,8.77,CSKA Moscow,CSKA Moscow,1
+16/12/2020,R. Volgograd,Arsenal Tula,1,0,R. Volgograd,Draw,0,-1,2.97,2.9,2.61,Arsenal Tula,Draw,-1
+16/12/2020,Sochi,Dynamo Moscow,2,0,Sochi,Sochi,1,1.6400000000000001,2.64,3.08,2.77,Sochi,Sochi,1
+16/12/2020,Zenit,Spartak Moscow,3,1,Zenit,Zenit,1,0.73,1.73,3.83,4.42,Zenit,Zenit,1
+17/12/2020,Khimki,Lokomotiv Moscow,3,2,Khimki,Khimki,1,2.86,3.86,3.26,2.01,Lokomotiv Moscow,Draw,0
+17/12/2020,Krasnodar,Ufa,1,0,Krasnodar,Krasnodar,1,0.42999999999999994,1.43,4.42,7.25,Krasnodar,Krasnodar,1
+17/12/2020,Akhmat Grozny,Rubin Kazan,0,0,Draw,Rubin Kazan,0,-1,2.25,3.1,3.37,Akhmat Grozny,Akhmat Grozny,0
+17/12/2020,FK Rostov,CSKA Moscow,1,3,CSKA Moscow,FK Rostov,0,-1,3.41,3.2,2.18,CSKA Moscow,CSKA Moscow,0
+18/12/2020,Tambov,Ural,1,1,Draw,Ural,0,-1,3.42,3.02,2.36,Ural,Ural,1
+26/2/2021,Tambov,R. Volgograd,1,3,R. Volgograd,Draw,0,-1,3.5,3.17,2.14,R. Volgograd,R. Volgograd,-1
+27/2/2021,Khimki,Ufa,2,1,Khimki,Khimki,1,1.2000000000000002,2.2,3.09,3.48,Khimki,Khimki,1
+27/2/2021,Zenit,FK Rostov,2,2,Draw,Zenit,0,-1,1.37,4.77,8.21,Zenit,Zenit,1
+27/2/2021,Lokomotiv Moscow,CSKA Moscow,2,0,Lokomotiv Moscow,CSKA Moscow,0,-1,3.25,3.34,2.19,CSKA Moscow,Lokomotiv Moscow,0
+27/2/2021,Sochi,Arsenal Tula,4,0,Sochi,Sochi,1,0.73,1.73,3.48,5.01,Sochi,Sochi,1
+28/2/2021,Spartak Moscow,Rubin Kazan,0,2,Rubin Kazan,Spartak Moscow,0,-1,1.89,3.46,4.07,Spartak Moscow,Rubin Kazan,0
+28/2/2021,Akhmat Grozny,Dynamo Moscow,1,2,Dynamo Moscow,Dynamo Moscow,1,2.06,2.39,3.14,3.06,Akhmat Grozny,Draw,0
+28/2/2021,Krasnodar,Ural,2,2,Draw,Krasnodar,0,-1,1.48,4.3,6.36,Krasnodar,Krasnodar,1
+6/3/2021,CSKA Moscow,Akhmat Grozny,2,0,CSKA Moscow,CSKA Moscow,1,0.6499999999999999,1.65,3.71,5.32,CSKA Moscow,CSKA Moscow,1
+6/3/2021,R. Volgograd,Khimki,0,0,Draw,Khimki,0,-1,2.63,3.05,2.82,R. Volgograd,R. Volgograd,0
+6/3/2021,FK Rostov,Sochi,0,0,Draw,Sochi,0,-1,3.24,3.0,2.37,Sochi,Sochi,1
+7/3/2021,Ural,Ufa,0,0,Draw,Ural,0,-1,2.48,2.91,3.15,Ural,Ural,1
+7/3/2021,Dynamo Moscow,Tambov,2,0,Dynamo Moscow,Dynamo Moscow,1,0.050000000000000044,1.05,12.18,48.25,Dynamo Moscow,Dynamo Moscow,1
+7/3/2021,Spartak Moscow,Krasnodar,6,1,Spartak Moscow,Krasnodar,0,-1,2.29,3.42,2.99,Spartak Moscow,Spartak Moscow,0
+8/3/2021,Arsenal Tula,Lokomotiv Moscow,0,3,Lokomotiv Moscow,Lokomotiv Moscow,1,1.5299999999999998,2.95,3.03,2.53,Lokomotiv Moscow,Lokomotiv Moscow,1
+8/3/2021,Rubin Kazan,Zenit,2,1,Rubin Kazan,Zenit,0,-1,5.12,3.77,1.66,Zenit,Draw,0
+12/3/2021,Khimki,FK Rostov,1,0,Khimki,FK Rostov,0,-1,2.76,2.92,2.77,Khimki,Khimki,0
+13/3/2021,Ural,R. Volgograd,1,0,Ural,Draw,0,-1,2.06,3.12,3.89,Ural,Ural,-1
+13/3/2021,Arsenal Tula,CSKA Moscow,2,1,Arsenal Tula,CSKA Moscow,0,-1,5.82,3.82,1.59,CSKA Moscow,Draw,0
+13/3/2021,Zenit,Akhmat Grozny,4,0,Zenit,Zenit,1,0.32000000000000006,1.32,5.05,8.98,Zenit,Zenit,1
+13/3/2021,Dynamo Moscow,Spartak Moscow,1,2,Spartak Moscow,Spartak Moscow,1,1.69,2.59,3.25,2.69,Dynamo Moscow,Draw,0
+14/3/2021,Ufa,Rubin Kazan,0,3,Rubin Kazan,Rubin Kazan,1,1.2799999999999998,3.41,2.99,2.28,Rubin Kazan,Rubin Kazan,1
+14/3/2021,Tambov,Krasnodar,0,4,Krasnodar,Krasnodar,1,0.07000000000000006,36.46,10.47,1.07,Krasnodar,Krasnodar,1
+14/3/2021,Lokomotiv Moscow,Sochi,3,1,Lokomotiv Moscow,Sochi,0,-1,2.11,3.12,3.69,Lokomotiv Moscow,Lokomotiv Moscow,0
+17/3/2021,R. Volgograd,FK Rostov,0,4,FK Rostov,FK Rostov,1,1.27,3.5,2.96,2.27,FK Rostov,FK Rostov,1
+17/3/2021,Akhmat Grozny,Arsenal Tula,2,0,Akhmat Grozny,Draw,0,-1,1.92,3.27,4.21,Akhmat Grozny,Akhmat Grozny,-1
+17/3/2021,CSKA Moscow,Zenit,2,3,Zenit,Zenit,1,1.27,3.16,3.25,2.27,Zenit,Zenit,1
+18/3/2021,Ufa,Lokomotiv Moscow,0,1,Lokomotiv Moscow,Lokomotiv Moscow,1,1.25,3.57,2.94,2.25,Lokomotiv Moscow,Lokomotiv Moscow,1
+18/3/2021,Krasnodar,Dynamo Moscow,2,3,Dynamo Moscow,Krasnodar,0,-1,1.82,3.81,3.98,Krasnodar,Draw,0
+18/3/2021,Spartak Moscow,Ural,5,1,Spartak Moscow,Spartak Moscow,1,0.32000000000000006,1.32,4.92,9.62,Spartak Moscow,Spartak Moscow,1
+19/3/2021,Rubin Kazan,Khimki,1,3,Khimki,Rubin Kazan,0,-1,1.64,3.67,5.6,Rubin Kazan,Khimki,0
+19/3/2021,Sochi,Tambov,5,0,Sochi,Sochi,1,0.06000000000000005,1.06,10.79,36.26,Sochi,Sochi,1
+3/4/2021,R. Volgograd,Lokomotiv Moscow,0,2,Lokomotiv Moscow,Lokomotiv Moscow,1,0.8,4.81,3.34,1.8,Lokomotiv Moscow,Lokomotiv Moscow,1
+3/4/2021,Krasnodar,Akhmat Grozny,0,5,Akhmat Grozny,Krasnodar,0,-1,1.61,4.02,5.16,Krasnodar,Akhmat Grozny,0
+3/4/2021,Rubin Kazan,Sochi,1,0,Rubin Kazan,Sochi,0,-1,2.44,3.13,3.0,Rubin Kazan,Rubin Kazan,0
+3/4/2021,Dynamo Moscow,Ufa,4,0,Dynamo Moscow,Dynamo Moscow,1,0.6599999999999999,1.66,3.48,5.72,Dynamo Moscow,Dynamo Moscow,1
+4/4/2021,Ural,Arsenal Tula,2,0,Ural,Ural,1,1.5899999999999999,2.59,2.96,2.95,Ural,Ural,1
+4/4/2021,Tambov,CSKA Moscow,1,2,CSKA Moscow,CSKA Moscow,1,0.050000000000000044,30.93,13.16,1.05,CSKA Moscow,CSKA Moscow,1
+4/4/2021,FK Rostov,Spartak Moscow,2,3,Spartak Moscow,FK Rostov,0,-1,3.38,3.25,2.17,Spartak Moscow,Spartak Moscow,0
+5/4/2021,Zenit,Khimki,2,0,Zenit,Zenit,1,0.1399999999999999,1.14,7.96,16.62,Zenit,Zenit,1
+10/4/2021,Khimki,Tambov,1,0,Khimki,Khimki,1,0.18999999999999995,1.19,6.7,13.18,Khimki,Khimki,1
+10/4/2021,Ufa,Akhmat Grozny,3,0,Ufa,Akhmat Grozny,0,-1,3.06,3.01,2.47,Akhmat Grozny,Ufa,0
+10/4/2021,FK Rostov,Rubin Kazan,0,1,Rubin Kazan,Rubin Kazan,1,1.6400000000000001,2.81,3.04,2.64,Rubin Kazan,Rubin Kazan,1
+11/4/2021,Arsenal Tula,Krasnodar,1,0,Arsenal Tula,Krasnodar,0,-1,4.26,3.54,1.84,Krasnodar,Draw,0
+11/4/2021,Dynamo Moscow,Ural,2,2,Draw,Dynamo Moscow,0,-1,1.4,4.42,8.23,Dynamo Moscow,Dynamo Moscow,1
+11/4/2021,Sochi,Zenit,1,2,Zenit,Zenit,1,0.5800000000000001,5.44,4.05,1.58,Zenit,Zenit,1
+11/4/2021,Lokomotiv Moscow,Spartak Moscow,2,0,Lokomotiv Moscow,Lokomotiv Moscow,1,2.47,3.47,3.39,2.09,Spartak Moscow,Lokomotiv Moscow,1
+12/4/2021,CSKA Moscow,R. Volgograd,2,0,CSKA Moscow,CSKA Moscow,1,0.26,1.26,5.69,10.73,CSKA Moscow,CSKA Moscow,1
+17/4/2021,Akhmat Grozny,Khimki,3,1,Akhmat Grozny,Khimki,0,-1,1.91,3.28,4.26,Akhmat Grozny,Akhmat Grozny,0
+17/4/2021,Lokomotiv Moscow,FK Rostov,4,1,Lokomotiv Moscow,Lokomotiv Moscow,1,0.8300000000000001,1.83,3.46,4.42,Lokomotiv Moscow,Lokomotiv Moscow,1
+17/4/2021,R. Volgograd,Dynamo Moscow,0,3,Dynamo Moscow,Dynamo Moscow,1,0.76,5.0,3.43,1.76,Dynamo Moscow,Dynamo Moscow,1
+17/4/2021,Krasnodar,Zenit,2,2,Draw,Zenit,0,-1,4.82,4.2,1.63,Zenit,Zenit,1
+18/4/2021,Ural,Rubin Kazan,0,1,Rubin Kazan,Rubin Kazan,1,0.77,4.57,3.58,1.77,Rubin Kazan,Rubin Kazan,1
+18/4/2021,Arsenal Tula,Tambov,4,0,Arsenal Tula,Draw,0,-1,1.12,8.43,18.34,Arsenal Tula,Arsenal Tula,-1
+18/4/2021,Sochi,CSKA Moscow,2,1,Sochi,Sochi,1,1.9500000000000002,2.95,3.28,2.39,CSKA Moscow,Draw,0
+18/4/2021,Spartak Moscow,Ufa,0,3,Ufa,Spartak Moscow,0,-1,1.48,4.12,6.88,Spartak Moscow,Ufa,0
+24/4/2021,Ural,Akhmat Grozny,1,1,Draw,Ural,0,-1,2.73,3.1,2.68,Akhmat Grozny,Akhmat Grozny,0
+24/4/2021,Zenit,R. Volgograd,6,0,Zenit,Zenit,1,0.07000000000000006,1.07,11.24,29.12,Zenit,Zenit,1
+24/4/2021,Dynamo Moscow,Khimki,0,1,Khimki,Dynamo Moscow,0,-1,1.39,4.71,7.67,Dynamo Moscow,Draw,0
+24/4/2021,Tambov,Lokomotiv Moscow,2,5,Lokomotiv Moscow,Lokomotiv Moscow,1,0.08000000000000007,22.64,10.76,1.08,Lokomotiv Moscow,Lokomotiv Moscow,1
+25/4/2021,Ufa,Sochi,2,3,Sochi,Sochi,1,1.5099999999999998,3.03,3.0,2.51,Sochi,Sochi,1
+25/4/2021,FK Rostov,Arsenal Tula,1,0,FK Rostov,FK Rostov,1,1.2599999999999998,2.26,3.16,3.32,FK Rostov,FK Rostov,1
+25/4/2021,Spartak Moscow,CSKA Moscow,1,0,Spartak Moscow,Spartak Moscow,1,1.3900000000000001,2.39,3.45,2.84,Spartak Moscow,Spartak Moscow,1
+25/4/2021,Rubin Kazan,Krasnodar,0,1,Krasnodar,Rubin Kazan,0,-1,2.46,3.46,2.75,Rubin Kazan,Draw,0
+1/5/2021,R. Volgograd,Akhmat Grozny,1,0,R. Volgograd,Akhmat Grozny,0,-1,3.29,3.3,2.21,Akhmat Grozny,Draw,0
+1/5/2021,Rubin Kazan,Dynamo Moscow,2,0,Rubin Kazan,Rubin Kazan,1,2.0,3.0,3.27,2.37,Dynamo Moscow,Rubin Kazan,1
+1/5/2021,CSKA Moscow,Ufa,1,1,Draw,Ufa,0,-1,1.65,3.74,5.37,CSKA Moscow,CSKA Moscow,0
+1/5/2021,Krasnodar,Sochi,1,3,Sochi,Sochi,1,2.48,2.0,3.67,3.48,Krasnodar,Sochi,1
+2/5/2021,Khimki,Ural,1,0,Khimki,Khimki,1,1.44,2.44,3.17,2.98,Khimki,Khimki,1
+2/5/2021,FK Rostov,Tambov,2,0,FK Rostov,FK Rostov,1,0.06000000000000005,1.06,12.76,30.48,FK Rostov,FK Rostov,1
+2/5/2021,Zenit,Lokomotiv Moscow,6,1,Zenit,Zenit,1,0.41999999999999993,1.42,4.83,6.84,Zenit,Zenit,1
+3/5/2021,Arsenal Tula,Spartak Moscow,1,2,Spartak Moscow,Spartak Moscow,1,0.73,4.59,3.78,1.73,Spartak Moscow,Spartak Moscow,1
+7/5/2021,Akhmat Grozny,Tambov,3,1,Akhmat Grozny,Akhmat Grozny,1,0.06000000000000005,1.06,13.44,35.98,Akhmat Grozny,Akhmat Grozny,1
+7/5/2021,Sochi,R. Volgograd,2,1,Sochi,Sochi,1,0.3500000000000001,1.35,4.81,8.93,Sochi,Sochi,1
+8/5/2021,Ufa,Zenit,0,0,Draw,Zenit,0,-1,3.39,3.61,2.04,Zenit,Zenit,1
+8/5/2021,Arsenal Tula,Rubin Kazan,2,4,Rubin Kazan,Rubin Kazan,1,1.6600000000000001,2.81,3.04,2.66,Rubin Kazan,Rubin Kazan,1
+8/5/2021,Lokomotiv Moscow,Dynamo Moscow,0,0,Draw,Lokomotiv Moscow,0,-1,2.72,3.23,2.6,Dynamo Moscow,Dynamo Moscow,0
+8/5/2021,CSKA Moscow,Krasnodar,3,1,CSKA Moscow,CSKA Moscow,1,0.81,1.81,4.09,3.82,CSKA Moscow,CSKA Moscow,1
+10/5/2021,Ural,FK Rostov,1,0,Ural,FK Rostov,0,-1,2.99,2.98,2.57,FK Rostov,Draw,0
+10/5/2021,Spartak Moscow,Khimki,2,1,Spartak Moscow,Khimki,0,-1,1.3,5.55,9.51,Spartak Moscow,Spartak Moscow,0
+16/5/2021,Akhmat Grozny,Spartak Moscow,2,2,Draw,Spartak Moscow,0,-1,3.71,3.58,1.96,Spartak Moscow,Spartak Moscow,1
+16/5/2021,Dynamo Moscow,CSKA Moscow,3,2,Dynamo Moscow,Dynamo Moscow,1,2.15,3.15,3.52,2.18,CSKA Moscow,Draw,0
+16/5/2021,FK Rostov,Krasnodar,1,3,Krasnodar,FK Rostov,0,-1,2.87,3.49,2.35,Krasnodar,Krasnodar,0
+16/5/2021,Khimki,Sochi,0,0,Draw,Sochi,0,-1,4.59,3.82,1.72,Sochi,Sochi,1
+16/5/2021,Lokomotiv Moscow,Ural,1,0,Lokomotiv Moscow,Lokomotiv Moscow,1,0.3799999999999999,1.38,4.84,8.01,Lokomotiv Moscow,Lokomotiv Moscow,1
+16/5/2021,Rubin Kazan,R. Volgograd,1,1,Draw,Rubin Kazan,0,-1,1.5,4.12,6.66,Rubin Kazan,Rubin Kazan,1
+16/5/2021,Tambov,Zenit,1,5,Zenit,Zenit,1,0.07000000000000006,24.54,12.25,1.07,Zenit,Zenit,1
+16/5/2021,Ufa,Arsenal Tula,2,1,Ufa,Ufa,1,1.0499999999999998,2.05,2.98,4.24,Ufa,Ufa,1

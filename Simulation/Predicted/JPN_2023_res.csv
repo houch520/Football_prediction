@@ -1,0 +1,50 @@
+Date,Home,Away,HG,AG,Res,prediction,Hit?,odds,AvgH,AvgD,AvgA,Better,Asian_res,Asian_hit
+12/3/2023,Kashima Antlers,Avispa Fukuoka,0,0,Draw,Kashima Antlers,0,-1,1.96,3.12,4.27,Avispa Fukuoka,Avispa Fukuoka,0
+12/3/2023,Kashiwa Reysol,Nagoya Grampus,0,3,Nagoya Grampus,Nagoya Grampus,1,1.38,3.24,2.99,2.38,Kashiwa Reysol,Nagoya Grampus,0
+12/3/2023,Shonan Bellmare,Kyoto,0,2,Kyoto,Shonan Bellmare,0,-1,1.95,3.29,4.06,Kyoto,Kyoto,0
+12/3/2023,Gamba Osaka,Sanfrecce Hiroshima,1,2,Sanfrecce Hiroshima,Sanfrecce Hiroshima,1,0.6699999999999999,5.03,3.78,1.67,Gamba Osaka,Draw,0
+18/3/2023,Nagoya Grampus,FC Tokyo,0,0,Draw,Nagoya Grampus,0,-1,2.34,3.01,3.29,FC Tokyo,FC Tokyo,0
+18/3/2023,Yokohama F. Marinos,Kashima Antlers,2,1,Yokohama F. Marinos,Kashima Antlers,0,-1,2.09,3.67,3.22,Kashima Antlers,Draw,0
+18/3/2023,Yokohama FC,Kyoto,1,4,Kyoto,Kyoto,1,1.44,2.94,3.19,2.44,Yokohama FC,Kyoto,0
+18/3/2023,Gamba Osaka,Hokkaido Consadole Sapporo,2,2,Draw,Hokkaido Consadole Sapporo,0,-1,3.11,3.47,2.2,Gamba Osaka,Gamba Osaka,0
+18/3/2023,Sagan Tosu,Vissel Kobe,0,1,Vissel Kobe,Vissel Kobe,1,1.29,3.21,3.16,2.29,Sagan Tosu,Draw,0
+18/3/2023,Urawa Reds,Albirex Niigata,2,1,Urawa Reds,Albirex Niigata,0,-1,1.76,3.66,4.53,Albirex Niigata,Draw,0
+18/3/2023,Kawasaki Frontale,Cerezo Osaka,0,0,Draw,Kawasaki Frontale,0,-1,2.25,3.36,3.13,Cerezo Osaka,Cerezo Osaka,0
+19/3/2023,Avispa Fukuoka,Shonan Bellmare,2,1,Avispa Fukuoka,Avispa Fukuoka,1,1.9700000000000002,2.97,2.93,2.59,Avispa Fukuoka,Avispa Fukuoka,0
+19/3/2023,Sanfrecce Hiroshima,Kashiwa Reysol,1,0,Sanfrecce Hiroshima,Sanfrecce Hiroshima,1,0.5700000000000001,1.57,3.89,5.78,Kashiwa Reysol,Draw,0
+31/3/2023,Kashiwa Reysol,Urawa Reds,0,3,Urawa Reds,Urawa Reds,1,1.0099999999999998,3.72,3.35,2.01,Kashiwa Reysol,Urawa Reds,0
+1/4/2023,Albirex Niigata,Nagoya Grampus,1,3,Nagoya Grampus,Nagoya Grampus,1,1.17,3.59,3.09,2.17,Albirex Niigata,Nagoya Grampus,0
+1/4/2023,Kyoto,Vissel Kobe,0,3,Vissel Kobe,Vissel Kobe,1,0.96,4.0,3.31,1.96,Kyoto,Vissel Kobe,0
+1/4/2023,Yokohama FC,Avispa Fukuoka,1,1,Draw,Avispa Fukuoka,0,-1,3.2,3.08,2.34,Yokohama FC,Yokohama FC,0
+1/4/2023,Kashima Antlers,Sanfrecce Hiroshima,1,2,Sanfrecce Hiroshima,Sanfrecce Hiroshima,1,1.77,2.55,3.22,2.77,Sanfrecce Hiroshima,Sanfrecce Hiroshima,0
+1/4/2023,Sagan Tosu,FC Tokyo,1,0,Sagan Tosu,FC Tokyo,0,-1,4.01,3.41,1.93,Sagan Tosu,Sagan Tosu,0
+1/4/2023,Shonan Bellmare,Gamba Osaka,4,1,Shonan Bellmare,Shonan Bellmare,1,1.02,2.02,3.38,3.67,Gamba Osaka,Shonan Bellmare,0
+1/4/2023,Cerezo Osaka,Yokohama F. Marinos,2,1,Cerezo Osaka,Yokohama F. Marinos,0,-1,2.74,3.47,2.43,Cerezo Osaka,Cerezo Osaka,0
+1/4/2023,Hokkaido Consadole Sapporo,Kawasaki Frontale,3,4,Kawasaki Frontale,Hokkaido Consadole Sapporo,0,-1,2.43,3.54,2.71,Kawasaki Frontale,Kawasaki Frontale,0
+8/4/2023,Yokohama F. Marinos,Yokohama FC,5,0,Yokohama F. Marinos,Yokohama F. Marinos,1,0.3799999999999999,1.38,5.11,6.98,Yokohama FC,Yokohama F. Marinos,0
+9/4/2023,Cerezo Osaka,Hokkaido Consadole Sapporo,2,3,Hokkaido Consadole Sapporo,Hokkaido Consadole Sapporo,1,2.63,1.99,3.53,3.63,Hokkaido Consadole Sapporo,Hokkaido Consadole Sapporo,0
+9/4/2023,Sanfrecce Hiroshima,Sagan Tosu,1,0,Sanfrecce Hiroshima,Sanfrecce Hiroshima,1,0.3899999999999999,1.39,4.54,7.98,Sagan Tosu,Draw,0
+9/4/2023,Vissel Kobe,Albirex Niigata,0,0,Draw,Vissel Kobe,0,-1,1.77,3.61,4.52,Albirex Niigata,Albirex Niigata,0
+9/4/2023,Avispa Fukuoka,Kyoto,2,1,Avispa Fukuoka,Draw,0,-1,2.32,3.0,3.32,Kyoto,Draw,0
+9/4/2023,FC Tokyo,Shonan Bellmare,2,2,Draw,Shonan Bellmare,0,-1,2.43,3.13,3.0,Shonan Bellmare,Shonan Bellmare,0
+9/4/2023,Gamba Osaka,Kawasaki Frontale,2,0,Gamba Osaka,Kawasaki Frontale,0,-1,3.15,3.41,2.2,Gamba Osaka,Gamba Osaka,0
+9/4/2023,Nagoya Grampus,Urawa Reds,0,0,Draw,Draw,1,1.9700000000000002,2.61,2.97,2.9,Urawa Reds,Urawa Reds,0
+9/4/2023,Kashiwa Reysol,Kashima Antlers,1,0,Kashiwa Reysol,Kashima Antlers,0,-1,5.01,3.59,1.71,Kashiwa Reysol,Kashiwa Reysol,0
+15/4/2023,Albirex Niigata,Avispa Fukuoka,3,2,Albirex Niigata,Avispa Fukuoka,0,-1,2.26,3.02,3.45,Avispa Fukuoka,Draw,0
+15/4/2023,Yokohama FC,Sanfrecce Hiroshima,0,3,Sanfrecce Hiroshima,Sanfrecce Hiroshima,1,0.41999999999999993,7.23,4.55,1.42,Yokohama FC,Sanfrecce Hiroshima,0
+15/4/2023,Kawasaki Frontale,Nagoya Grampus,1,2,Nagoya Grampus,Nagoya Grampus,1,1.5299999999999998,2.8,3.21,2.53,Kawasaki Frontale,Draw,0
+15/4/2023,Sagan Tosu,Kashiwa Reysol,1,1,Draw,Sagan Tosu,0,-1,2.57,3.23,2.73,Kashiwa Reysol,Kashiwa Reysol,0
+15/4/2023,Shonan Bellmare,Yokohama F. Marinos,1,1,Draw,Yokohama F. Marinos,0,-1,2.67,3.72,2.37,Shonan Bellmare,Shonan Bellmare,0
+15/4/2023,Urawa Reds,Hokkaido Consadole Sapporo,4,1,Urawa Reds,Urawa Reds,1,1.0099999999999998,2.01,3.56,3.5,Hokkaido Consadole Sapporo,Urawa Reds,0
+15/4/2023,FC Tokyo,Cerezo Osaka,1,2,Cerezo Osaka,FC Tokyo,0,-1,2.49,3.19,2.87,Cerezo Osaka,Cerezo Osaka,0
+15/4/2023,Kashima Antlers,Vissel Kobe,1,5,Vissel Kobe,Vissel Kobe,1,2.06,2.39,3.14,3.06,Vissel Kobe,Vissel Kobe,0
+15/4/2023,Kyoto,Gamba Osaka,2,1,Kyoto,Kyoto,1,2.29,3.29,3.31,2.18,Kyoto,Kyoto,0
+22/4/2023,Sanfrecce Hiroshima,FC Tokyo,1,2,FC Tokyo,Sanfrecce Hiroshima,0,-1,1.78,3.47,4.61,FC Tokyo,FC Tokyo,0
+22/4/2023,Vissel Kobe,Yokohama F. Marinos,2,3,Yokohama F. Marinos,Vissel Kobe,0,-1,2.2,3.67,2.96,Yokohama F. Marinos,Yokohama F. Marinos,0
+23/4/2023,Albirex Niigata,Kashima Antlers,0,2,Kashima Antlers,Albirex Niigata,0,-1,3.09,3.18,2.35,Albirex Niigata,Kashima Antlers,0
+23/4/2023,Cerezo Osaka,Kashiwa Reysol,1,0,Cerezo Osaka,Cerezo Osaka,1,0.96,1.96,3.36,3.91,Kashiwa Reysol,Draw,0
+23/4/2023,Hokkaido Consadole Sapporo,Avispa Fukuoka,2,2,Draw,Avispa Fukuoka,0,-1,1.84,3.43,4.36,Avispa Fukuoka,Avispa Fukuoka,0
+23/4/2023,Kyoto,Sagan Tosu,2,3,Sagan Tosu,Kyoto,0,-1,2.32,3.26,3.06,Sagan Tosu,Sagan Tosu,0
+23/4/2023,Nagoya Grampus,Shonan Bellmare,2,2,Draw,Nagoya Grampus,0,-1,2.22,3.17,3.32,Shonan Bellmare,Shonan Bellmare,0
+23/4/2023,Gamba Osaka,Yokohama FC,1,1,Draw,Gamba Osaka,0,-1,1.61,4.08,4.99,Yokohama FC,Yokohama FC,0
+23/4/2023,Kawasaki Frontale,Urawa Reds,1,1,Draw,Urawa Reds,0,-1,2.18,3.3,3.29,Urawa Reds,Urawa Reds,0

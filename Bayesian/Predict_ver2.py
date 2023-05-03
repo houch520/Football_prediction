@@ -16,14 +16,14 @@ import argparse
 # # Parse the command-line arguments
 # args = parser.parse_args()
 
-tour="2020-2021"
+tour="2019-2020"
 Reverse = ""
 # Read in the dataset
 data = pd.read_csv('Simulation\Combined\\'+tour+Reverse+'.csv', encoding="ISO-8859-1")
 output =  'Simulation\Predicted\\'+tour+Reverse+'_res.csv'
 # train_data = data# Use first 80% of data as train data
-train_data = data.iloc[:int(0.6*len(data)), :]# Use first 80% of data as train data
-test_data = data.iloc[int(0.6*len(data)):, :] # Use last 20% of data as test data
+train_data = data.iloc[:int(0.2*len(data)), :]# Use first 80% of data as train data
+test_data = data.iloc[int(0.2*len(data)):, :] # Use last 20% of data as test data
 
 # Create a set of all unique teams
 teams = set(data['HomeTeam']) | set(data['AwayTeam'])
@@ -132,7 +132,7 @@ actual_results = []
 # Open a file for writing
 with open(output, 'w', encoding='ISO-8859-1') as file:
     # Write the header row to the file
-    file.write('Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,prediction,Hit?,odds,B365H,B365D,B365A,AHCh,AHCh_res,AHCh_odds,B365CAHH,B365CAHA\n')
+    file.write('Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,prediction,Hit?,odds,B365H,B365D,B365A,AHCh,AHCh_res,AHCh_odds,B365CAHH,B365CAHA\n')
 
     for i in range(len(test_data)):
         div = test_data.iloc[i]['Div']

@@ -36,6 +36,8 @@ def extract_data(driver, csvwriter):
     for row in rows:
         while True:
             try:
+                if "no-date-repetition-new live-now" in row.get_attribute("class"):
+                    break
                 if "border border betting" in row.get_attribute("class"):
                     break
                 if "no-date-repetition-new" in row.get_attribute("class"):
@@ -68,12 +70,12 @@ def extract_data(driver, csvwriter):
                 time.sleep(3)
 # Set up the driver
 driver = webdriver.Chrome()
-url = "https://int.soccerway.com/national/netherlands/eerste-divisie/20222023/regular-season/r68964/"
+url = "https://int.soccerway.com/national/france/ligue-2/20222023/regular-season/r70291//"
 # Load the webpage
 driver.get(url)
 
 # Open a CSV file for writing with 'utf-8' encoding
-with open("single.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("TestData/F2Test.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Date","Home", "Away", "HG", "AG","Res"])
     previous_link = driver.find_element(by=By.ID,value="page_competition_1_block_competition_matches_summary_9_next")
