@@ -70,17 +70,20 @@ def extract_data(driver, csvwriter):
                 time.sleep(3)
 # Set up the driver
 driver = webdriver.Chrome()
-url = "https://int.soccerway.com/national/france/ligue-2/20222023/regular-season/r70291//"
+url = "https://int.soccerway.com/national/italy/serie-a/20222023/regular-season/r69476/"
 # Load the webpage
 driver.get(url)
 
 # Open a CSV file for writing with 'utf-8' encoding
-with open("TestData/F2Test.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("TestData/I1Test.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Date","Home", "Away", "HG", "AG","Res"])
-    previous_link = driver.find_element(by=By.ID,value="page_competition_1_block_competition_matches_summary_9_next")
+    previous_link = driver.find_element(by=By.ID,value="page_competition_1_block_competition_matches_summary_9_previous")
+    next_link = driver.find_element(by=By.ID,value="page_competition_1_block_competition_matches_summary_9_next")
     # previous_link.click()
     # time.sleep(2)
+    #next_link.click()
+    #time.sleep(2)
     # Extract the data from the current page
     extract_data(driver, csvwriter)
     

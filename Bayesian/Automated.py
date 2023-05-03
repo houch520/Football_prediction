@@ -6,7 +6,7 @@ import shutil
 from datetime import datetime
 
 # Define the input string
-input_str = 'F2'
+input_str = 'ENG'
 input_nth = ''
 input_r = 'R'
 

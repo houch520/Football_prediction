@@ -1,11 +1,11 @@
-Date,Home,Away
-29/04/2023,Lecce,Udinese
-29/04/2023,Spezia,Monza
-30/04/2023,Roma,AC Milan
-30/04/2023,Torino,Atalanta
-30/04/2023,Inter Milan,Lazio
-30/04/2023,Cremonese,Verona
-30/04/2023,Napoli,Salernitana
-30/04/2023,Sassuolo,Empoli
-01/05/2023,Fiorentina,Sampdoria
-01/05/2023,Bologna,Juventus
+Date,Home,Away,HG,AG,Res
+04/05/2023,Atalanta,Spezia,,,D
+04/05/2023,Juventus,Lecce,,,D
+04/05/2023,Sampdoria,Torino,,,D
+04/05/2023,Salernitana,Fiorentina,,,D
+04/05/2023,Verona,Inter Milan,,,D
+04/05/2023,Lazio,Sassuolo,,,D
+04/05/2023,Monza,Roma,,,D
+04/05/2023,AC Milan,Cremonese,,,D
+05/05/2023,Empoli,Bologna,,,D
+05/05/2023,Udinese,Napoli,,,D
