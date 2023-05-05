@@ -132,7 +132,7 @@ actual_results = []
 # Open a file for writing
 with open(output, 'w', encoding='ISO-8859-1') as file:
     # Write the header row to the file
-    file.write('Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,prediction,Hit?,odds,B365H,B365D,B365A,AHCh,AHCh_res,AHCh_odds,B365CAHH,B365CAHA\n')
+    file.write('Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,prediction,Hit?,odds,B365H,B365D,B365A,AHCh,AHCh_res,AHCh_odds,B365CAHH,B365CAHA,win%\n')
 
     for i in range(len(test_data)):
         div = test_data.iloc[i]['Div']
@@ -148,7 +148,7 @@ with open(output, 'w', encoding='ISO-8859-1') as file:
         AHCh = test_data.iloc[i]['AHCh']
         B365CAHH = test_data.iloc[i]['B365CAHH']
         B365CAHA = test_data.iloc[i]['B365CAHA']
-        
+
         # Check if B365H/B365D/B365A is empty and replace with 1 if it is
         if B365H == '' or pd.isna(B365H):
             B365H = 1
@@ -184,7 +184,7 @@ with open(output, 'w', encoding='ISO-8859-1') as file:
         #Analyse
         Check_normal = 1 if prediction == actual_result else 0
         Check_AHCh = 1 if prediction == AHCh_res else 0
-        
+        wining_percent= pre_home_score if prediction==home_team else pre_away_score
         if Check_normal==1:
             if actual_result==home_team:
                 odds = B365H-1 
@@ -208,8 +208,8 @@ with open(output, 'w', encoding='ISO-8859-1') as file:
                 AHCh_odds = 0
 
         # Write the prediction results to the file
-        file.write('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(
-            div,date, home_team, away_team, home_goals, away_goals, actual_result,prediction,Check_normal,odds, B365H, B365D, B365A, AHCh,AHCh_res,AHCh_odds, B365CAHH, B365CAHA
+        file.write('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(
+            div,date, home_team, away_team, home_goals, away_goals, actual_result,prediction,Check_normal,odds, B365H, B365D, B365A, AHCh,AHCh_res,AHCh_odds, B365CAHH, B365CAHA,wining_percent
             ))
         update_ratings(home_team, away_team, home_goals, away_goals)
 
