@@ -1,12 +1,12 @@
 Date,Home,Away,PredictResult,H,D,A
-nan,Sporting Gijon,Lugo,Sporting Gijon,44.04%,32.99%,22.97%
-29/04/2023,Racing Santander,Ibiza,Racing Santander,43.34%,38.41%,18.25%
-29/04/2023,Levante,Alaves,Levante,53.69%,29.25%,17.06%
-30/04/2023,Albacete,FC Cartagena,Albacete,44.56%,24.50%,30.95%
-30/04/2023,Tenerife,Leganes,Leganes,31.84%,30.34%,37.83%
-30/04/2023,FC Andorra,Mirandes,FC Andorra,37.73%,32.44%,29.83%
-30/04/2023,Real Oviedo,Ponferradina,Draw,38.58%,42.63%,18.79%
-01/05/2023,Granada,Eibar,Eibar,16.16%,29.48%,54.36%
-01/05/2023,Real Zaragoza,Las Palmas,Las Palmas,13.13%,41.24%,45.63%
-02/05/2023,Malaga,Huesca,Huesca,17.01%,40.88%,42.11%
-02/05/2023,Burgos,Villarreal II,Burgos,58.06%,31.94%,10.00%
+06/05/2023,Alaves,Granada,Alaves,47.45%,28.50%,24.05%,1.30,0.84
+06/05/2023,Mirandes,Racing Santander,Draw,32.66%,34.23%,33.11%,0.84,0.85
+07/05/2023,Leganes,Huesca,Huesca,11.80%,40.02%,48.18%,0.29,0.86
+07/05/2023,Tenerife,Levante,Levante,8.40%,23.34%,68.25%,0.39,1.58
+07/05/2023,Villarreal II,Sporting Gijon,Sporting Gijon,19.05%,28.92%,52.04%,0.67,1.30
+07/05/2023,Ponferradina,Malaga,Malaga,22.37%,26.79%,50.84%,0.86,1.43
+07/05/2023,Ibiza,Albacete,Albacete,11.80%,21.61%,66.59%,0.61,1.77
+08/05/2023,Real Oviedo,Real Zaragoza,Draw,27.69%,49.22%,23.09%,0.48,0.42
+08/05/2023,Lugo,FC Andorra,FC Andorra,23.79%,34.93%,41.28%,0.64,0.94
+08/05/2023,FC Cartagena,Burgos,Burgos,17.67%,36.78%,45.55%,0.46,0.93
+09/05/2023,Eibar,Las Palmas,Draw,19.83%,45.97%,34.21%,0.40,0.61

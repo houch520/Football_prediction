@@ -73,24 +73,23 @@ def extract_data(driver, csvwriter):
 driver = webdriver.Chrome()
 
 # Load the webpage
-driver.get("https://int.soccerway.com/national/france/ligue-2/20222023/regular-season/r70291/")
+driver.get("https://int.soccerway.com/national/korea-republic/k-league-classic/2023/regular-season/r73211/")
 
 # Open a CSV file for writing with 'utf-8' encoding
-with open("Source\\F2.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("Source\\K1.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Date","Home", "Away", "HG", "AG","Res"])
     
     # Loop until the "Previous" link is disabled
     while True:
-                # Check if the "Previous" link is enabled
+        # Check if the "Previous" link is enabled
         previous_link = driver.find_element(by=By.ID,value="page_competition_1_block_competition_matches_summary_9_previous")
         previous_link.click()
         time.sleep(2)
         # Extract the data from the current page
         extract_data(driver, csvwriter)
         
-
-        if "disabled" in previous_link.get_attribute("class"):
+        if "previous disabled" ==previous_link.get_attribute("class"):
             # If the link is disabled, break out of the loop
             break
         else:

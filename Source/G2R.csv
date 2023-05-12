@@ -1,0 +1,136 @@
+Date,Home,Away,HG,AG,Res
+24/07/2022,Karlsruhe,Magdeburg,2,3,A
+24/07/2022,Hamburg,Hansa Rostock,0,1,A
+24/07/2022,Arminia Bielefeld,Jahn Regensburg,0,3,A
+24/07/2022,Hannover 96,St. Pauli,2,2,D
+23/07/2022,Holstein Kiel,Kaiserslautern,2,2,D
+23/07/2022,Nürnberg,Greuther Fürth,2,0,H
+23/07/2022,Heidenheim,Eintracht Braunschweig,3,0,H
+23/07/2022,Fortuna Düsseldorf,Paderborn,2,1,H
+23/07/2022,Darmstadt,Sandhausen,2,1,H
+14/08/2022,Hannover 96,Jahn Regensburg,1,0,H
+14/08/2022,Fortuna Düsseldorf,Greuther Fürth,2,2,D
+14/08/2022,St. Pauli,Magdeburg,3,0,H
+14/08/2022,Darmstadt,Hansa Rostock,4,0,H
+13/08/2022,Karlsruhe,Sandhausen,3,2,H
+13/08/2022,Holstein Kiel,Eintracht Braunschweig,3,0,H
+13/08/2022,Arminia Bielefeld,Hamburg,0,2,A
+13/08/2022,Kaiserslautern,Paderborn,0,1,A
+13/08/2022,Nürnberg,Heidenheim,0,3,A
+28/08/2022,Kaiserslautern,Magdeburg,4,4,D
+28/08/2022,Hannover 96,Greuther Fürth,2,1,H
+28/08/2022,Holstein Kiel,Sandhausen,1,0,H
+28/08/2022,Nürnberg,Hamburg,0,2,A
+27/08/2022,Karlsruhe,Hansa Rostock,2,0,H
+27/08/2022,St. Pauli,Paderborn,2,2,D
+27/08/2022,Darmstadt,Heidenheim,2,2,D
+27/08/2022,Fortuna Düsseldorf,Jahn Regensburg,4,0,H
+27/08/2022,Arminia Bielefeld,Eintracht Braunschweig,4,1,H
+11/09/2022,Kaiserslautern,Darmstadt,3,3,D
+11/09/2022,Magdeburg,Greuther Fürth,2,1,H
+11/09/2022,St. Pauli,Sandhausen,1,1,D
+11/09/2022,Fortuna Düsseldorf,Hansa Rostock,3,1,H
+10/09/2022,Karlsruhe,Heidenheim,0,0,D
+10/09/2022,Hannover 96,Eintracht Braunschweig,1,1,D
+10/09/2022,Paderborn,Jahn Regensburg,3,0,H
+10/09/2022,Holstein Kiel,Hamburg,2,3,A
+10/09/2022,Nürnberg,Arminia Bielefeld,1,0,H
+02/10/2022,Kaiserslautern,Eintracht Braunschweig,1,1,D
+02/10/2022,Magdeburg,Jahn Regensburg,1,0,H
+02/10/2022,Karlsruhe,Nürnberg,3,0,H
+02/10/2022,St. Pauli,Heidenheim,0,0,D
+01/10/2022,Fortuna Düsseldorf,Arminia Bielefeld,4,1,H
+01/10/2022,Holstein Kiel,Hansa Rostock,1,1,D
+01/10/2022,Greuther Fürth,Sandhausen,1,1,D
+01/10/2022,Hannover 96,Hamburg,1,2,A
+01/10/2022,Paderborn,Darmstadt,1,2,A
+16/10/2022,Kaiserslautern,Jahn Regensburg,0,3,A
+16/10/2022,Holstein Kiel,Heidenheim,3,1,H
+16/10/2022,Paderborn,Sandhausen,3,0,H
+16/10/2022,Hannover 96,Arminia Bielefeld,2,0,H
+15/10/2022,Magdeburg,Eintracht Braunschweig,0,2,A
+15/10/2022,Karlsruhe,Darmstadt,1,2,A
+15/10/2022,Fortuna Düsseldorf,Nürnberg,0,1,A
+15/10/2022,St. Pauli,Hamburg,3,0,H
+15/10/2022,Greuther Fürth,Hansa Rostock,2,2,D
+30/10/2022,Sandhausen,Eintracht Braunschweig,2,2,D
+30/10/2022,Hannover 96,Karlsruhe,1,0,H
+30/10/2022,Paderborn,Hamburg,2,3,A
+30/10/2022,St. Pauli,Darmstadt,1,1,D
+29/10/2022,Kaiserslautern,Nürnberg,0,0,D
+29/10/2022,Jahn Regensburg,Hansa Rostock,0,3,A
+29/10/2022,Holstein Kiel,Fortuna Düsseldorf,1,2,A
+29/10/2022,Magdeburg,Heidenheim,1,1,D
+29/10/2022,Greuther Fürth,Arminia Bielefeld,1,0,H
+11/11/2022,Magdeburg,Darmstadt,0,1,A
+10/11/2022,Jahn Regensburg,Eintracht Braunschweig,1,1,D
+10/11/2022,Sandhausen,Heidenheim,3,4,A
+10/11/2022,Hansa Rostock,Nürnberg,1,1,D
+10/11/2022,Greuther Fürth,Hamburg,1,0,H
+09/11/2022,Kaiserslautern,Karlsruhe,2,0,H
+09/11/2022,Hannover 96,Fortuna Düsseldorf,2,0,H
+09/11/2022,Paderborn,Arminia Bielefeld,0,2,A
+09/11/2022,St. Pauli,Holstein Kiel,0,0,D
+29/01/2023,Nürnberg,St. Pauli,0,1,A
+29/01/2023,Hamburg,Eintracht Braunschweig,4,2,H
+29/01/2023,Arminia Bielefeld,Sandhausen,1,2,A
+29/01/2023,Hannover 96,Kaiserslautern,1,3,A
+28/01/2023,Holstein Kiel,Greuther Fürth,2,1,H
+28/01/2023,Heidenheim,Hansa Rostock,2,0,H
+28/01/2023,Darmstadt,Jahn Regensburg,2,0,H
+28/01/2023,Karlsruhe,Paderborn,0,1,A
+28/01/2023,Fortuna Düsseldorf,Magdeburg,3,2,H
+12/02/2023,Fortuna Düsseldorf,Sandhausen,2,0,H
+12/02/2023,St. Pauli,Kaiserslautern,1,0,H
+12/02/2023,Darmstadt,Eintracht Braunschweig,2,1,H
+12/02/2023,Heidenheim,Hamburg,3,3,D
+11/02/2023,Hannover 96,Paderborn,3,4,A
+11/02/2023,Holstein Kiel,Magdeburg,2,3,A
+11/02/2023,Nürnberg,Jahn Regensburg,1,0,H
+11/02/2023,Karlsruhe,Greuther Fürth,2,1,H
+11/02/2023,Arminia Bielefeld,Hansa Rostock,0,1,A
+26/02/2023,Hannover 96,Magdeburg,1,2,A
+26/02/2023,St. Pauli,Hansa Rostock,1,0,H
+26/02/2023,Arminia Bielefeld,Heidenheim,0,1,A
+26/02/2023,Darmstadt,Hamburg,1,1,D
+25/02/2023,Kaiserslautern,Greuther Fürth,3,1,H
+25/02/2023,Holstein Kiel,Paderborn,1,1,D
+25/02/2023,Nürnberg,Sandhausen,1,0,H
+25/02/2023,Karlsruhe,Jahn Regensburg,1,0,H
+25/02/2023,Fortuna Düsseldorf,Eintracht Braunschweig,3,1,H
+12/03/2023,Karlsruhe,Hamburg,4,2,H
+12/03/2023,Hannover 96,Hansa Rostock,1,1,D
+12/03/2023,Holstein Kiel,Jahn Regensburg,1,2,A
+12/03/2023,Fortuna Düsseldorf,Heidenheim,1,1,D
+11/03/2023,Magdeburg,Paderborn,0,0,D
+11/03/2023,St. Pauli,Greuther Fürth,2,1,H
+11/03/2023,Arminia Bielefeld,Darmstadt,3,1,H
+11/03/2023,Kaiserslautern,Sandhausen,2,2,D
+11/03/2023,Nürnberg,Eintracht Braunschweig,2,0,H
+02/04/2023,Magdeburg,Hansa Rostock,3,0,H
+02/04/2023,Holstein Kiel,Arminia Bielefeld,2,3,A
+02/04/2023,Paderborn,Greuther Fürth,3,2,H
+02/04/2023,Kaiserslautern,Heidenheim,2,2,D
+01/04/2023,Karlsruhe,Eintracht Braunschweig,1,1,D
+01/04/2023,Hannover 96,Sandhausen,3,1,H
+01/04/2023,St. Pauli,Jahn Regensburg,1,0,H
+01/04/2023,Fortuna Düsseldorf,Hamburg,2,2,D
+01/04/2023,Nürnberg,Darmstadt,0,1,A
+16/04/2023,Karlsruhe,Arminia Bielefeld,4,2,H
+16/04/2023,Fortuna Düsseldorf,Darmstadt,1,0,H
+16/04/2023,St. Pauli,Eintracht Braunschweig,1,2,A
+16/04/2023,Kaiserslautern,Hamburg,2,0,H
+15/04/2023,Magdeburg,Sandhausen,1,2,A
+15/04/2023,Holstein Kiel,Nürnberg,2,1,H
+15/04/2023,Paderborn,Hansa Rostock,3,0,H
+15/04/2023,Hannover 96,Heidenheim,0,3,A
+15/04/2023,Greuther Fürth,Jahn Regensburg,2,1,H
+30/04/2023,Sandhausen,Jahn Regensburg,2,1,H
+30/04/2023,Fortuna Düsseldorf,Karlsruhe,3,2,H
+30/04/2023,Holstein Kiel,Darmstadt,0,3,A
+30/04/2023,Hannover 96,Nürnberg,3,0,H
+29/04/2023,Kaiserslautern,Hansa Rostock,0,1,A
+29/04/2023,Magdeburg,Hamburg,3,2,H
+29/04/2023,St. Pauli,Arminia Bielefeld,2,1,H
+29/04/2023,Paderborn,Eintracht Braunschweig,5,1,H
+29/04/2023,Greuther Fürth,Heidenheim,0,2,A

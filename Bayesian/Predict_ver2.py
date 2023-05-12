@@ -16,7 +16,7 @@ import argparse
 # # Parse the command-line arguments
 # args = parser.parse_args()
 
-tour="2019-2020"
+tour="2020-2021"
 Reverse = ""
 # Read in the dataset
 data = pd.read_csv('Simulation\Combined\\'+tour+Reverse+'.csv', encoding="ISO-8859-1")
@@ -35,8 +35,8 @@ team_attack_mean = {team: prior_mean for team in teams}
 team_defense_mean = {team: prior_mean for team in teams}
 team_attack_std = {team: prior_std for team in teams}
 team_defense_std = {team: prior_std for team in teams}
-k = 0.2 # Set the value of k
-alpha = 0.8 # Set the value of alpha 
+k = 0.12   # Set the value of k
+alpha = 0.4 # Set the value of alpha 
 #test set 0.38,0.82
 #0.11,0.25
 #0.4
@@ -47,7 +47,7 @@ def update_ratings(home_team, away_team, home_goals, away_goals):
     away_attack = team_attack_mean[away_team]
     away_defense = team_defense_mean[away_team]
 
-    home_attack_rating_dist = norm(team_attack_mean[home_team], team_attack_std[home_team])
+    home_attack_rating_dist = norm(team_attack_mean[home_team]+2*k, team_attack_std[home_team])
     away_defense_rating_dist = norm(team_defense_mean[away_team], team_defense_std[away_team])
     home_score_probs = [poisson.pmf(i, home_attack_rating_dist.mean() * away_defense_rating_dist.mean()) for i in range(6)]
     away_attack_rating_dist = norm(team_attack_mean[away_team], team_attack_std[away_team])
@@ -79,7 +79,7 @@ def update_ratings(home_team, away_team, home_goals, away_goals):
 
 # Define a function to predict the outcome of a match based on the attack and defense ratings of each team
 def predict_outcome(home_team, away_team):
-    home_attack_rating_dist = norm(team_attack_mean[home_team], team_attack_std[home_team])
+    home_attack_rating_dist = norm(team_attack_mean[home_team]+2*k, team_attack_std[home_team])
     away_defense_rating_dist = norm(team_defense_mean[away_team], team_defense_std[away_team])
     home_score_probs = [poisson.pmf(i, home_attack_rating_dist.mean() * away_defense_rating_dist.mean()) for i in range(6)]
     away_attack_rating_dist = norm(team_attack_mean[away_team], team_attack_std[away_team])
@@ -132,7 +132,7 @@ actual_results = []
 # Open a file for writing
 with open(output, 'w', encoding='ISO-8859-1') as file:
     # Write the header row to the file
-    file.write('Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,prediction,Hit?,odds,B365H,B365D,B365A,AHCh,AHCh_res,AHCh_odds,B365CAHH,B365CAHA,win%\n')
+    file.write('Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR,prediction,Hit?,odds,B365H,B365D,B365A,AHCh,AHh,AHCh_res,AHCh_odds,B365CAHH,B365CAHA,win%,AHCh_win\n')
 
     for i in range(len(test_data)):
         div = test_data.iloc[i]['Div']
@@ -146,6 +146,7 @@ with open(output, 'w', encoding='ISO-8859-1') as file:
         B365D = test_data.iloc[i]['B365D']
         B365A = test_data.iloc[i]['B365A']
         AHCh = test_data.iloc[i]['AHCh']
+        AHh = test_data.iloc[i]['AHh']
         B365CAHH = test_data.iloc[i]['B365CAHH']
         B365CAHA = test_data.iloc[i]['B365CAHA']
 
@@ -204,12 +205,13 @@ with open(output, 'w', encoding='ISO-8859-1') as file:
             AHCh_odds=-1
         if ((abs(home_goals+AHCh-away_goals)==0.25) or (abs(home_goals+AHCh-away_goals) ==0.75)):
             AHCh_odds=AHCh_odds/2
-        if AHCh_res=='Draw' or actual_result=='Draw':
+        if AHCh_res=='Draw' or prediction=='Draw':
                 AHCh_odds = 0
-
+        AHCh_win= AHCh if prediction==home_team else (AHCh*-1)
+            
         # Write the prediction results to the file
-        file.write('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(
-            div,date, home_team, away_team, home_goals, away_goals, actual_result,prediction,Check_normal,odds, B365H, B365D, B365A, AHCh,AHCh_res,AHCh_odds, B365CAHH, B365CAHA,wining_percent
+        file.write('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(
+            div,date, home_team, away_team, home_goals, away_goals, actual_result,prediction,Check_normal,odds, B365H, B365D, B365A, AHCh,AHh,AHCh_res,AHCh_odds, B365CAHH, B365CAHA,wining_percent,AHCh_win
             ))
         update_ratings(home_team, away_team, home_goals, away_goals)
 
