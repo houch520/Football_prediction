@@ -1,15 +1,15 @@
 Date,Home,Away,HG,AG,Res
-06/05/2023,Godoy Cruz,Unión,,,D
-06/05/2023,Barracas Central,Instituto,,,D
-07/05/2023,Lanús,Huracán,,,D
-07/05/2023,Belgrano,Atlético Tucumán,,,D
-07/05/2023,Colón,Banfield,,,D
-07/05/2023,Argentinos Juniors,Independiente,,,D
-08/05/2023,Rosario Central,Platense,,,D
-08/05/2023,River Plate,Boca Juniors,,,D
-08/05/2023,Tigre,Newell's Old Boys,,,D
-08/05/2023,Estudiantes,Vélez Sarsfield,,,D
-09/05/2023,Arsenal,Gimnasia La Plata,,,D
-09/05/2023,San Lorenzo,Defensa y Justicia,,,D
-09/05/2023,Racing Club,Talleres de Córdoba,,,D
-09/05/2023,Central Córdoba SdE,Sarmiento,,,D
+13/05/2023,Huracán,Godoy Cruz,0,0,D
+13/05/2023,Atlético Tucumán,Argentinos Juniors,1,2,A
+14/05/2023,Independiente,Tigre,2,1,H
+14/05/2023,Banfield,San Lorenzo,1,2,A
+14/05/2023,Instituto,Colón,1,0,H
+14/05/2023,Newell's Old Boys,Arsenal,2,0,H
+15/05/2023,Defensa y Justicia,Estudiantes,1,1,D
+15/05/2023,Platense,Racing Club,3,0,H
+15/05/2023,Boca Juniors,Belgrano,2,0,H
+15/05/2023,Talleres de Córdoba,River Plate,2,1,H
+16/05/2023,Barracas Central,Central Córdoba SdE,,,D
+16/05/2023,Unión,Sarmiento,,,D
+16/05/2023,Gimnasia La Plata,Lanús,,,D
+16/05/2023,Vélez Sarsfield,Rosario Central,,,D
