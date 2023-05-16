@@ -1,5 +1,5 @@
 import requests
-
+#not using
 # Replace {YOUR_API_KEY} with your actual API key
 api_key = "f36a541e7645483fabe53ab140e03f7d"
 competition_id = 2021  # Premier League ID
