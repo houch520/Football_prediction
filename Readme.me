@@ -5,8 +5,21 @@ home_side advantage (missing)
 curved_rating increment i.e. drop>rise for goal_diff
 goal prediction by: defense*attack rating, using possion distribution for goal probability.
 
-Algorithm work great in  
-AHCh count the final one
-AHCh result(prediction side): -1,-0.75,0.25
-AHCh result(home side):-1,-0.75,1,0.75,-0.25
-Above result skipped every Draw prediction
+
+----------------------------------------------
+Current findings:
+Only using match result as parameter to do Maching Learning, cause overfitting issues.
+
+As, the football manager/player gonna change every season,
+the past data seems not reliable as a prediction.
+
+Although, teams that wins the league won't have large exchange on the player list.
+
+However, missing a rating system for estimating the player change, 
+even the actual starting line-up(i.e the individual power to the team) haven't be consider.
+These data are hard to get and to be formulated as trustworthy system.
+
+Things left to be try on would be work on the betting website odds.
+Their inital odds diffs could represent the prediction diff among website/org.
+the closing odds (match started) could be a general view to the majority of the public view.
+
